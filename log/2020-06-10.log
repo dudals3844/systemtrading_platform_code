@@ -1,0 +1,6 @@
+[2020-06-10 22:43:41,983] I kiwoom.py | Kiwoom-login_slot-0077 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-10 22:43:41,987] I kiwoom.py | Kiwoom-set_account_info-0139 I DEBUG    > 계좌번호: 8136489511
+[2020-06-10 22:43:41,987] I kiwoom.py | Kiwoom-set_server_info-0145 I DEBUG    > 모의투자 서버 접속
+[2020-06-10 22:43:42,040] I kiwoom.py | Kiwoom-trdata_slot-0098 I DEBUG    > 총매입금액: 4485750 총평가손익금액: -380913 총수익률: -8.49
+[2020-06-10 22:43:42,040] I kiwoom.py | Kiwoom-set_mystock-0205 I DEBUG    > 종목코드: 058110 - 종목명: 멕아이씨에스 - 보유수량: 147 - 매입금액:4485750
+[2020-06-10 22:43:45,053] I kiwoom.py | Kiwoom-query_not_concluded_account-0360 I DEBUG    > 미체결 종목 요청

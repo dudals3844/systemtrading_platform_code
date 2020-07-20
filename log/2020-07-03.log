@@ -1,0 +1,105 @@
+[2020-07-03 00:54:12,037] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-03 00:54:35,460] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-03 00:54:58,630] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-03 00:56:04,114] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-03 00:56:04,528] I tr.py | Kiwoom-receiveAccountNum-0031 I DEBUG    > 계좌번호: 8138832611
+[2020-07-03 00:56:04,596] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 00:56:04,598] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 8663489
+[2020-07-03 00:56:05,023] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 00:56:05,025] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 8663489
+[2020-07-03 00:56:05,436] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 00:56:05,440] I tr.py | Kiwoom-receiveTotalBuyMoney-0051 I DEBUG    > 총매입금액: 1324050
+[2020-07-03 00:56:05,440] I tr.py | Kiwoom-receiveTotalProfitLossMoney-0063 I DEBUG    > 총평가손익금액: 996
+[2020-07-03 00:56:05,440] I tr.py | Kiwoom-receiveTotalProfitLossRate-0073 I DEBUG    > 총수익률: 0.08
+[2020-07-03 00:56:05,441] I tr.py | Kiwoom-receiveMystock-0104 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 00:56:05,441] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 00:56:06,809] I tr.py | Kiwoom-requestNotConcludedAccount-0213 I DEBUG    > 미체결 종목 요청
+[2020-07-03 00:56:06,834] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-07-03 00:56:07,033] I tr.py | Kiwoom-receiveConditionNameList-0153 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-07-03 00:56:07,035] I tr.py | Kiwoom-receiveConditionNameList-0155 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;
+[2020-07-03 00:56:07,036] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-07-03 00:56:07,039] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-07-03 00:56:07,042] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 2, 이름: 눌림목돌파
+[2020-07-03 08:00:17,196] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-03 08:00:17,479] I tr.py | Kiwoom-receiveAccountNum-0031 I DEBUG    > 계좌번호: 8138832611
+[2020-07-03 08:00:17,547] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 08:00:17,551] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 8663489
+[2020-07-03 08:00:17,898] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 08:00:17,898] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 8663489
+[2020-07-03 08:00:18,545] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 08:00:18,546] I tr.py | Kiwoom-receiveTotalBuyMoney-0051 I DEBUG    > 총매입금액: 1324050
+[2020-07-03 08:00:18,546] I tr.py | Kiwoom-receiveTotalProfitLossMoney-0063 I DEBUG    > 총평가손익금액: 996
+[2020-07-03 08:00:18,547] I tr.py | Kiwoom-receiveTotalProfitLossRate-0073 I DEBUG    > 총수익률: 0.08
+[2020-07-03 08:00:18,547] I tr.py | Kiwoom-receiveMystock-0104 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 08:00:18,548] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 08:00:19,790] I tr.py | Kiwoom-requestNotConcludedAccount-0213 I DEBUG    > 미체결 종목 요청
+[2020-07-03 08:00:19,810] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-07-03 08:00:19,977] I tr.py | Kiwoom-receiveConditionNameList-0153 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-07-03 08:00:19,980] I tr.py | Kiwoom-receiveConditionNameList-0155 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;
+[2020-07-03 08:00:19,981] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-07-03 08:00:19,984] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-07-03 08:00:19,986] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 2, 이름: 눌림목돌파
+[2020-07-03 08:39:58,870] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:40:58,855] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:41:58,847] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:42:58,853] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:43:58,844] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:44:58,841] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:45:58,841] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:46:58,840] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:47:58,840] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:48:58,837] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:49:58,836] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:50:58,840] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:51:58,835] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:52:58,835] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:53:58,833] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:54:58,832] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:55:58,825] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:56:58,825] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:57:58,819] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:58:58,821] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:59:08,820] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:59:18,819] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:59:28,820] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:59:38,827] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:59:48,824] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0041 I DEBUG    > 장 시작 전
+[2020-07-03 08:59:58,820] I volatilitybreakthroughstrategy.py | Kiwoom-receiveRealdataSlot-0044 I DEBUG    > 장 시작
+[2020-07-03 19:03:40,981] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-03 19:03:41,251] I tr.py | Kiwoom-receiveAccountNum-0031 I DEBUG    > 계좌번호: 8138832611
+[2020-07-03 19:03:41,301] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 19:03:41,302] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 7178222
+[2020-07-03 19:03:41,663] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 19:03:41,664] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 7178222
+[2020-07-03 19:03:41,950] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 19:03:41,951] I tr.py | Kiwoom-receiveTotalBuyMoney-0051 I DEBUG    > 총매입금액: 1324050
+[2020-07-03 19:03:41,951] I tr.py | Kiwoom-receiveTotalProfitLossMoney-0063 I DEBUG    > 총평가손익금액: 55270
+[2020-07-03 19:03:41,952] I tr.py | Kiwoom-receiveTotalProfitLossRate-0073 I DEBUG    > 총수익률: 4.17
+[2020-07-03 19:03:41,952] I tr.py | Kiwoom-receiveMystock-0104 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 19:03:41,952] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 19:03:43,330] I tr.py | Kiwoom-requestNotConcludedAccount-0213 I DEBUG    > 미체결 종목 요청
+[2020-07-03 19:03:43,352] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-07-03 19:03:43,528] I tr.py | Kiwoom-receiveConditionNameList-0153 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-07-03 19:03:43,530] I tr.py | Kiwoom-receiveConditionNameList-0155 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;
+[2020-07-03 19:03:43,530] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-07-03 19:03:43,532] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-07-03 19:03:43,533] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 2, 이름: 눌림목돌파
+[2020-07-03 19:07:29,535] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-03 19:07:29,837] I tr.py | Kiwoom-receiveAccountNum-0031 I DEBUG    > 계좌번호: 8138832611
+[2020-07-03 19:07:29,883] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 19:07:29,885] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 7178222
+[2020-07-03 19:07:30,254] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 19:07:30,255] I tr.py | Kiwoom-receiveDeposit-0041 I DEBUG    > 예수금 7178222
+[2020-07-03 19:07:30,628] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-03 19:07:30,629] I tr.py | Kiwoom-receiveTotalBuyMoney-0051 I DEBUG    > 총매입금액: 1324050
+[2020-07-03 19:07:30,629] I tr.py | Kiwoom-receiveTotalProfitLossMoney-0063 I DEBUG    > 총평가손익금액: 55270
+[2020-07-03 19:07:30,629] I tr.py | Kiwoom-receiveTotalProfitLossRate-0073 I DEBUG    > 총수익률: 4.17
+[2020-07-03 19:07:30,630] I tr.py | Kiwoom-receiveMystock-0104 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 19:07:30,630] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 088800 - 종목명: 에이스테크 - 보유수량: 91 - 매입금액:1324050
+[2020-07-03 19:07:31,948] I tr.py | Kiwoom-requestNotConcludedAccount-0213 I DEBUG    > 미체결 종목 요청
+[2020-07-03 19:07:31,968] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-07-03 19:07:32,123] I tr.py | Kiwoom-receiveConditionNameList-0153 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-07-03 19:07:32,125] I tr.py | Kiwoom-receiveConditionNameList-0155 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;
+[2020-07-03 19:07:32,125] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-07-03 19:07:32,127] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-07-03 19:07:32,130] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0016 I DEBUG    > 조건식 분리 번호: 2, 이름: 눌림목돌파

@@ -1,0 +1,172 @@
+[2020-06-07 14:10:42,345] I kiwoom.py | Kiwoom-login_slot-0051 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:10:42,346] I kiwoom.py | Kiwoom-set_account_info-0081 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:10:42,347] I kiwoom.py | Kiwoom-set_server_info-0087 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:35:05,244] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:35:05,244] I kiwoom.py | Kiwoom-set_account_info-0083 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:35:05,244] I kiwoom.py | Kiwoom-set_server_info-0089 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:35:26,484] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:35:26,485] I kiwoom.py | Kiwoom-set_account_info-0083 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:35:26,485] I kiwoom.py | Kiwoom-set_server_info-0089 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:36:20,961] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:36:20,961] I kiwoom.py | Kiwoom-set_account_info-0083 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:36:20,961] I kiwoom.py | Kiwoom-set_server_info-0089 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:36:21,013] I kiwoom.py | Kiwoom-trdata_slot-0075 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 14:38:17,279] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:38:17,280] I kiwoom.py | Kiwoom-set_account_info-0084 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:38:17,280] I kiwoom.py | Kiwoom-set_server_info-0090 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:38:17,328] I kiwoom.py | Kiwoom-trdata_slot-0075 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 14:38:17,328] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 14:38:17,331] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 14:38:17,334] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 14:38:37,211] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:38:37,212] I kiwoom.py | Kiwoom-set_account_info-0084 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:38:37,212] I kiwoom.py | Kiwoom-set_server_info-0090 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:38:56,778] I kiwoom.py | Kiwoom-trdata_slot-0075 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 14:39:16,510] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 14:39:49,580] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 14:39:53,051] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 14:40:31,234] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:40:31,235] I kiwoom.py | Kiwoom-set_account_info-0084 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:40:31,235] I kiwoom.py | Kiwoom-set_server_info-0090 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:40:31,283] I kiwoom.py | Kiwoom-trdata_slot-0075 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 14:40:31,284] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 14:40:31,287] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 14:40:31,289] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 14:41:01,441] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:41:01,441] I kiwoom.py | Kiwoom-set_account_info-0084 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:41:01,441] I kiwoom.py | Kiwoom-set_server_info-0090 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:41:01,490] I kiwoom.py | Kiwoom-trdata_slot-0075 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 14:41:01,492] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 14:41:01,499] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 14:41:01,504] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 14:41:29,644] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:41:29,645] I kiwoom.py | Kiwoom-set_account_info-0084 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:41:29,645] I kiwoom.py | Kiwoom-set_server_info-0090 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:41:29,692] I kiwoom.py | Kiwoom-trdata_slot-0075 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 14:41:29,692] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 14:41:29,696] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 14:41:29,700] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 14:56:24,368] I kiwoom.py | Kiwoom-login_slot-0055 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 14:56:24,368] I kiwoom.py | Kiwoom-set_account_info-0084 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 14:56:24,368] I kiwoom.py | Kiwoom-set_server_info-0090 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 14:56:24,421] I kiwoom.py | Kiwoom-trdata_slot-0075 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 14:56:24,421] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 14:56:24,424] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 14:56:24,427] I kiwoom.py | Kiwoom-set_mystock-0149 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 15:24:03,639] I kiwoom.py | Kiwoom-login_slot-0058 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:24:03,639] I kiwoom.py | Kiwoom-set_account_info-0093 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:24:03,639] I kiwoom.py | Kiwoom-set_server_info-0099 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 15:24:03,639] I kiwoom.py | Kiwoom-query_not_concluded_account-0250 I DEBUG    > 미체결 종목 요청
+[2020-06-07 15:24:03,704] I kiwoom.py | Kiwoom-set_not_concluded_account-0214 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0
+[2020-06-07 15:25:21,876] I kiwoom.py | Kiwoom-login_slot-0058 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:25:21,876] I kiwoom.py | Kiwoom-set_account_info-0093 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:25:21,876] I kiwoom.py | Kiwoom-set_server_info-0099 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 15:25:24,555] I kiwoom.py | Kiwoom-query_not_concluded_account-0250 I DEBUG    > 미체결 종목 요청
+[2020-06-07 15:25:56,150] I kiwoom.py | Kiwoom-set_not_concluded_account-0214 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0
+[2020-06-07 15:26:15,058] I kiwoom.py | Kiwoom-login_slot-0058 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:26:15,058] I kiwoom.py | Kiwoom-set_account_info-0093 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:26:15,058] I kiwoom.py | Kiwoom-set_server_info-0099 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 15:26:15,059] I kiwoom.py | Kiwoom-query_not_concluded_account-0250 I DEBUG    > 미체결 종목 요청
+[2020-06-07 15:26:15,112] I kiwoom.py | Kiwoom-set_not_concluded_account-0214 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0
+[2020-06-07 15:50:09,222] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:50:09,223] I kiwoom.py | Kiwoom-set_account_info-0095 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:52:46,226] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:52:46,226] I kiwoom.py | Kiwoom-set_account_info-0095 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:52:47,756] I kiwoom.py | Kiwoom-set_server_info-0103 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 15:54:38,540] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:54:38,540] I kiwoom.py | Kiwoom-set_account_info-0095 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:54:40,005] I kiwoom.py | Kiwoom-set_server_info-0102 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 15:56:44,336] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:56:44,336] I kiwoom.py | Kiwoom-set_account_info-0095 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:56:45,919] I kiwoom.py | Kiwoom-set_server_info-0102 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 15:58:39,614] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:58:39,614] I kiwoom.py | Kiwoom-set_account_info-0095 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:58:41,168] I kiwoom.py | Kiwoom-set_server_info-0102 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 15:59:35,657] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 15:59:35,658] I kiwoom.py | Kiwoom-set_account_info-0095 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 15:59:37,232] I kiwoom.py | Kiwoom-set_server_info-0102 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 16:01:13,151] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 16:01:13,151] I kiwoom.py | Kiwoom-set_account_info-0097 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 16:01:13,151] I kiwoom.py | Kiwoom-set_server_info-0104 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 16:01:26,978] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 16:01:26,978] I kiwoom.py | Kiwoom-set_account_info-0097 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 16:01:26,978] I kiwoom.py | Kiwoom-set_server_info-0104 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 16:01:59,367] I kiwoom.py | Kiwoom-login_slot-0062 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 16:01:59,368] I kiwoom.py | Kiwoom-set_account_info-0097 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 16:01:59,368] I kiwoom.py | Kiwoom-set_server_info-0104 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 16:02:00,980] I kiwoom.py | Kiwoom-trdata_slot-0082 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 16:02:02,497] I kiwoom.py | Kiwoom-set_mystock-0164 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 16:02:02,499] I kiwoom.py | Kiwoom-set_mystock-0164 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 16:02:02,501] I kiwoom.py | Kiwoom-set_mystock-0164 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 16:03:29,589] I kiwoom.py | Kiwoom-login_slot-0061 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 16:03:29,589] I kiwoom.py | Kiwoom-set_account_info-0094 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 16:03:29,589] I kiwoom.py | Kiwoom-set_server_info-0101 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 16:03:29,635] I kiwoom.py | Kiwoom-trdata_slot-0081 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 16:03:29,636] I kiwoom.py | Kiwoom-set_mystock-0161 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 16:03:29,639] I kiwoom.py | Kiwoom-set_mystock-0161 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 16:03:29,643] I kiwoom.py | Kiwoom-set_mystock-0161 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 19:59:00,025] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 19:59:00,025] I kiwoom.py | Kiwoom-set_account_info-0135 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 19:59:00,026] I kiwoom.py | Kiwoom-set_server_info-0141 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 19:59:00,094] I kiwoom.py | Kiwoom-trdata_slot-0096 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 19:59:00,094] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 19:59:00,098] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 19:59:00,101] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 19:59:08,359] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 19:59:08,360] I kiwoom.py | Kiwoom-set_account_info-0135 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 19:59:08,360] I kiwoom.py | Kiwoom-set_server_info-0141 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 19:59:08,407] I kiwoom.py | Kiwoom-trdata_slot-0096 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 19:59:08,408] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 19:59:08,410] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 19:59:08,413] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 19:59:08,424] I kiwoom.py | Kiwoom-query_not_concluded_account-0357 I DEBUG    > 미체결 종목 요청
+[2020-06-07 19:59:08,479] I kiwoom.py | Kiwoom-set_not_concluded_account-0276 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0
+[2020-06-07 20:16:47,775] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 20:16:47,775] I kiwoom.py | Kiwoom-set_account_info-0135 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 20:16:47,775] I kiwoom.py | Kiwoom-set_server_info-0141 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 20:17:11,431] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 20:17:11,432] I kiwoom.py | Kiwoom-set_account_info-0135 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 20:17:11,432] I kiwoom.py | Kiwoom-set_server_info-0141 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 20:17:11,482] I volatilitybreakthroughstrategy.py | Kiwoom-trdata_slot-0037 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 20:17:11,483] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 20:17:11,489] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 20:17:11,494] I kiwoom.py | Kiwoom-set_mystock-0201 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 20:17:11,511] I kiwoom.py | Kiwoom-query_not_concluded_account-0356 I DEBUG    > 미체결 종목 요청
+[2020-06-07 20:17:11,566] I kiwoom.py | Kiwoom-set_not_concluded_account-0275 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0
+[2020-06-07 20:18:01,044] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 20:18:01,044] I kiwoom.py | Kiwoom-set_account_info-0136 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 20:18:01,044] I kiwoom.py | Kiwoom-set_server_info-0142 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 20:18:47,249] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 20:18:47,250] I kiwoom.py | Kiwoom-set_account_info-0136 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 20:18:47,250] I kiwoom.py | Kiwoom-set_server_info-0142 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 20:18:47,298] I volatilitybreakthroughstrategy.py | Kiwoom-trdata_slot-0037 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 20:18:47,299] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 20:18:47,306] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 20:18:47,310] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 20:18:47,323] I kiwoom.py | Kiwoom-query_not_concluded_account-0357 I DEBUG    > 미체결 종목 요청
+[2020-06-07 20:18:47,377] I kiwoom.py | Kiwoom-set_not_concluded_account-0276 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0
+[2020-06-07 20:19:08,664] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 20:19:08,664] I kiwoom.py | Kiwoom-set_account_info-0136 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 20:19:08,665] I kiwoom.py | Kiwoom-set_server_info-0142 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 20:19:26,713] I volatilitybreakthroughstrategy.py | Kiwoom-trdata_slot-0037 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 20:19:30,672] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 20:19:34,199] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 20:19:38,854] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 20:20:05,600] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 20:20:05,601] I kiwoom.py | Kiwoom-set_account_info-0136 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 20:20:05,601] I kiwoom.py | Kiwoom-set_server_info-0142 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 20:20:05,651] I volatilitybreakthroughstrategy.py | Kiwoom-trdata_slot-0036 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 20:20:05,651] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 20:20:05,654] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 20:20:05,657] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 20:20:05,668] I kiwoom.py | Kiwoom-query_not_concluded_account-0357 I DEBUG    > 미체결 종목 요청
+[2020-06-07 20:20:05,724] I kiwoom.py | Kiwoom-set_not_concluded_account-0276 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0
+[2020-06-07 20:20:40,688] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-07 20:20:40,689] I kiwoom.py | Kiwoom-set_account_info-0136 I DEBUG    > 계좌번호: 8136489511
+[2020-06-07 20:20:40,689] I kiwoom.py | Kiwoom-set_server_info-0142 I DEBUG    > 모의투자 서버 접속
+[2020-06-07 20:20:40,738] I kiwoom.py | Kiwoom-trdata_slot-0097 I DEBUG    > 총매입금액: 2667408 총평가손익금액: 150781 총수익률: 5.65
+[2020-06-07 20:20:40,739] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자 - 보유수량: 5 - 매입금액:243750
+[2020-06-07 20:20:40,742] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 006400 - 종목명: 삼성SDI - 보유수량: 2 - 매입금액:752000
+[2020-06-07 20:20:40,745] I kiwoom.py | Kiwoom-set_mystock-0202 I DEBUG    > 종목코드: 261220 - 종목명: KODEX WTI원유선물(H) - 보유수량: 300 - 매입금액:1671658
+[2020-06-07 20:20:40,753] I kiwoom.py | Kiwoom-query_not_concluded_account-0357 I DEBUG    > 미체결 종목 요청
+[2020-06-07 20:20:40,809] I kiwoom.py | Kiwoom-set_not_concluded_account-0276 I DEBUG    > 종목코드: 068760 종목명: 셀트리온제약 주문번호: 95343 주문상태: 접수 주문수량: 3 주문가격: 127300 주문구분: 매수 미체결수량: 3 체결량: 0

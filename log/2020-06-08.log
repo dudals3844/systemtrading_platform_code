@@ -1,0 +1,30 @@
+[2020-06-08 22:28:56,655] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-08 22:28:56,656] I kiwoom.py | Kiwoom-set_account_info-0138 I DEBUG    > 계좌번호: 8136489511
+[2020-06-08 22:28:56,656] I kiwoom.py | Kiwoom-set_server_info-0144 I DEBUG    > 모의투자 서버 접속
+[2020-06-08 22:28:56,715] I kiwoom.py | Kiwoom-trdata_slot-0097 I DEBUG    > 총매입금액: 696600 총평가손익금액: 34545 총수익률: 4.96
+[2020-06-08 22:28:56,715] I kiwoom.py | Kiwoom-set_mystock-0204 I DEBUG    > 종목코드: 256940 - 종목명: 케이피에스 - 보유수량: 36 - 매입금액:696600
+[2020-06-08 22:28:56,728] I kiwoom.py | Kiwoom-query_not_concluded_account-0359 I DEBUG    > 미체결 종목 요청
+[2020-06-08 22:46:25,529] I kiwoom.py | Kiwoom-login_slot-0076 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-08 22:46:25,531] I kiwoom.py | Kiwoom-set_account_info-0138 I DEBUG    > 계좌번호: 8136489511
+[2020-06-08 22:46:25,531] I kiwoom.py | Kiwoom-set_server_info-0144 I DEBUG    > 모의투자 서버 접속
+[2020-06-08 22:46:25,622] I kiwoom.py | Kiwoom-trdata_slot-0097 I DEBUG    > 총매입금액: 696600 총평가손익금액: 34545 총수익률: 4.96
+[2020-06-08 22:46:25,622] I kiwoom.py | Kiwoom-set_mystock-0204 I DEBUG    > 종목코드: 256940 - 종목명: 케이피에스 - 보유수량: 36 - 매입금액:696600
+[2020-06-08 22:46:28,639] I kiwoom.py | Kiwoom-query_not_concluded_account-0359 I DEBUG    > 미체결 종목 요청
+[2020-06-08 22:47:40,775] I kiwoom.py | Kiwoom-login_slot-0077 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-08 22:47:40,776] I kiwoom.py | Kiwoom-set_account_info-0139 I DEBUG    > 계좌번호: 8136489511
+[2020-06-08 22:47:40,776] I kiwoom.py | Kiwoom-set_server_info-0145 I DEBUG    > 모의투자 서버 접속
+[2020-06-08 22:47:40,832] I kiwoom.py | Kiwoom-trdata_slot-0098 I DEBUG    > 총매입금액: 696600 총평가손익금액: 34545 총수익률: 4.96
+[2020-06-08 22:47:40,832] I kiwoom.py | Kiwoom-set_mystock-0205 I DEBUG    > 종목코드: 256940 - 종목명: 케이피에스 - 보유수량: 36 - 매입금액:696600
+[2020-06-08 22:47:43,844] I kiwoom.py | Kiwoom-query_not_concluded_account-0360 I DEBUG    > 미체결 종목 요청
+[2020-06-08 22:49:01,329] I kiwoom.py | Kiwoom-login_slot-0077 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-08 22:49:01,330] I kiwoom.py | Kiwoom-set_account_info-0139 I DEBUG    > 계좌번호: 8136489511
+[2020-06-08 22:49:01,330] I kiwoom.py | Kiwoom-set_server_info-0145 I DEBUG    > 모의투자 서버 접속
+[2020-06-08 22:49:01,390] I kiwoom.py | Kiwoom-trdata_slot-0098 I DEBUG    > 총매입금액: 696600 총평가손익금액: 34545 총수익률: 4.96
+[2020-06-08 22:49:01,391] I kiwoom.py | Kiwoom-set_mystock-0205 I DEBUG    > 종목코드: 256940 - 종목명: 케이피에스 - 보유수량: 36 - 매입금액:696600
+[2020-06-08 22:49:04,403] I kiwoom.py | Kiwoom-query_not_concluded_account-0360 I DEBUG    > 미체결 종목 요청
+[2020-06-08 22:51:31,829] I kiwoom.py | Kiwoom-login_slot-0077 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-08 22:51:31,829] I kiwoom.py | Kiwoom-set_account_info-0139 I DEBUG    > 계좌번호: 8136489511
+[2020-06-08 22:51:31,829] I kiwoom.py | Kiwoom-set_server_info-0145 I DEBUG    > 모의투자 서버 접속
+[2020-06-08 22:51:31,891] I kiwoom.py | Kiwoom-trdata_slot-0098 I DEBUG    > 총매입금액: 696600 총평가손익금액: 34545 총수익률: 4.96
+[2020-06-08 22:51:31,892] I kiwoom.py | Kiwoom-set_mystock-0205 I DEBUG    > 종목코드: 256940 - 종목명: 케이피에스 - 보유수량: 36 - 매입금액:696600
+[2020-06-08 22:51:34,907] I kiwoom.py | Kiwoom-query_not_concluded_account-0360 I DEBUG    > 미체결 종목 요청

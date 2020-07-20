@@ -1,0 +1,1156 @@
+[2020-06-15 00:05:12,268] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 00:05:12,269] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 00:05:12,270] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 00:05:12,339] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 713300 총평가손익금액: -10543 총수익률: -1.48
+[2020-06-15 00:05:12,340] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 3 - 매입금액:713300
+[2020-06-15 00:05:15,357] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 00:05:15,392] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 00:05:15,393] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 00:05:15,394] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 336260 거래상태: mesu
+[2020-06-15 00:05:15,396] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 00:05:15,397] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 00:05:15,398] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 00:05:15,399] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 00:05:15,400] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 00:05:15,401] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 00:05:15,402] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 00:05:15,404] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 00:05:15,405] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 00:05:15,407] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 00:05:15,408] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 00:05:15,409] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 00:05:15,411] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 00:05:15,412] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 00:05:15,413] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 00:05:15,414] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 00:05:15,416] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 00:05:15,417] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 00:05:15,418] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 00:05:15,419] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 00:05:15,420] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 00:05:15,421] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 00:05:15,423] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 00:05:15,424] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 00:05:15,425] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 00:05:15,427] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 00:05:15,429] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 14:40:03,177] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 14:40:03,177] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 14:40:03,177] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 14:40:06,161] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -781735 총수익률: -18.42
+[2020-06-15 14:40:06,161] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 14:40:06,161] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 14:40:09,192] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 14:40:09,239] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 14:40:09,239] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 14:40:09,239] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 336260 거래상태: mesu
+[2020-06-15 14:40:09,239] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 14:40:09,239] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 14:40:09,255] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 14:40:09,271] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 14:40:09,271] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 14:40:09,271] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 14:40:09,271] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 14:40:09,271] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 14:40:09,271] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 14:40:09,271] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 14:40:09,286] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 14:40:09,302] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 14:40:09,302] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 14:41:12,910] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 14:41:12,910] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 14:41:12,910] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 14:41:16,973] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -788189 총수익률: -18.57
+[2020-06-15 14:41:16,973] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 14:41:16,973] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 14:41:19,988] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 14:41:20,035] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 14:41:20,035] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 14:41:20,035] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 336260 거래상태: mesu
+[2020-06-15 14:41:20,035] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 14:41:20,035] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 14:41:20,035] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 14:41:20,035] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 14:41:20,051] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 14:41:20,066] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 14:41:20,223] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:20,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15350 등락률: -2400
+[2020-06-15 14:41:20,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47650 등락률: -2950
+[2020-06-15 14:41:20,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47650 등락률: -2950
+[2020-06-15 14:41:20,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69000 등락률: -2800
+[2020-06-15 14:41:20,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4925 등락률: -845
+[2020-06-15 14:41:20,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:20,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15300 등락률: -2450
+[2020-06-15 14:41:20,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:20,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:20,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:20,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:20,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:20,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3555 등락률: -315
+[2020-06-15 14:41:20,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:20,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:20,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:21,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:21,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 041460 현재가: 5820 등락률: -580
+[2020-06-15 14:41:21,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:21,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:21,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11200 등락률: -550
+[2020-06-15 14:41:21,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11550 등락률: -1200
+[2020-06-15 14:41:21,598] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 146300 등락률: -6700
+[2020-06-15 14:41:21,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:21,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4930 등락률: -840
+[2020-06-15 14:41:21,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20000 등락률: -4450
+[2020-06-15 14:41:21,816] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089150 현재가: 3690 등락률: -625
+[2020-06-15 14:41:21,816] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11500 등락률: -1250
+[2020-06-15 14:41:21,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3555 등락률: -315
+[2020-06-15 14:41:21,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:21,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217200 등락률: -19300
+[2020-06-15 14:41:21,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217100 등락률: -19400
+[2020-06-15 14:41:21,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:21,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217000 등락률: -19500
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20450 등락률: -550
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20400 등락률: -600
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20400 등락률: -600
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 930 등락률: -140
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 923 등락률: -147
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 922 등락률: -148
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 921 등락률: -149
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 920 등락률: -150
+[2020-06-15 14:41:22,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:22,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20100 등락률: -4350
+[2020-06-15 14:41:22,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:22,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:22,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44550 등락률: -4450
+[2020-06-15 14:41:22,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217000 등락률: -19500
+[2020-06-15 14:41:22,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4925 등락률: -845
+[2020-06-15 14:41:22,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 146300 등락률: -6700
+[2020-06-15 14:41:22,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15300 등락률: -2450
+[2020-06-15 14:41:22,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:22,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:22,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:22,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:22,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4930 등락률: -840
+[2020-06-15 14:41:22,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:22,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 218700 등락률: -17800
+[2020-06-15 14:41:22,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 218900 등락률: -17600
+[2020-06-15 14:41:22,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:22,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:23,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:23,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:23,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 933 등락률: -137
+[2020-06-15 14:41:23,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15300 등락률: -2450
+[2020-06-15 14:41:23,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:23,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 041460 현재가: 5820 등락률: -580
+[2020-06-15 14:41:23,723] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 204840 현재가: 1005 등락률: -115
+[2020-06-15 14:41:23,723] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11300 등락률: -1200
+[2020-06-15 14:41:23,723] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 208860 현재가: 6010 등락률: -810
+[2020-06-15 14:41:23,723] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 208860 현재가: 6020 등락률: -800
+[2020-06-15 14:41:23,723] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:23,816] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11500 등락률: -1250
+[2020-06-15 14:41:23,816] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47650 등락률: -2950
+[2020-06-15 14:41:23,816] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47600 등락률: -3000
+[2020-06-15 14:41:23,816] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47550 등락률: -3050
+[2020-06-15 14:41:23,816] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44500 등락률: -4500
+[2020-06-15 14:41:23,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:24,098] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47650 등락률: -2950
+[2020-06-15 14:41:24,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15350 등락률: -2400
+[2020-06-15 14:41:24,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:24,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:24,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:24,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20100 등락률: -4350
+[2020-06-15 14:41:24,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20150 등락률: -4300
+[2020-06-15 14:41:24,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44500 등락률: -4500
+[2020-06-15 14:41:24,598] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69300 등락률: -2500
+[2020-06-15 14:41:24,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:24,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:24,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3550 등락률: -320
+[2020-06-15 14:41:24,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3550 등락률: -320
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4925 등락률: -845
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20400 등락률: -600
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20050 등락률: -4400
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20000 등락률: -4450
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19950 등락률: -4500
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19900 등락률: -4550
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:24,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11500 등락률: -1250
+[2020-06-15 14:41:25,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4925 등락률: -845
+[2020-06-15 14:41:25,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:25,113] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3550 등락률: -320
+[2020-06-15 14:41:25,113] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:25,113] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:25,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:25,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 14:41:25,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:25,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:25,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:25,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 939 등락률: -131
+[2020-06-15 14:41:25,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:25,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69000 등락률: -2800
+[2020-06-15 14:41:25,394] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19900 등락률: -4550
+[2020-06-15 14:41:25,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:25,598] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:25,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 939 등락률: -131
+[2020-06-15 14:41:25,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 44250 등락률: -2550
+[2020-06-15 14:41:25,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 44200 등락률: -2600
+[2020-06-15 14:41:25,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 44150 등락률: -2650
+[2020-06-15 14:41:25,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 44100 등락률: -2700
+[2020-06-15 14:41:25,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3550 등락률: -320
+[2020-06-15 14:41:25,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 939 등락률: -131
+[2020-06-15 14:41:25,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69200 등락률: -2600
+[2020-06-15 14:41:25,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69300 등락률: -2500
+[2020-06-15 14:41:25,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:25,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69000 등락률: -2800
+[2020-06-15 14:41:26,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:26,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47550 등락률: -3050
+[2020-06-15 14:41:26,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 041460 현재가: 5800 등락률: -600
+[2020-06-15 14:41:26,113] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 041460 현재가: 5820 등락률: -580
+[2020-06-15 14:41:26,113] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089150 현재가: 3705 등락률: -610
+[2020-06-15 14:41:26,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15400 등락률: -2350
+[2020-06-15 14:41:26,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:26,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:26,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:26,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 940 등락률: -130
+[2020-06-15 14:41:26,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19850 등락률: -4600
+[2020-06-15 14:41:26,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:26,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4915 등락률: -855
+[2020-06-15 14:41:26,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:26,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 14:41:26,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:26,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:26,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4910 등락률: -860
+[2020-06-15 14:41:26,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11200 등락률: -550
+[2020-06-15 14:41:26,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11300 등락률: -1200
+[2020-06-15 14:41:27,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:27,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:27,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44500 등락률: -4500
+[2020-06-15 14:41:27,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 041460 현재가: 5820 등락률: -580
+[2020-06-15 14:41:27,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:27,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19850 등락률: -4600
+[2020-06-15 14:41:27,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19850 등락률: -4600
+[2020-06-15 14:41:27,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11200 등락률: -550
+[2020-06-15 14:41:27,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15400 등락률: -2350
+[2020-06-15 14:41:27,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:27,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:27,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69000 등락률: -2800
+[2020-06-15 14:41:27,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:27,394] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 943 등락률: -127
+[2020-06-15 14:41:27,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:27,597] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 204840 현재가: 1005 등락률: -115
+[2020-06-15 14:41:27,597] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:27,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:27,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:27,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 153710 현재가: 16400 등락률: -600
+[2020-06-15 14:41:27,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 218900 등락률: -17600
+[2020-06-15 14:41:27,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 218900 등락률: -17600
+[2020-06-15 14:41:27,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69400 등락률: -2400
+[2020-06-15 14:41:28,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:28,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:28,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 14:41:28,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 943 등락률: -127
+[2020-06-15 14:41:28,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22350 등락률: -2450
+[2020-06-15 14:41:28,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22300 등락률: -2500
+[2020-06-15 14:41:28,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:28,301] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 034810 현재가: 10500 등락률: -800
+[2020-06-15 14:41:28,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44500 등락률: -4500
+[2020-06-15 14:41:28,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:28,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:28,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4920 등락률: -850
+[2020-06-15 14:41:28,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3485 등락률: -385
+[2020-06-15 14:41:28,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4915 등락률: -855
+[2020-06-15 14:41:28,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22300 등락률: -2500
+[2020-06-15 14:41:28,801] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 14:41:28,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 943 등락률: -127
+[2020-06-15 14:41:28,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 940 등락률: -130
+[2020-06-15 14:41:28,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47650 등락률: -2950
+[2020-06-15 14:41:28,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 14:41:29,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 146300 등락률: -6700
+[2020-06-15 14:41:29,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 940 등락률: -130
+[2020-06-15 14:41:29,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69000 등락률: -2800
+[2020-06-15 14:41:29,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 034810 현재가: 10500 등락률: -800
+[2020-06-15 14:41:29,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 034810 현재가: 10450 등락률: -850
+[2020-06-15 14:41:29,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 034810 현재가: 10400 등락률: -900
+[2020-06-15 14:41:29,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 034810 현재가: 10350 등락률: -950
+[2020-06-15 14:41:29,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 034810 현재가: 10300 등락률: -1000
+[2020-06-15 14:41:29,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 034810 현재가: 10250 등락률: -1050
+[2020-06-15 14:41:29,300] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:29,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19850 등락률: -4600
+[2020-06-15 14:41:29,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20350 등락률: -650
+[2020-06-15 14:41:29,519] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 208860 현재가: 5980 등락률: -840
+[2020-06-15 14:41:29,519] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47550 등락률: -3050
+[2020-06-15 14:41:29,519] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19850 등락률: -4600
+[2020-06-15 14:41:29,519] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19900 등락률: -4550
+[2020-06-15 14:41:29,519] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 940 등락률: -130
+[2020-06-15 14:41:29,519] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 208860 현재가: 5980 등락률: -840
+[2020-06-15 14:41:29,597] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4915 등락률: -855
+[2020-06-15 14:41:29,597] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3490 등락률: -380
+[2020-06-15 14:41:29,597] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3485 등락률: -385
+[2020-06-15 14:41:29,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 14:41:29,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19900 등락률: -4550
+[2020-06-15 14:41:29,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11500 등락률: -1250
+[2020-06-15 14:41:29,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15350 등락률: -2400
+[2020-06-15 14:41:29,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15250 등락률: -2500
+[2020-06-15 14:41:29,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47550 등락률: -3050
+[2020-06-15 14:41:29,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19900 등락률: -4550
+[2020-06-15 14:41:30,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:30,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:30,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217000 등락률: -19500
+[2020-06-15 14:41:30,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 216900 등락률: -19600
+[2020-06-15 14:41:30,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 216500 등락률: -20000
+[2020-06-15 14:41:30,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69400 등락률: -2400
+[2020-06-15 14:41:30,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11300 등락률: -1200
+[2020-06-15 14:41:30,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4910 등락률: -860
+[2020-06-15 14:41:30,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69400 등락률: -2400
+[2020-06-15 14:41:30,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4915 등락률: -855
+[2020-06-15 14:41:30,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19900 등락률: -4550
+[2020-06-15 14:41:30,300] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 939 등락률: -131
+[2020-06-15 14:41:30,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 14:41:30,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44500 등락률: -4500
+[2020-06-15 14:41:30,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4910 등락률: -860
+[2020-06-15 14:41:30,597] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:30,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19900 등락률: -4550
+[2020-06-15 14:41:30,800] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 208860 현재가: 5980 등락률: -840
+[2020-06-15 14:41:30,800] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 208860 현재가: 5980 등락률: -840
+[2020-06-15 14:41:30,800] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217100 등락률: -19400
+[2020-06-15 14:41:30,800] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 216500 등락률: -20000
+[2020-06-15 14:41:30,941] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69400 등락률: -2400
+[2020-06-15 14:41:30,941] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11350 등락률: -1150
+[2020-06-15 14:41:30,941] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:30,941] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47550 등락률: -3050
+[2020-06-15 14:41:30,941] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47500 등락률: -3100
+[2020-06-15 14:41:30,941] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089150 현재가: 3700 등락률: -615
+[2020-06-15 14:41:31,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 041460 현재가: 5820 등락률: -580
+[2020-06-15 14:41:31,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:31,207] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 216500 등락률: -20000
+[2020-06-15 14:41:31,300] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44500 등락률: -4500
+[2020-06-15 14:41:31,300] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 4915 등락률: -855
+[2020-06-15 14:41:31,300] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 19950 등락률: -4500
+[2020-06-15 14:41:31,300] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69400 등락률: -2400
+[2020-06-15 14:41:31,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69500 등락률: -2300
+[2020-06-15 14:41:31,410] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 146300 등락률: -6700
+[2020-06-15 14:41:31,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22300 등락률: -2500
+[2020-06-15 14:41:31,504] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22250 등락률: -2550
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 050120 현재가: 940 등락률: -130
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11150 등락률: -600
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11100 등락률: -650
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22250 등락률: -2550
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11100 등락률: -650
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11100 등락률: -650
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 217600 등락률: -18900
+[2020-06-15 14:41:31,613] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11100 등락률: -650
+[2020-06-15 14:41:31,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11100 등락률: -650
+[2020-06-15 14:41:31,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69500 등락률: -2300
+[2020-06-15 14:41:31,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69400 등락률: -2400
+[2020-06-15 14:41:31,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 216500 등락률: -20000
+[2020-06-15 14:41:31,910] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11100 등락률: -650
+[2020-06-15 14:41:32,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 216500 등락률: -20000
+[2020-06-15 14:41:32,004] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 44500 등락률: -4500
+[2020-06-15 14:41:32,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 216500 등락률: -20000
+[2020-06-15 14:41:32,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 69400 등락률: -2400
+[2020-06-15 14:41:32,097] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 20300 등락률: -700
+[2020-06-15 15:01:01,600] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 15:01:01,600] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 15:01:01,601] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 15:01:02,640] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -699921 총수익률: -16.49
+[2020-06-15 15:01:02,640] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 15:01:02,643] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 15:01:05,655] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 15:01:05,694] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 15:01:05,695] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 15:01:05,697] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 336260 거래상태: mesu
+[2020-06-15 15:01:05,698] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 15:01:05,699] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 15:01:05,700] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 15:01:05,702] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 15:01:05,703] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 15:01:05,704] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 15:01:05,705] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 15:01:05,706] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 15:01:05,707] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 15:01:05,708] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 15:01:05,710] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 15:01:05,711] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 15:01:05,712] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 15:01:05,713] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 15:01:05,715] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 15:01:05,716] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 15:01:05,717] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 15:01:05,718] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 15:01:05,719] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 15:01:05,720] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 15:01:05,721] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 15:01:05,722] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 15:01:05,723] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 15:01:05,724] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 15:01:05,726] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 15:01:05,727] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 15:01:05,728] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 15:01:05,886] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22350 등락률: -2450 고가: 24850
+[2020-06-15 15:01:05,984] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:06,189] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:06,190] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 21850 등락률: 850 고가: 23800
+[2020-06-15 15:01:06,285] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20650 등락률: -3800 고가: 24550
+[2020-06-15 15:01:06,286] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 336260 현재가: 21900 등락률: -2850 고가: 29300
+[2020-06-15 15:01:06,286] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128700 등락률: -6300 고가: 137200
+[2020-06-15 15:01:06,287] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128800 등락률: -6200 고가: 137200
+[2020-06-15 15:01:06,287] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 146900 등락률: -6100 고가: 157300
+[2020-06-15 15:01:06,382] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2850 등락률: -320 고가: 3140
+[2020-06-15 15:01:06,383] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 224200 등락률: -12300 고가: 238500
+[2020-06-15 15:01:06,383] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:06,681] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11700 등락률: -1050 고가: 12600
+[2020-06-15 15:01:06,682] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128600 등락률: -6400 고가: 137200
+[2020-06-15 15:01:06,682] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 146900 등락률: -6100 고가: 157300
+[2020-06-15 15:01:06,682] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:06,883] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:06,979] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2850 등락률: -320 고가: 3140
+[2020-06-15 15:01:07,085] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:07,187] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2850 등락률: -320 고가: 3140
+[2020-06-15 15:01:07,286] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11400 등락률: -350 고가: 12900
+[2020-06-15 15:01:07,382] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 204840 현재가: 1020 등락률: -100 고가: 1115
+[2020-06-15 15:01:07,487] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2860 등락률: -310 고가: 3140
+[2020-06-15 15:01:07,488] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11400 등락률: -350 고가: 12900
+[2020-06-15 15:01:07,489] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20650 등락률: -3800 고가: 24550
+[2020-06-15 15:01:07,490] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 336260 현재가: 21950 등락률: -2800 고가: 29300
+[2020-06-15 15:01:07,584] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:07,585] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2860 등락률: -310 고가: 3140
+[2020-06-15 15:01:07,690] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128700 등락률: -6300 고가: 137200
+[2020-06-15 15:01:07,691] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 208860 현재가: 5870 등락률: -950 고가: 6990
+[2020-06-15 15:01:07,691] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 336260 현재가: 21900 등락률: -2850 고가: 29300
+[2020-06-15 15:01:07,795] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:07,796] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11350 등락률: -400 고가: 12900
+[2020-06-15 15:01:07,889] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128700 등락률: -6300 고가: 137200
+[2020-06-15 15:01:07,890] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128600 등락률: -6400 고가: 137200
+[2020-06-15 15:01:07,984] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:07,984] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 21900 등락률: 900 고가: 23800
+[2020-06-15 15:01:08,188] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:08,285] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11400 등락률: -350 고가: 12900
+[2020-06-15 15:01:08,387] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:08,388] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 009190 현재가: 5150 등락률: -620 고가: 5780
+[2020-06-15 15:01:08,494] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 065680 현재가: 22450 등락률: -2350 고가: 24850
+[2020-06-15 15:01:08,495] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15900 등락률: -1850 고가: 17650
+[2020-06-15 15:01:08,495] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 74100 등락률: 2300 고가: 80900
+[2020-06-15 15:01:08,591] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:08,690] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 74000 등락률: 2200 고가: 80900
+[2020-06-15 15:01:08,792] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 146900 등락률: -6100 고가: 157300
+[2020-06-15 15:01:08,793] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11750 등락률: -1000 고가: 12600
+[2020-06-15 15:01:08,793] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089150 현재가: 3760 등락률: -555 고가: 4455
+[2020-06-15 15:01:08,794] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 089150 현재가: 3755 등락률: -560 고가: 4455
+[2020-06-15 15:01:08,984] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128800 등락률: -6200 고가: 137200
+[2020-06-15 15:01:08,985] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 43800 등락률: -3000 고가: 47200
+[2020-06-15 15:01:09,092] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 43800 등락률: -3000 고가: 47200
+[2020-06-15 15:01:09,093] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3640 등락률: -230 고가: 3965
+[2020-06-15 15:01:09,197] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 74100 등락률: 2300 고가: 80900
+[2020-06-15 15:01:09,198] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 74000 등락률: 2200 고가: 80900
+[2020-06-15 15:01:09,198] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 73900 등락률: 2100 고가: 80900
+[2020-06-15 15:01:09,198] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 73800 등락률: 2000 고가: 80900
+[2020-06-15 15:01:09,199] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 73700 등락률: 1900 고가: 80900
+[2020-06-15 15:01:09,285] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128800 등락률: -6200 고가: 137200
+[2020-06-15 15:01:09,392] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11750 등락률: -1000 고가: 12600
+[2020-06-15 15:01:09,486] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 196170 현재가: 224200 등락률: -12300 고가: 238500
+[2020-06-15 15:01:09,486] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 21900 등락률: 900 고가: 23800
+[2020-06-15 15:01:09,585] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128800 등락률: -6200 고가: 137200
+[2020-06-15 15:01:09,586] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11500 등락률: -1000 고가: 13050
+[2020-06-15 15:01:09,685] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 336260 현재가: 21900 등락률: -2850 고가: 29300
+[2020-06-15 15:01:09,686] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 48650 등락률: -1950 고가: 51300
+[2020-06-15 15:01:09,686] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 48650 등락률: -1950 고가: 51300
+[2020-06-15 15:01:09,883] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 128800 등락률: -6200 고가: 137200
+[2020-06-15 15:01:09,983] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 43300 등락률: -3500 고가: 47200
+[2020-06-15 15:01:10,082] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 46450 등락률: -2550 고가: 50500
+[2020-06-15 15:01:10,291] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2875 등락률: -295 고가: 3140
+[2020-06-15 15:01:10,292] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2880 등락률: -290 고가: 3140
+[2020-06-15 15:01:10,292] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0053 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 48600 등락률: -2000 고가: 51300
+[2020-06-15 15:21:05,194] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 15:21:05,195] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 15:21:05,195] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 15:21:06,520] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -819609 총수익률: -19.31
+[2020-06-15 15:21:06,520] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 15:21:06,523] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 15:21:09,534] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 15:21:36,895] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 15:21:36,896] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 15:21:36,896] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 15:21:37,665] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -819609 총수익률: -19.31
+[2020-06-15 15:21:37,665] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 15:21:37,668] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 15:21:40,678] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 15:21:51,094] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 15:21:51,095] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 15:21:51,096] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 336260 거래상태: mesu
+[2020-06-15 15:21:51,097] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 15:21:51,098] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 15:21:51,100] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 15:21:51,101] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 15:21:51,102] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 15:21:51,103] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 15:21:51,104] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 15:21:51,105] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 15:21:51,107] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 15:21:51,108] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 15:21:51,110] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 15:21:51,111] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 15:21:51,112] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 15:21:51,113] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 15:21:51,114] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 15:21:51,115] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 15:21:51,116] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 15:21:51,117] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 15:21:51,119] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 15:21:51,120] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 15:21:51,121] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 15:21:51,122] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 15:21:51,123] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 15:21:51,124] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 15:21:51,125] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 15:21:51,126] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 15:21:51,128] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 15:21:59,749] I kiwoom.py | Kiwoom-get_real_jang_status-0522 I DEBUG    > 장 종료 동시호가로 넘어감
+[2020-06-15 15:23:37,339] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 15:23:37,340] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 15:23:37,340] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 15:23:38,250] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -819609 총수익률: -19.31
+[2020-06-15 15:23:38,251] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 15:23:38,254] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 15:23:41,264] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 15:25:41,826] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 15:25:41,827] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 15:25:41,827] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 15:25:42,665] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -819609 총수익률: -19.31
+[2020-06-15 15:25:42,665] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 15:25:42,668] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 15:25:45,677] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 15:25:55,886] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 15:25:55,887] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 15:25:55,888] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 336260 거래상태: mesu
+[2020-06-15 15:25:55,889] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 15:25:55,890] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 15:25:55,891] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 15:25:55,893] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 15:25:55,894] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 15:25:55,895] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 15:25:55,896] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 15:25:55,897] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 15:25:55,899] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 15:25:55,900] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 15:25:55,901] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 15:25:55,902] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 15:25:55,903] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 15:25:55,904] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 15:25:55,905] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 15:25:55,907] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 15:25:55,908] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 15:25:55,909] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 15:25:55,910] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 15:25:55,911] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 15:25:55,912] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 15:25:55,913] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 15:25:55,914] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 15:25:55,915] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 15:25:55,916] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 15:25:55,917] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 15:25:55,919] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 15:26:00,043] I kiwoom.py | Kiwoom-get_real_jang_status-0522 I DEBUG    > 장 종료 동시호가로 넘어감
+[2020-06-15 15:28:04,869] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 15:28:04,869] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 15:28:04,869] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 15:28:05,887] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -819609 총수익률: -19.31
+[2020-06-15 15:28:05,887] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 15:28:05,890] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 15:28:08,900] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 15:28:19,195] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 15:28:19,196] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 15:28:19,197] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 15:28:19,198] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 15:28:19,200] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 15:28:19,201] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 15:28:19,202] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 15:28:19,203] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 15:28:19,204] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 15:28:19,206] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 15:28:19,207] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 15:28:19,209] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 15:28:19,210] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 15:28:19,211] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 15:28:19,212] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 15:28:19,213] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 15:28:19,214] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 15:28:19,215] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 15:28:19,216] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 15:28:19,218] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 15:28:19,219] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 15:28:19,220] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 15:28:19,221] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 15:28:19,222] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 15:28:19,223] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 15:28:19,225] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 15:28:19,226] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 15:28:19,227] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 15:28:19,228] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 15:28:59,792] I kiwoom.py | Kiwoom-get_real_jang_status-0522 I DEBUG    > 장 종료 동시호가로 넘어감
+[2020-06-15 15:46:36,728] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 15:46:36,729] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 15:46:36,729] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 15:46:37,770] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 15:46:37,770] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 15:46:37,773] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 15:46:40,801] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 15:46:51,301] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 15:46:51,302] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 15:46:51,303] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 15:46:51,304] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 15:46:51,305] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 15:46:51,306] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 15:46:51,308] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 15:46:51,309] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 15:46:51,310] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 15:46:51,311] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 15:46:51,312] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 15:46:51,314] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 15:46:51,315] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 15:46:51,317] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 15:46:51,318] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 15:46:51,319] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 15:46:51,320] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 15:46:51,321] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 15:46:51,322] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 15:46:51,323] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 15:46:51,325] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 15:46:51,326] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 15:46:51,329] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 15:46:51,331] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 15:46:51,334] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 15:46:51,336] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 15:46:51,338] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 15:46:51,339] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 15:46:51,340] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 15:46:53,298] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11300 등락률: -1450 고가: 12600
+[2020-06-15 15:46:55,200] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 21000 등락률: 0 고가: 23800
+[2020-06-15 15:46:56,395] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11400 등락률: -350 고가: 12900
+[2020-06-15 15:46:57,718] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:46:57,991] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089150 현재가: 3665 등락률: -650 고가: 4455
+[2020-06-15 15:46:58,095] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11400 등락률: -350 고가: 12900
+[2020-06-15 15:46:59,870] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 041460 현재가: 5870 등락률: -530 고가: 6540
+[2020-06-15 15:47:04,507] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:05,297] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:47:05,495] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:47:05,694] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:47:05,891] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 060250 현재가: 47750 등락률: -2850 고가: 51300
+[2020-06-15 15:47:06,893] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 73500 등락률: 1700 고가: 80900
+[2020-06-15 15:47:07,707] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:47:07,794] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:47:07,893] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:47:09,687] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 21000 등락률: 0 고가: 23800
+[2020-06-15 15:47:09,721] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:10,657] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 73500 등락률: 1700 고가: 80900
+[2020-06-15 15:47:11,976] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089980 현재가: 20250 등락률: -4200 고가: 24550
+[2020-06-15 15:47:13,348] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:13,515] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:13,607] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:13,608] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 089150 현재가: 3665 등락률: -650 고가: 4455
+[2020-06-15 15:47:13,923] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 115480 현재가: 2755 등락률: -415 고가: 3140
+[2020-06-15 15:47:14,341] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 036640 현재가: 3450 등락률: -420 고가: 3965
+[2020-06-15 15:47:14,925] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 45000 등락률: -4000 고가: 50500
+[2020-06-15 15:47:14,977] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 21000 등락률: 0 고가: 23800
+[2020-06-15 15:47:15,492] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:15,681] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:15,756] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:15,757] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 15:47:16,894] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 256940 현재가: 15250 등락률: -2500 고가: 17650
+[2020-06-15 15:47:18,014] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 174900 현재가: 73500 등락률: 1700 고가: 80900
+[2020-06-15 15:47:24,033] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 123750 현재가: 3560 등락률: -240 고가: 4150
+[2020-06-15 15:47:24,377] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11250 등락률: -1250 고가: 13050
+[2020-06-15 15:47:27,575] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 046440 현재가: 11400 등락률: -350 고가: 12900
+[2020-06-15 15:47:27,576] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 226950 현재가: 45000 등락률: -4000 고가: 50500
+[2020-06-15 15:47:27,659] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 086900 현재가: 147000 등락률: -6000 고가: 157300
+[2020-06-15 15:47:28,530] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 005070 현재가: 11300 등락률: -1450 고가: 12600
+[2020-06-15 15:47:28,937] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 036810 현재가: 21000 등락률: 0 고가: 23800
+[2020-06-15 15:47:33,145] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 311690 현재가: 41950 등락률: -4850 고가: 47200
+[2020-06-15 15:47:34,143] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 234690 현재가: 11250 등락률: -1250 고가: 13050
+[2020-06-15 15:47:39,044] I volatilitybreakthroughstrategy.py | Kiwoom-realdata_slot-0055 I DEBUG    > 실시간 체결 정보 종목코드: 068760 현재가: 124300 등락률: -10700 고가: 137200
+[2020-06-15 16:08:10,303] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:08:10,303] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:08:10,304] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:08:59,244] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:08:59,244] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:08:59,244] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:09:00,057] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:09:00,057] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:09:00,060] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:09:03,070] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:10:05,738] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:10:05,738] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:10:05,738] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:10:10,386] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:10:10,386] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:10:10,389] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:10:13,398] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:11:16,948] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:11:16,949] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:11:16,949] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:11:17,944] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:11:17,945] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:11:17,948] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:11:20,960] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:11:50,221] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:11:50,221] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:11:50,221] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:11:50,983] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:11:50,983] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:11:50,986] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:11:53,995] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:12:04,847] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 16:12:04,848] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 16:12:04,849] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 16:12:04,850] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 16:12:04,851] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 16:12:04,853] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 16:12:04,854] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 16:12:04,855] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 16:12:04,856] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 16:12:04,857] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 16:12:04,858] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 16:12:04,860] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 16:12:04,861] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 16:12:04,863] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 16:12:04,864] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 16:12:04,865] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 16:12:04,866] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 16:12:04,867] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 16:12:04,868] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 16:12:04,869] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 16:12:04,870] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 16:12:04,872] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 16:12:04,873] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 16:12:04,875] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 16:12:04,876] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 16:12:04,877] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 16:12:04,878] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 16:12:04,879] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 16:12:04,880] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 16:18:54,395] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:18:54,395] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:18:54,395] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:18:55,301] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:18:55,302] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:18:55,305] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:18:58,315] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:19:08,692] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 16:19:08,694] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 16:19:08,695] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 16:19:08,696] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 16:19:08,697] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 16:19:08,698] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 16:19:08,699] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 16:19:08,700] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 16:19:08,701] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 16:19:08,703] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 16:19:08,704] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 16:19:08,705] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 16:19:08,707] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 16:19:08,708] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 16:19:08,709] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 16:19:08,710] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 16:19:08,711] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 16:19:08,712] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 16:19:08,714] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 16:19:08,715] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 16:19:08,716] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 16:19:08,717] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 16:19:08,718] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 16:19:08,719] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 16:19:08,720] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 16:19:08,722] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 16:19:08,723] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 16:19:08,724] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 16:19:08,725] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 16:19:48,192] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:19:48,192] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:19:48,192] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:19:49,509] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:19:49,509] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:19:49,512] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:19:52,521] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:21:34,201] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:21:34,201] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:21:34,201] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:21:35,011] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:21:35,011] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:21:35,015] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:21:38,024] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:21:48,560] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 16:21:48,561] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 16:21:48,563] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 16:21:48,564] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 16:21:48,565] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 16:21:48,566] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 16:21:48,567] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 16:21:48,568] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 16:21:48,570] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 16:21:48,571] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 16:21:48,572] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 16:21:48,573] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 16:21:48,575] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 16:21:48,577] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 16:21:48,578] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 16:21:48,579] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 16:21:48,580] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 16:21:48,581] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 16:21:48,582] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 16:21:48,583] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 16:21:48,584] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 16:21:48,586] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 16:21:48,587] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 16:21:48,588] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 16:21:48,589] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 16:21:48,590] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 16:21:48,591] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 16:21:48,592] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 16:21:48,593] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 16:56:32,325] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:56:32,325] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:56:32,325] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:57:19,280] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:57:19,280] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:57:19,280] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:57:20,053] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:57:20,054] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:57:20,058] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:57:23,070] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:57:23,117] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 16:57:23,118] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 16:57:23,120] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 16:57:23,121] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 16:57:23,122] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 16:57:23,123] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 16:57:23,124] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 16:57:23,126] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 16:57:23,127] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 16:57:23,128] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 16:57:23,129] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 16:57:23,130] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 16:57:23,131] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 16:57:23,132] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 16:57:23,134] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 16:57:23,135] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 16:57:23,136] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 16:57:23,137] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 16:57:23,138] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 16:57:23,140] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 16:57:23,141] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 16:57:23,142] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 16:57:23,143] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 16:57:23,144] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 16:57:23,145] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 16:57:23,147] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 16:57:23,148] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 16:57:23,149] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 16:57:23,152] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 16:57:23,153] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196490 거래상태: mesu
+[2020-06-15 16:59:50,508] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 16:59:50,508] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 16:59:50,508] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 16:59:51,420] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 16:59:51,420] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 16:59:51,423] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 16:59:54,433] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-15 16:59:54,521] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 16:59:54,522] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 16:59:54,523] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 16:59:54,524] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 16:59:54,526] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 16:59:54,527] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 16:59:54,528] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 16:59:54,529] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 16:59:54,530] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 16:59:54,531] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 16:59:54,532] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 16:59:54,534] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 16:59:54,535] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 16:59:54,536] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 16:59:54,537] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 16:59:54,538] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 16:59:54,539] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 16:59:54,540] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 16:59:54,541] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 16:59:54,543] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 16:59:54,544] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 16:59:54,545] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 16:59:54,546] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 16:59:54,547] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 16:59:54,548] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 16:59:54,549] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 16:59:54,551] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 16:59:54,552] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 16:59:54,553] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 16:59:54,554] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 196490 거래상태: mesu
+[2020-06-15 20:47:41,031] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 20:47:41,032] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 20:47:41,033] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 20:49:47,317] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 20:49:47,317] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 20:49:47,318] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 20:50:28,133] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 20:50:28,133] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 20:50:28,133] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 20:51:11,366] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 20:51:11,366] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 20:51:11,366] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 20:51:12,733] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 20:51:12,733] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 20:51:12,737] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 20:51:15,757] I kiwoom.py | Kiwoom-query_not_concluded_account-0379 I DEBUG    > 미체결 종목 요청
+[2020-06-15 20:51:15,830] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 20:51:15,830] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 20:51:15,831] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 20:51:15,832] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 20:51:15,833] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 20:51:15,834] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 20:51:15,836] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 20:51:15,837] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 20:51:15,838] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 20:51:15,840] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 20:51:15,842] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 20:51:15,843] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 20:51:15,845] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 20:51:15,846] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 20:51:15,847] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 20:51:15,848] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 20:51:15,849] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 20:51:15,851] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 20:51:15,852] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 20:51:15,853] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 20:51:15,854] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 20:51:15,855] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 20:51:15,858] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 20:51:15,860] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 20:51:15,862] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 20:51:15,863] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 20:51:15,864] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 20:51:15,865] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 20:51:15,866] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 20:51:15,867] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196490 거래상태: mesu
+[2020-06-15 20:51:50,035] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 20:51:50,035] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 20:51:50,035] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 20:51:51,099] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 20:51:51,100] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 20:51:51,104] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 20:51:54,115] I kiwoom.py | Kiwoom-query_not_concluded_account-0379 I DEBUG    > 미체결 종목 요청
+[2020-06-15 20:51:54,192] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 20:51:54,193] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 20:51:54,194] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 20:51:54,195] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 20:51:54,196] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 20:51:54,198] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 20:51:54,199] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 20:51:54,202] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 20:51:54,204] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 20:51:54,206] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 20:51:54,207] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 20:51:54,208] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 20:51:54,209] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 20:51:54,210] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 20:51:54,211] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 20:51:54,213] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 20:51:54,214] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 20:51:54,215] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 20:51:54,217] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 20:51:54,219] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 20:51:54,221] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 20:51:54,222] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 20:51:54,223] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 20:51:54,225] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 20:51:54,226] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 20:51:54,227] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 20:51:54,228] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 20:51:54,229] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 20:51:54,230] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 20:51:54,232] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196490 거래상태: mesu
+[2020-06-15 20:52:20,289] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 20:52:20,289] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 20:52:20,289] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 20:52:21,317] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 20:52:21,318] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 20:52:21,322] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 20:52:24,335] I kiwoom.py | Kiwoom-query_not_concluded_account-0379 I DEBUG    > 미체결 종목 요청
+[2020-06-15 20:52:24,396] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 20:52:24,398] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 20:52:24,400] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 20:52:24,402] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 20:52:24,403] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 20:52:24,404] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 20:52:24,406] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 20:52:24,407] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 20:52:24,408] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 20:52:24,409] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 20:52:24,410] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 20:52:24,411] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 20:52:24,412] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 20:52:24,414] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 20:52:24,416] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 20:52:24,418] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 20:52:24,419] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 20:52:24,421] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 20:52:24,422] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 20:52:24,423] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 20:52:24,424] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 20:52:24,425] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 20:52:24,427] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 20:52:24,428] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 20:52:24,429] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 20:52:24,430] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 20:52:24,432] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 20:52:24,434] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 20:52:24,437] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 20:52:24,438] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196490 거래상태: mesu
+[2020-06-15 20:54:11,052] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 20:54:11,052] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 20:54:11,053] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 20:54:12,179] I kiwoom.py | Kiwoom-set_deposit-0187 I DEBUG    > 예수금 3990928
+[2020-06-15 20:54:12,246] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 20:54:12,246] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 20:54:12,250] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 20:54:15,261] I kiwoom.py | Kiwoom-query_not_concluded_account-0379 I DEBUG    > 미체결 종목 요청
+[2020-06-15 20:54:15,333] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 20:54:15,335] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 20:54:15,336] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 20:54:15,337] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 20:54:15,338] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 20:54:15,339] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 20:54:15,340] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 20:54:15,341] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 20:54:15,343] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 20:54:15,344] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 20:54:15,345] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 20:54:15,348] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 20:54:15,350] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 20:54:15,351] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 20:54:15,353] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 20:54:15,354] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 20:54:15,355] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 20:54:15,356] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 20:54:15,357] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 20:54:15,358] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 20:54:15,359] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 20:54:15,360] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 20:54:15,363] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 20:54:15,365] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 20:54:15,368] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 20:54:15,370] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 20:54:15,371] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 20:54:15,372] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 20:54:15,374] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 20:54:15,375] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196490 거래상태: mesu
+[2020-06-15 21:01:59,684] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 21:01:59,684] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 21:01:59,684] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 21:02:00,973] I kiwoom.py | Kiwoom-set_deposit-0187 I DEBUG    > 예수금 3990928
+[2020-06-15 21:02:01,282] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 21:02:01,282] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 21:02:01,285] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 21:02:04,297] I kiwoom.py | Kiwoom-query_not_concluded_account-0379 I DEBUG    > 미체결 종목 요청
+[2020-06-15 21:02:04,429] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 21:02:04,430] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 21:02:04,431] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 21:02:04,432] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 21:02:04,433] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 21:02:04,434] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 21:02:04,435] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 21:02:04,437] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 21:02:04,438] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 21:02:04,439] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 21:02:04,442] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 21:02:04,444] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 21:02:04,446] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 21:02:04,447] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 21:02:04,448] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 21:02:04,449] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 21:02:04,450] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 21:02:04,452] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 21:02:04,453] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 21:02:04,454] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 21:02:04,456] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 21:02:04,458] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 21:02:04,461] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 21:02:04,462] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 21:02:04,464] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 21:02:04,465] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 21:02:04,466] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 21:02:04,467] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 21:02:04,469] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 21:02:04,470] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196490 거래상태: mesu
+[2020-06-15 23:46:38,657] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-15 23:46:38,657] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-15 23:46:38,657] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-15 23:46:39,673] I kiwoom.py | Kiwoom-set_deposit-0187 I DEBUG    > 예수금 3990928
+[2020-06-15 23:46:39,704] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 4244400 총평가손익금액: -842663 총수익률: -19.85
+[2020-06-15 23:46:39,704] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 109820 - 종목명: 진매트릭스 - 보유수량: 130 - 매입금액:2138500
+[2020-06-15 23:46:39,719] I kiwoom.py | Kiwoom-set_mystock-0216 I DEBUG    > 종목코드: 336260 - 종목명: 두산퓨얼셀 - 보유수량: 74 - 매입금액:2105900
+[2020-06-15 23:46:42,751] I kiwoom.py | Kiwoom-query_not_concluded_account-0379 I DEBUG    > 미체결 종목 요청
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 009190 거래상태: mesu
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 153710 거래상태: mesu
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226400 거래상태: mesu
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196170 거래상태: mesu
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 084870 거래상태: mesu
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089150 거래상태: mesu
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 234690 거래상태: mesu
+[2020-06-15 23:46:42,766] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 086900 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 256940 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 065680 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 204840 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 115480 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 123750 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036810 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 046440 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 060250 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 041460 거래상태: mesu
+[2020-06-15 23:46:42,782] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 050120 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 311690 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 208860 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 089980 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 174900 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 068760 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 226950 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 147760 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 033560 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 034810 거래상태: mesu
+[2020-06-15 23:46:42,797] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 036640 거래상태: mesu
+[2020-06-15 23:46:42,813] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 005070 거래상태: mesu
+[2020-06-15 23:46:42,813] I kiwoom.py | Kiwoom-set_append_trading_status_df-0348 I DEBUG    > 종목코드: 196490 거래상태: mesu

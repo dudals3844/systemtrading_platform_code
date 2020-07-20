@@ -1,0 +1,95 @@
+[2020-06-12 00:16:32,085] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:16:32,087] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:16:32,087] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:16:32,139] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:16:32,140] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:16:35,183] I kiwoom.py | Kiwoom-query_not_concluded_account-0372 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:17:52,300] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:17:52,301] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:17:52,301] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:17:52,353] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:17:52,354] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:17:55,373] I kiwoom.py | Kiwoom-query_not_concluded_account-0372 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:23:19,935] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:23:19,936] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:23:19,936] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:23:19,986] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:23:19,986] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:23:23,008] I kiwoom.py | Kiwoom-query_not_concluded_account-0372 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:24:04,556] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:24:04,556] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:24:04,557] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:24:04,609] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:24:04,610] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:24:07,628] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:26:14,994] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_LOGIN', '사용자정보교환실패')
+[2020-06-12 00:26:14,996] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 
+[2020-06-12 00:26:14,996] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:26:15,040] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_SOCKET_CLOSED', '통신연결종료')
+[2020-06-12 00:26:15,055] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_SOCKET_CLOSED', '통신연결종료')
+[2020-06-12 00:26:32,901] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:26:32,901] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:26:32,902] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:26:32,952] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:26:32,952] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:26:35,965] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:26:35,989] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 005930 거래상태: medo
+[2020-06-12 00:26:35,990] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 006630 거래상태: medo
+[2020-06-12 00:26:35,991] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 009930 거래상태: medo
+[2020-06-12 00:27:03,859] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:27:03,859] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:27:03,859] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:27:03,915] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:27:03,916] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:27:06,932] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:27:06,957] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 005930 거래상태: medo
+[2020-06-12 00:27:06,960] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 006630 거래상태: medo
+[2020-06-12 00:27:06,962] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 009930 거래상태: medo
+[2020-06-12 00:27:35,950] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:27:35,951] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:27:35,951] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:27:35,999] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:27:35,999] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:27:39,020] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:27:39,042] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 005930 거래상태: medo
+[2020-06-12 00:27:39,043] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 006630 거래상태: medo
+[2020-06-12 00:27:39,044] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 거래상태 종목코드: 009930 거래상태: medo
+[2020-06-12 00:28:20,102] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:28:20,102] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:28:20,102] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:28:20,162] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:28:20,163] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:28:23,176] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:30:47,168] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:30:47,169] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:30:47,169] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:30:47,220] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:30:47,220] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:31:54,865] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:31:54,865] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:31:54,865] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:31:54,927] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:31:54,927] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:31:57,937] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:31:57,957] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    >         거래상태
+005930  medo
+[2020-06-12 00:32:32,755] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:32:32,756] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:32:32,756] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:32:32,803] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:32:32,803] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:32:35,816] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 00:32:35,835] I kiwoom.py | Kiwoom-set_append_trading_status_df-0342 I DEBUG    > 종목코드: 005930 거래상태: medo
+[2020-06-12 00:32:35,836] I kiwoom.py | Kiwoom-change_trading_status_medo_to_mesu-0628 I DEBUG    > 종목코드: 005930 거래상태: mesu
+[2020-06-12 00:33:28,483] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 00:33:28,484] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 00:33:28,484] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 00:33:28,567] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 1651300 총평가손익금액: -63687 총수익률: -3.86
+[2020-06-12 00:33:28,568] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 7 - 매입금액:1651300
+[2020-06-12 00:33:31,588] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청
+[2020-06-12 19:32:19,287] I kiwoom.py | Kiwoom-login_slot-0085 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-12 19:32:19,290] I kiwoom.py | Kiwoom-set_account_info-0147 I DEBUG    > 계좌번호: 8136489511
+[2020-06-12 19:32:19,290] I kiwoom.py | Kiwoom-set_server_info-0153 I DEBUG    > 모의투자 서버 접속
+[2020-06-12 19:32:19,345] I kiwoom.py | Kiwoom-trdata_slot-0106 I DEBUG    > 총매입금액: 713300 총평가손익금액: -10543 총수익률: -1.48
+[2020-06-12 19:32:19,346] I kiwoom.py | Kiwoom-set_mystock-0213 I DEBUG    > 종목코드: 196170 - 종목명: 알테오젠 - 보유수량: 3 - 매입금액:713300
+[2020-06-12 19:32:22,361] I kiwoom.py | Kiwoom-query_not_concluded_account-0373 I DEBUG    > 미체결 종목 요청

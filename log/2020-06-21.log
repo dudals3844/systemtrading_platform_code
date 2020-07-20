@@ -1,0 +1,838 @@
+[2020-06-21 10:15:53,345] I tr.py | Kiwoom-login_slot-0078 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 10:44:47,889] I slot.py | Kiwoom-receive_login_slot-0040 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 11:02:33,883] I slot.py | Kiwoom-receive_login_slot-0040 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 11:08:14,635] I slot.py | Kiwoom-receive_login_slot-0044 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 11:09:48,357] I slot.py | Kiwoom-receive_login_slot-0044 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 11:42:59,106] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 11:58:02,557] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 11:58:02,560] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:05:03,566] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:05:03,566] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:05:04,455] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:05:27,315] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:05:27,316] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:05:28,120] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:06:26,248] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:06:26,248] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:06:27,139] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:06:27,140] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:11:19,840] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:11:19,840] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:11:20,779] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:11:20,780] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:11:20,869] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:13:10,299] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:13:10,299] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:13:11,187] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:13:11,188] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:13:11,306] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:13:11,307] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:13:11,307] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:13:11,308] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:22:10,396] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:22:10,397] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:22:11,542] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:22:11,544] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:22:11,633] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:22:11,634] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:22:11,634] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:22:11,635] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:22:43,724] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:22:43,725] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:22:44,627] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:22:44,629] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:22:44,797] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:22:44,798] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:22:52,539] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:22:53,767] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:23:35,606] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:23:35,606] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:23:36,531] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:23:36,532] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:23:36,628] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:23:36,629] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:23:36,629] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:23:36,629] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:23:36,630] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:23:36,630] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:23:52,673] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:23:52,674] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:23:53,501] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:23:53,503] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:23:53,600] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:23:53,602] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:23:53,602] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:23:53,602] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:24:14,021] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:24:18,902] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:24:52,186] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:24:52,186] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:24:53,083] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:24:53,085] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:24:53,201] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:24:53,202] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:24:53,202] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:24:53,202] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:24:53,202] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:24:53,202] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:25:28,417] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:25:28,417] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:25:29,347] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:25:29,348] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:25:29,435] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:25:29,436] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:25:29,436] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:25:29,436] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:25:29,436] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:25:29,436] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:27:22,926] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 12:27:22,926] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 12:27:23,885] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:27:23,887] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 12:27:24,045] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 12:27:24,046] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 12:27:24,046] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 12:27:24,047] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 12:27:24,047] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 12:27:24,047] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:39:08,107] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 13:39:08,109] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 13:39:09,204] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:39:09,205] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 13:39:09,283] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:39:09,284] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 13:39:09,284] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 13:39:09,284] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 13:39:09,284] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:39:09,285] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:39:10,296] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 13:39:10,347] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  계좌번호를 확인하십시오.
+[2020-06-21 13:40:34,588] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 13:40:34,588] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 13:40:35,535] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:40:35,536] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 13:40:35,722] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:40:35,724] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 13:40:35,724] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 13:40:35,725] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 13:40:35,725] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:40:35,725] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:40:36,734] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 13:40:38,351] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 13:45:09,237] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 13:45:09,238] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 13:45:10,256] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:45:10,257] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 13:45:10,336] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:45:10,337] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 13:45:10,338] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 13:45:10,339] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 13:45:10,340] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:45:10,340] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:45:11,363] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 13:45:11,383] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 13:45:24,755] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 13:45:24,756] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 13:45:25,691] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:45:25,692] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 13:45:25,768] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:45:25,769] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 13:45:25,769] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 13:45:25,769] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 13:45:25,770] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:45:25,770] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:45:26,778] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 13:45:26,799] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 13:48:50,366] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 13:48:50,367] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 13:48:51,471] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:48:51,473] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 13:48:51,560] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:48:51,561] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 13:48:51,561] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 13:48:51,561] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 13:48:51,562] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:48:51,562] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:48:52,572] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 13:48:52,591] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 13:50:30,070] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 13:50:30,070] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 13:50:31,152] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:50:31,154] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 13:50:31,232] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 13:50:31,233] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 13:50:31,233] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 13:50:31,233] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 13:50:31,234] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:50:31,234] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 13:50:32,245] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 13:50:32,268] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:12:38,408] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 14:12:38,408] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 14:12:39,496] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:12:39,498] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 14:12:39,610] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:12:39,611] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 14:12:39,611] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 14:12:39,611] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 14:12:39,612] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:12:39,612] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:12:40,622] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 14:12:40,646] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:14:53,946] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 14:14:53,947] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 14:14:54,975] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:14:54,977] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 14:14:55,054] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:14:55,055] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 14:14:55,055] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 14:14:55,055] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 14:14:55,056] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:14:55,056] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:14:56,064] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 14:14:56,079] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:14:56,261] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 14:14:56,262] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 14:15:28,272] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 14:15:28,273] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 14:15:29,589] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:15:29,591] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 14:15:30,612] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:15:30,613] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 14:15:30,614] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 14:15:30,614] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 14:15:30,614] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:15:30,615] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:15:31,632] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 14:15:31,660] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:15:31,828] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 14:15:31,829] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 14:16:42,209] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 14:16:42,209] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 14:16:43,271] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:16:43,274] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 14:16:43,361] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:16:43,362] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 14:16:43,362] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 14:16:43,363] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 14:16:43,363] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:16:43,363] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:16:44,380] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 14:16:44,406] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:16:57,174] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 14:17:01,770] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 14:18:50,832] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 14:18:50,832] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 14:18:51,860] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:18:51,862] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 14:18:51,951] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:18:51,952] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 14:18:51,953] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 14:18:51,953] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 14:18:51,953] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:18:51,954] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:18:52,974] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 14:18:53,002] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:18:59,096] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 14:18:59,535] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 14:21:06,638] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 14:21:06,638] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 14:21:07,766] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:21:07,767] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 14:21:07,843] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:21:07,844] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 14:21:07,844] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 14:21:07,845] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 14:21:07,845] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:21:07,846] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:21:08,862] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 14:21:08,884] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:21:11,286] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 14:21:11,842] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 14:21:28,887] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 14:22:17,227] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 14:22:17,227] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 14:22:18,300] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:22:18,302] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 14:22:18,380] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 14:22:18,381] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 14:22:18,381] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 14:22:18,382] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 14:22:18,382] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:22:18,382] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 14:22:19,393] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 14:22:19,414] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 14:22:19,567] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 14:22:19,568] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 14:22:19,568] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 15:06:54,756] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 15:06:54,756] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 15:06:57,166] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:06:57,167] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 15:06:57,431] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:06:57,432] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 15:06:57,432] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 15:06:57,432] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 15:06:57,433] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:06:57,433] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:06:58,441] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 15:06:58,731] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 15:06:58,925] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 15:06:58,926] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 15:06:58,926] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 15:49:34,556] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 15:49:34,557] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 15:49:35,622] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:49:35,623] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 15:49:35,702] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:49:35,703] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 15:49:35,703] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 15:49:35,703] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 15:49:35,704] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:49:35,704] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:49:36,715] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 15:49:36,734] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 15:49:36,885] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 15:49:36,886] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 15:49:36,886] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 15:49:52,969] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 15:49:52,969] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 15:49:53,912] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:49:53,914] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 15:49:53,992] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:49:53,993] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 15:49:53,993] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 15:49:53,994] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 15:49:53,994] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:49:53,994] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:49:55,009] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 15:49:55,038] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 15:50:21,461] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 15:50:21,462] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 15:50:22,402] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:50:22,403] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 15:50:22,481] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:50:22,482] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 15:50:22,482] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 15:50:22,483] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 15:50:22,483] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:50:22,483] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:50:23,504] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 15:50:23,524] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 15:51:11,625] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 15:51:11,625] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 15:51:12,682] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:51:12,683] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 15:51:12,761] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:51:12,762] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 15:51:12,762] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 15:51:12,762] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 15:51:12,763] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:51:12,763] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:51:13,773] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 15:51:13,789] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 15:51:13,939] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 15:51:13,940] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 15:51:13,940] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 15:52:09,791] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 15:52:09,792] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 15:52:10,844] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:52:10,845] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 15:52:10,923] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 15:52:10,924] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 15:52:10,924] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 15:52:10,924] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 15:52:10,925] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:52:10,925] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 15:52:11,933] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 15:52:12,253] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 15:52:12,429] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 15:52:12,430] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 15:52:12,430] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:29:30,335] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:29:30,335] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:29:31,583] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:29:31,584] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:29:31,663] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:29:31,664] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:29:31,664] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:29:31,664] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:29:31,665] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:29:31,665] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:29:32,675] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:29:32,692] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:30:14,015] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:30:14,016] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:30:14,985] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:30:14,986] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:30:15,065] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:30:15,066] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:30:15,066] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:30:15,066] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:30:15,067] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:30:15,067] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:30:16,077] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:30:16,094] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:30:16,367] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:30:16,368] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:30:16,368] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:30:22,123] I order.py | Kiwoom-request_sijang_medo_order-0078 I DEBUG    > 시장가 매도주문 전달 실패
+[2020-06-21 16:31:31,843] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:31:31,844] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:31:32,885] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:31:32,887] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:31:32,965] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:31:32,966] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:31:32,966] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:31:32,967] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:31:32,967] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:31:32,967] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:31:33,986] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:31:34,041] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:31:34,239] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:31:34,240] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:31:34,240] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:31:55,822] I order.py | Kiwoom-request_sijang_medo_order-0078 I DEBUG    > 시장가 매도주문 전달 실패
+[2020-06-21 16:32:23,893] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:32:23,893] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:32:32,234] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:32:32,235] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:32:32,321] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:32:32,322] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:32:32,322] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:32:32,323] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:32:32,323] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:32:32,323] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:32:33,340] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:32:33,365] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:33:10,746] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:33:10,746] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:33:11,884] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:33:11,886] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:33:12,049] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:33:12,050] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:33:12,051] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:33:12,051] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:33:12,052] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:33:12,052] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:33:13,065] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:33:13,526] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:33:38,176] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:33:39,518] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:33:47,987] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:33:51,309] I order.py | Kiwoom-request_sijang_medo_order-0075 I DEBUG    > 시장가 매도주문 전달 성공 종목코드: 009270 수량: 2
+[2020-06-21 16:35:14,429] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:35:14,430] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:35:15,542] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:35:15,545] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:35:15,623] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:35:15,624] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:35:15,624] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:35:15,625] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:35:15,625] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:35:15,625] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:35:16,641] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:35:16,660] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:35:32,407] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:35:32,803] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:35:37,367] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:35:39,964] I order.py | Kiwoom-request_sijang_medo_order-0075 I DEBUG    > 시장가 매도주문 전달 성공 종목코드: 009270 수량: 2
+[2020-06-21 16:37:13,466] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:37:13,467] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:37:14,581] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:37:14,582] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:37:14,671] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:37:14,672] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:37:14,672] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:37:14,672] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:37:14,672] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:37:14,672] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:37:15,682] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:37:15,706] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:37:15,936] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:37:15,938] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:37:15,939] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:38:14,308] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:38:14,309] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:38:15,391] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:38:15,392] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:38:15,535] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:38:15,536] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:38:15,536] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:38:15,536] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:38:15,537] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:38:15,537] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:38:16,547] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:38:16,600] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:38:16,888] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:38:16,890] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:38:16,890] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:43:56,933] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:43:56,934] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:43:58,281] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:43:58,283] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:43:59,222] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:43:59,223] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:43:59,223] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:43:59,223] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:43:59,224] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:43:59,224] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:44:00,233] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:44:00,580] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:44:00,878] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:44:00,880] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:44:00,880] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:45:19,874] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:45:19,874] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:45:20,967] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:45:20,968] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:45:21,961] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:45:21,962] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:45:21,962] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:45:21,962] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:45:21,963] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:45:21,963] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:45:22,972] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:45:23,101] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:45:23,403] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:45:23,405] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:45:23,405] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:46:20,577] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:46:20,577] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:46:27,928] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:46:27,929] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:46:28,759] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:46:28,760] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:46:28,760] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:46:28,760] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:46:28,761] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:46:28,761] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:46:29,770] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:46:29,887] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:46:30,053] I order.py | Kiwoom-request_sijang_medo_order-0075 I DEBUG    > 시장가 매도주문 전달 성공 종목코드: 009270 수량: 2
+[2020-06-21 16:46:31,021] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:46:31,022] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:46:31,022] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:46:31,260] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 6000, 요청이름: 신규매도, tr코드: KOA_NORMAL_SELL_KP_ORD --- [00Z218] 모의투자 장종료 상태입니다
+[2020-06-21 16:54:43,885] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 16:54:43,885] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 16:54:45,051] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:54:45,052] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 16:54:45,934] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 16:54:45,935] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 16:54:45,935] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 16:54:45,935] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 16:54:45,936] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:54:45,936] I mystock.py | Kiwoom-append_Data-0012 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 16:54:46,945] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 16:54:47,175] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 16:54:47,457] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 16:54:47,458] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 16:54:47,459] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 16:54:47,463] I order.py | Kiwoom-request_sijang_medo_order-0075 I DEBUG    > 시장가 매도주문 전달 성공 종목코드: 009270 수량: 2
+[2020-06-21 16:54:47,496] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 6000, 요청이름: 신규매도, tr코드: KOA_NORMAL_SELL_KP_ORD --- [00Z218] 모의투자 장종료 상태입니다
+[2020-06-21 17:01:15,681] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 17:01:15,681] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 17:01:16,806] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:01:16,807] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 17:01:16,885] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:01:16,886] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 17:01:16,886] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 17:01:16,886] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 17:01:16,886] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:01:16,887] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:01:17,896] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 17:01:17,934] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 17:01:18,207] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 17:01:18,208] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 17:01:18,208] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 17:01:43,216] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 17:01:43,216] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 17:01:44,290] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:01:44,292] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 17:01:44,381] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:01:44,382] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 17:01:44,382] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 17:01:44,382] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 17:01:44,383] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:01:44,383] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:01:45,392] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 17:01:45,409] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 17:01:45,694] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 17:01:45,695] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 17:01:45,695] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 17:03:18,639] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 17:03:18,640] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 17:03:19,738] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:03:19,740] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 17:03:20,109] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:03:20,110] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 17:03:20,110] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 17:03:20,110] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 17:03:20,111] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:03:20,111] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:03:21,119] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 17:03:22,157] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 17:03:22,437] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 17:03:22,439] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 17:03:22,439] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 17:03:59,436] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 17:03:59,436] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 17:04:00,448] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:04:00,450] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 17:04:00,528] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:04:00,529] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 17:04:00,529] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 17:04:00,530] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 17:04:00,530] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:04:00,530] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:04:01,546] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 17:04:01,564] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 17:05:09,564] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 17:05:09,564] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 17:05:10,688] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:05:10,690] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 17:05:10,779] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:05:10,780] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 17:05:10,780] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 17:05:10,780] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 17:05:10,781] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:05:10,781] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:05:11,791] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 17:05:12,003] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 17:05:12,429] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 17:05:12,429] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 17:05:12,430] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 17:06:11,922] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 17:06:11,922] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 17:06:13,048] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:06:13,049] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 17:06:13,138] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:06:13,139] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 17:06:13,139] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 17:06:13,139] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 17:06:13,140] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:06:13,140] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:06:14,150] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 17:06:14,175] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 17:06:14,523] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 17:06:14,524] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 17:06:14,524] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 17:54:09,369] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 17:54:09,369] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 17:54:11,185] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:54:11,186] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 17:54:12,153] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 17:54:12,154] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 17:54:12,154] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 17:54:12,154] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 17:54:12,155] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:54:12,155] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 17:54:13,164] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 17:54:13,959] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 17:54:14,329] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 17:54:14,331] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 17:54:14,331] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 18:20:04,058] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:20:04,059] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:20:05,548] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:20:05,550] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:20:05,628] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:20:05,629] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:20:05,630] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:20:05,630] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:20:05,630] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:20:05,631] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:20:06,641] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:20:06,661] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:21:13,941] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:21:13,941] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:21:15,760] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:21:15,762] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:21:17,037] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:21:17,038] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:21:17,039] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:21:17,039] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:21:17,039] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:21:17,039] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:21:18,058] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:21:18,251] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:24:41,522] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:24:41,522] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:24:46,523] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:24:46,524] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:24:47,346] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:24:47,347] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:24:47,348] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:24:47,348] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:24:47,348] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:24:47,349] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:24:48,365] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:24:48,789] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:25:31,108] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:25:31,109] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:25:32,943] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:25:32,944] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:25:33,644] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:25:33,645] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:25:33,645] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:25:33,646] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:25:33,646] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:25:33,646] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:25:34,662] I tr.py | Kiwoom-request_not_concluded_account-0057 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:25:34,685] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:28:30,130] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:28:30,131] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:28:33,513] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:28:33,515] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:28:36,457] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:28:36,459] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:28:36,459] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:28:36,459] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:28:36,460] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:28:36,460] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:28:37,478] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:28:38,355] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:28:39,460] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 18:28:39,462] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 18:28:39,463] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 18:29:06,263] I real.py | Kiwoom-request_real_condition-0028 I DEBUG    > 조회 성공여부 1 
+[2020-06-21 18:40:21,757] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:40:21,758] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:40:23,086] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:40:23,088] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:40:23,177] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:40:23,178] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:40:23,179] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:40:23,179] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:40:23,179] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:40:23,180] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:40:24,193] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:40:24,216] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:40:24,409] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 18:40:24,410] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 18:40:24,411] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 18:40:24,417] I real.py | Kiwoom-request_real_condition-0028 I DEBUG    > 조회 성공여부 1 
+[2020-06-21 18:40:24,460] I tr.py | Kiwoom-receive_condition_stock_tr-0150 I DEBUG    > 화면번호: 0156, 종목코드 리스트: 002070;025980;045390;095700;102280;289080;, 조건식 이름: 단타급등주, 조건식 인덱스: 0, 연속조회: 0
+[2020-06-21 18:40:24,460] I tr.py | Kiwoom-receive_condition_stock_tr-0153 I DEBUG    > 코드 종목 
+ ['002070', '025980', '045390', '095700', '102280', '289080']
+[2020-06-21 18:55:36,898] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:55:36,899] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:55:38,094] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:55:38,095] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:55:38,206] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:55:38,207] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:55:38,207] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:55:38,207] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:55:38,208] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:55:38,208] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:55:39,221] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:55:39,245] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:55:39,405] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 18:55:39,406] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 18:55:39,406] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 18:56:26,919] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:56:26,919] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:56:27,735] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:56:27,736] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:56:27,816] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:56:27,817] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:56:27,817] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:56:27,818] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:56:27,818] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:56:27,818] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:56:28,829] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:56:28,850] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:56:28,999] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 18:56:29,000] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 18:56:29,000] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 18:56:29,005] I real.py | Kiwoom-request_real_condition-0028 I DEBUG    > 조회 성공여부 1 
+[2020-06-21 18:56:29,036] I tr.py | Kiwoom-receive_condition_stock_tr-0150 I DEBUG    > 화면번호: 0156, 종목코드 리스트: 002070;025980;045390;095700;102280;289080;, 조건식 이름: 단타급등주, 조건식 인덱스: 0, 연속조회: 0
+[2020-06-21 18:56:29,037] I tr.py | Kiwoom-receive_condition_stock_tr-0153 I DEBUG    > 코드 종목 
+ ['002070', '025980', '045390', '095700', '102280', '289080']
+[2020-06-21 18:57:22,590] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:57:22,590] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:57:23,789] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:57:23,790] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:57:24,036] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:57:24,037] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:57:24,037] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:57:24,037] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:57:24,037] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:57:24,037] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:57:25,047] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:57:25,102] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:57:25,260] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 18:57:25,260] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 18:57:25,260] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 18:57:25,267] I real.py | Kiwoom-request_real_condition-0028 I DEBUG    > 조회 성공여부 1 
+[2020-06-21 18:57:25,361] I tr.py | Kiwoom-receive_condition_stock_tr-0150 I DEBUG    > 화면번호: 0156, 종목코드 리스트: 002070;025980;045390;095700;102280;289080;, 조건식 이름: 단타급등주, 조건식 인덱스: 0, 연속조회: 0
+[2020-06-21 18:57:25,361] I tr.py | Kiwoom-receive_condition_stock_tr-0153 I DEBUG    > 코드 종목 
+ ['002070', '025980', '045390', '095700', '102280', '289080']
+[2020-06-21 18:57:51,988] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 18:57:51,989] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 18:57:53,717] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:57:53,719] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 18:57:53,795] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 18:57:53,796] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 18:57:53,796] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 18:57:53,796] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 18:57:53,797] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:57:53,797] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 18:57:54,806] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 18:57:54,969] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 18:57:55,143] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 18:57:55,144] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;
+[2020-06-21 18:57:55,144] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 19:44:32,204] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 19:44:32,205] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 19:44:32,259] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 19:44:32,260] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 19:44:32,682] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 19:44:32,683] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 19:44:32,683] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 19:44:32,683] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 19:44:32,684] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 19:44:32,684] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 19:44:33,694] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 19:44:33,851] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 19:44:34,033] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 19:44:34,034] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;
+[2020-06-21 19:44:34,034] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 19:44:34,036] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-06-21 19:59:36,216] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 19:59:36,216] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 19:59:36,259] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 19:59:36,261] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 19:59:36,338] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 19:59:36,339] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 19:59:36,339] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 19:59:36,339] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 19:59:36,340] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 19:59:36,340] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 19:59:37,350] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 19:59:37,374] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 19:59:37,551] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 19:59:37,553] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;
+[2020-06-21 19:59:37,553] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 19:59:37,555] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-06-21 19:59:37,562] I real.py | Kiwoom-request_real_condition-0028 I DEBUG    > 조회 성공여부 1 
+[2020-06-21 19:59:37,593] I tr.py | Kiwoom-receive_condition_stock_tr-0150 I DEBUG    > 화면번호: 0156, 종목코드 리스트: 003620;047770;064290;215090;289080;, 조건식 이름: 이평선돌파급등주, 조건식 인덱스: 1, 연속조회: 0
+[2020-06-21 19:59:37,593] I tr.py | Kiwoom-receive_condition_stock_tr-0153 I DEBUG    > 코드 종목 
+ ['003620', '047770', '064290', '215090', '289080']
+[2020-06-21 20:01:01,636] I slot.py | Kiwoom-receive_login_slot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-06-21 20:01:01,637] I tr.py | Kiwoom-receive_account_num-0021 I DEBUG    > 계좌번호: 8138832611
+[2020-06-21 20:01:01,703] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 20:01:01,704] I tr.py | Kiwoom-receive_deposit-0031 I DEBUG    > 예수금 10325047
+[2020-06-21 20:01:01,780] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-21 20:01:01,781] I tr.py | Kiwoom-receive_total_buy_money-0040 I DEBUG    > 총매입금액: 3080
+[2020-06-21 20:01:01,781] I tr.py | Kiwoom-receive_total_profit_loss_money-0052 I DEBUG    > 총평가손익금액: -68
+[2020-06-21 20:01:01,781] I tr.py | Kiwoom-receive_total_profit_loss_rate-0062 I DEBUG    > 총수익률: -2.21
+[2020-06-21 20:01:01,782] I tr.py | Kiwoom-receive_mystock-0093 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 20:01:01,782] I mystock.py | Kiwoom-append_Data-0014 I DEBUG    > 종목코드: 009270 - 종목명: 신원 - 보유수량: 2 - 매입금액:3080
+[2020-06-21 20:01:02,792] I tr.py | Kiwoom-request_not_concluded_account-0058 I DEBUG    > 미체결 종목 요청
+[2020-06-21 20:01:02,815] I slot.py | Kiwoom-receive_msg_slot-0063 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-21 20:01:02,963] I tr.py | Kiwoom-receive_condition_name_list-0142 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-06-21 20:01:02,965] I tr.py | Kiwoom-receive_condition_name_list-0144 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;
+[2020-06-21 20:01:02,965] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-06-21 20:01:02,967] I condition.py | Kiwoom-condition_name_list_to_condition_df-0016 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주

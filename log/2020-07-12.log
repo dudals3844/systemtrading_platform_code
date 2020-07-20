@@ -1,0 +1,36 @@
+[2020-07-12 08:00:08,068] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-12 08:00:08,070] I tr.py | Kiwoom-receiveAccountNum-0035 I DEBUG    > 계좌번호: 8138832611
+[2020-07-12 08:00:08,119] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-12 08:00:08,121] I tr.py | Kiwoom-receiveDeposit-0045 I DEBUG    > 예수금 4426942
+[2020-07-12 08:00:08,189] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-12 08:00:08,191] I tr.py | Kiwoom-receiveDeposit-0045 I DEBUG    > 예수금 4426942
+[2020-07-12 08:00:08,269] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-12 08:00:08,270] I tr.py | Kiwoom-receiveTotalBuyMoney-0055 I DEBUG    > 총매입금액: 17119320
+[2020-07-12 08:00:08,271] I tr.py | Kiwoom-receiveTotalProfitLossMoney-0067 I DEBUG    > 총평가손익금액: -224540
+[2020-07-12 08:00:08,271] I tr.py | Kiwoom-receiveTotalProfitLossRate-0077 I DEBUG    > 총수익률: -1.31
+[2020-07-12 08:00:08,272] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 020150 - 종목명: 일진머티리얼즈 - 보유수량: 41 - 매입금액:2140200
+[2020-07-12 08:00:08,272] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 020150 - 종목명: 일진머티리얼즈 - 보유수량: 41 - 매입금액:2140200
+[2020-07-12 08:00:08,284] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 053300 - 종목명: 한국정보인증 - 보유수량: 349 - 매입금액:2174270
+[2020-07-12 08:00:08,285] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 053300 - 종목명: 한국정보인증 - 보유수량: 349 - 매입금액:2174270
+[2020-07-12 08:00:08,294] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 101490 - 종목명: 에스앤에스텍 - 보유수량: 54 - 매입금액:2138400
+[2020-07-12 08:00:08,295] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 101490 - 종목명: 에스앤에스텍 - 보유수량: 54 - 매입금액:2138400
+[2020-07-12 08:00:08,305] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 180640 - 종목명: 한진칼 - 보유수량: 23 - 매입금액:2067700
+[2020-07-12 08:00:08,306] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 180640 - 종목명: 한진칼 - 보유수량: 23 - 매입금액:2067700
+[2020-07-12 08:00:08,321] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 204270 - 종목명: 제이앤티씨 - 보유수량: 155 - 매입금액:2146750
+[2020-07-12 08:00:08,321] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 204270 - 종목명: 제이앤티씨 - 보유수량: 155 - 매입금액:2146750
+[2020-07-12 08:00:08,339] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 240810 - 종목명: 원익IPS - 보유수량: 62 - 매입금액:2157600
+[2020-07-12 08:00:08,340] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 240810 - 종목명: 원익IPS - 보유수량: 62 - 매입금액:2157600
+[2020-07-12 08:00:08,358] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 298380 - 종목명: 에이비엘바이오 - 보유수량: 78 - 매입금액:2148900
+[2020-07-12 08:00:08,359] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 298380 - 종목명: 에이비엘바이오 - 보유수량: 78 - 매입금액:2148900
+[2020-07-12 08:00:08,388] I tr.py | Kiwoom-receiveMystock-0108 I DEBUG    > 종목코드: 308170 - 종목명: 센트랄모텍 - 보유수량: 70 - 매입금액:2145500
+[2020-07-12 08:00:08,389] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 308170 - 종목명: 센트랄모텍 - 보유수량: 70 - 매입금액:2145500
+[2020-07-12 08:00:09,417] I tr.py | Kiwoom-requestNotConcludedAccount-0227 I DEBUG    > 미체결 종목 요청
+[2020-07-12 08:00:09,445] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-07-12 08:00:09,610] I tr.py | Kiwoom-receiveConditionNameList-0157 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-07-12 08:00:09,614] I tr.py | Kiwoom-receiveConditionNameList-0159 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;003^거래량상위볼리저상향선하향돌파;004^거래량상위볼린저하한선상향;005^거래량급등주;
+[2020-07-12 08:00:09,615] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-07-12 08:00:09,618] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-07-12 08:00:09,620] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 2, 이름: 눌림목돌파
+[2020-07-12 08:00:09,624] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 3, 이름: 거래량상위볼리저상향선하향돌파
+[2020-07-12 08:00:09,626] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 4, 이름: 거래량상위볼린저하한선상향
+[2020-07-12 08:00:09,629] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 5, 이름: 거래량급등주
