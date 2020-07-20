@@ -22,7 +22,7 @@ class MovingAverageBreakThroughStrategy(Trading):
         self.tmp_code = None
 
     def requestMovingAverageBreakthroughStrategy(self):
-        index, condition_nm = self.condition.findData(1)
+        index, condition_nm = self.condition.isReceive(1)
         self.requestRealCondition(index, condition_nm)
 
 

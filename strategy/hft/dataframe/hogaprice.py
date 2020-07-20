@@ -24,6 +24,8 @@ class HogaPrice():
             if tmpPrice == price:
                 return i
 
+    def getDataFrame(self, code):
+        return self.hogaPriceDataFrame[code]
 
     def saveData(self):
         self.hogaDataFrame.to_csv("C:/Users/PC/PycharmProjects/systemtrading_platform/strategy/hft/호가가격.csv",mode='w')

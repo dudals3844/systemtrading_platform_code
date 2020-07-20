@@ -22,7 +22,7 @@ class IsHogaReceive():
         except:
             return False
 
-    def findData(self, code):
+    def isReceive(self, code):
         status = self.isHogaReceiveDataFrame['호가도착'].loc[code]
         return status
 

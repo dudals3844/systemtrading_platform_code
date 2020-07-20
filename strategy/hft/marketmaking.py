@@ -74,7 +74,7 @@ class MarketMaking(Trading):
         elif sRealType == '주식호가잔량':
             self.hogaPriceDF.appendColumnData(Real.receiveHoga(self, sCode, sRealType))
             # 시작할때 매수 2호가에 주문
-            if not self.ishogaReceive:
+            if not self.ishogaReceiveDF.isReceive(code=sCode):
                 self.jijungMesuHogaOrder(mesuIndex=self.mesu2HogaIndex, mesuStockNum=self.TradingStockNumber)
 
 
@@ -272,7 +272,7 @@ class MarketMaking(Trading):
 
 
     def requestShotUpStrategy(self):
-        index, condition_nm = self.condition.findData(0)
+        index, condition_nm = self.condition.isReceive(0)
         self.requestRealCondition(index, condition_nm)
 
 
@@ -283,6 +283,8 @@ class MarketMaking(Trading):
             if self.nowCompanyNumber <= self.maxCompanyNumber:
                 if not self.ishogaReceiveDF.hasData(code):
                     self.ishogaReceiveDF.inputDefaultData(code)
+                    Real.requestHoga(self, code)
+                    self.nowCompanyNumber += 1
 
         elif type == 'D':
             pass

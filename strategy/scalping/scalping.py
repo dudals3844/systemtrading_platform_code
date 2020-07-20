@@ -21,11 +21,11 @@ class Scalping(Trading):
 
 
     def requestIncreaseVolumeCondition(self):
-        index, conditionName = self.condition.findData(5)
+        index, conditionName = self.condition.isReceive(5)
         self.requestRealCondition(index, conditionName)
 
     def requestMovingAverageBreakthroughCondition(self):
-        index, conditionName = self.condition.findData(1)
+        index, conditionName = self.condition.isReceive(1)
         self.requestRealCondition(index, conditionName)
 
     # Override
