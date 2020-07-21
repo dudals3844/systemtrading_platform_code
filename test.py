@@ -46,16 +46,9 @@ import asyncio
 #     t2 = Process(target=playOtherSound())
 #     time.sleep(2)
 #     t2.start()
-tmpList = [1,2,3,4]
-tmpList2 = [5,6,7,8]
-df = pd.DataFrame()
-
-df['a'] = tmpList
-df['a'] = tmpList2
-df['b'] = tmpList
-print(df)
-# df = df['a']
-print(df.iloc[2])
-
-
-
+print(2%10)
+while True:
+    second = time.strftime('%S', time.localtime((time.time())))
+    second = int(second)
+    if second % 10 == 0:
+        print('10초마다 실행')

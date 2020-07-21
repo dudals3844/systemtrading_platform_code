@@ -35,6 +35,7 @@ class MarketMaking(Trading):
 
         self.mesu2HogaIndex = 11
         self.medo2HogaIndex = 8
+        self.maxMesuIndex = 13
 
 
 
@@ -79,10 +80,13 @@ class MarketMaking(Trading):
             sCode, hogaTime, mesu_1, medo_1, mesu_1_Quantity, medo_1_Quantity, mesu_2, medo_2, mesu_2_Quantity,medo_2_Quantity,mesu_3,medo_3,mesu_3_Quantity,medo_3_Quantity,mesu_4,medo_4,mesu_4_Quantity,medo_4_Quantity,mesu_5,medo_5,mesu_5_Quantity,medo_5_Quantity,mesu_6,medo_6,mesu_6_Quantity,medo_6_Quantity,mesu_7,medo_7,mesu_7_Quantity,medo_7_Quantity,mesu_8,medo_8,mesu_8_Quantity,medo_8_Quantity,mesu_9, medo_9,mesu_9_Quantity,medo_9_Quantity, mesu_10,medo_10,mesu_10_Quantity,medo_10_Quantity,totalMesuHoga,totalMedoHoga = Real.receiveHoga(self, sCode, sRealType)
             self.hogaPriceDF.appendColumnData(sCode, hogaTime, mesu_1, medo_1, mesu_1_Quantity, medo_1_Quantity, mesu_2, medo_2, mesu_2_Quantity,medo_2_Quantity,mesu_3,medo_3,mesu_3_Quantity,medo_3_Quantity,mesu_4,medo_4,mesu_4_Quantity,medo_4_Quantity,mesu_5,medo_5,mesu_5_Quantity,medo_5_Quantity,mesu_6,medo_6,mesu_6_Quantity,medo_6_Quantity,mesu_7,medo_7,mesu_7_Quantity,medo_7_Quantity,mesu_8,medo_8,mesu_8_Quantity,medo_8_Quantity,mesu_9, medo_9,mesu_9_Quantity,medo_9_Quantity, mesu_10,medo_10,mesu_10_Quantity,medo_10_Quantity,totalMesuHoga,totalMedoHoga)
             # 시작할때 매수 2호가에 주문
-            print("호가도착: "+sCode)
+
+            sCode = self.standard.standardCode(sCode)
             if not self.ishogaReceiveDF.isReceive(code=sCode):
                 self.jijungMesuHogaOrder(code=sCode, mesuIndex=self.mesu2HogaIndex, mesuStockNum=self.TradingStockNumber)
                 self.ishogaReceiveDF.modifyIsHogaReceiveTrue(code=sCode)
+
+            self.mesuReposition(code=sCode)
 
 
 
@@ -111,12 +115,14 @@ class MarketMaking(Trading):
     def jijungMesuHogaOrder(self, code, mesuIndex, mesuStockNum):
         hogaDataFrame = self.hogaPriceDF.getDataFrame(code = code)
         mesu2Hoga = hogaDataFrame.iloc[mesuIndex]
+        mesu2Hoga = int(mesu2Hoga)
         Order.requestJijungMesuOrder(self, sCode=code, mesuStockNum=mesuStockNum, mesuPrice=mesu2Hoga)
 
 
     def jijungMedoHogaOrder(self, code, medoIndex, medoStockNum):
         hogaDataFrame = self.hogaPriceDF.getDataFrame(code=code)
         medo2Hoga = hogaDataFrame.iloc[medoIndex]
+        medo2Hoga = int(medo2Hoga)
         Order.requestJijunhMedoOrder(self, sCode=code, medoStockNum=medoStockNum, medoPrice=medo2Hoga)
 
 
@@ -231,40 +237,37 @@ class MarketMaking(Trading):
             pass
 
 
+    def mesuReposition(self, code):
+        if not self.myStock.hasData(code):
+            tmpDF = self.notConMesuDF.getDataFrame()
+            for i in range(len(tmpDF)):
+                tmpcode = tmpDF['종목코드'].iloc[i]
+                tmpcode = self.standard.standardCode(tmpcode)
+                price = tmpDF['주문가격'].iloc[i]
+                orderNumber = tmpDF['주문번호'].iloc[i]
+                if tmpcode == code and self.hogaPriceDF.findIndex(code=code, price= price) > self.maxMesuIndex:
+                    self.notConMesuDF.deleteRow(orderNum=orderNumber)
+                    Order.requestMesuCancelOrder(self, code, orderNumber)
+                    self.jijungMesuHogaOrder(code = code, mesuIndex= self.mesu2HogaIndex, mesuStockNum=self.TradingStockNumber)
 
-    # def mesuReposition(self):
-    #
-    #
-    #     tmpMesuDataFrame = self.notConMesuDF.getDataFrame()
-    #     for i in range(len(tmpMesuDataFrame)):
-    #         price = tmpMesuDataFrame['주문가격'].iloc[i]
-    #         if self.findHogaIndex(price) > 13:
-    #             self.logging.logger.debug('매수호가에서 너무 멀어져서 다시 매수 2호가로 재주문')
-    #             self.cancleAllMesuOrder()
-    #             QTest.qWait(1000)
-    #             break
-    #     if len(tmpMesuDataFrame) == 0:
-    #         # self.jijungMesuHogaOrder(mesuIndex=self.mesu2HogaIndex, mesuStockNum=self.oneTradingStock)
-    #         self.threadJijungMesuHogaOrder(mesuIndex=self.mesu2HogaIndex, mesuStockNum=self.oneTradingStock)
-    #         QTest.qWait(1000)
-    # def medoReposition(self):
-    #     try:
-    #         tmpMedoDataFrame = self.notConMedoDF.getDataFrame()
-    #
-    #         for i in range(len(tmpMedoDataFrame)):
-    #             price = tmpMedoDataFrame['주문가격'].iloc[i]
-    #             notQuantity = tmpMedoDataFrame['미체결수량'].iloc[i]
-    #             orderNumber = tmpMedoDataFrame['주문번호'].iloc[i]
-    #             if self.findHogaIndex(price) < 6:
-    #                 self.logging.logger.debug('매도호가에서 너무 멀어져서 다시 매수 2호가로 재주문')
-    #                 self.logging.logger.debug("미체결 매도 데이터\n"+tmpMedoDataFrame)
-    #                 orderNumber = self.standardOrderNum(orderNumber)
-    #                 Order.requestMedoCancelOrder(self, sCode=self.code, orderNum=orderNumber)
-    #                 self.jijungMedoHogaOrder(medoIndex=self.medo2HogaIndex, medoStockNum=self.standardOrderNum)
-    #
-    #
-    #     except:
-    #         pass
+
+
+        # tmpDF = self.notConMesuDF.getDataFrame()
+        # for i in range(len(tmpDF)):
+        #     code = tmpDF['종목코드'].iloc[i]
+        #     code = self.standard.standardCode(code)
+        #     price = tmpDF['주문가격'].iloc[i]
+        #     orderNumber = tmpDF['주문번호'].iloc[i]
+        #     orderNumber = self.standardOrderNumber(orderNumber)
+        #     if self.hogaPriceDF.findIndex(code=code, price= price) > self.maxMesuIndex:
+        #         if not self.myStock.hasData(code):
+        #             self.notConMesuDF.deleteRow(orderNum=orderNumber)
+        #             Order.requestMesuCancelOrder(self, code, orderNumber)
+
+
+
+
+
 
 
 
