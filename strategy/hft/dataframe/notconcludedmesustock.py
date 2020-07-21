@@ -26,13 +26,14 @@ class NotConcludedMesuStock():
                    okQuantity))
             self.saveData()
 
-    def findNotConcludedOrderNumberList(self):
+    def findNotConcludedOrderNumberList(self, code):
         tmpList = []
         for i in range(len(self.notConcludedMesuDataFrame)):
+            _code = self.notConcludedMesuDataFrame['종목코드'].iloc[i]
             okQuantity = self.notConcludedMesuDataFrame['체결량'].iloc[i]
             orderNumber = self.notConcludedMesuDataFrame['주문번호'].iloc[i]
             orderStatus = self.notConcludedMesuDataFrame['주문상태'].iloc[i]
-            if orderStatus == '접수' and okQuantity == 0:
+            if orderStatus == '접수' and okQuantity == 0 and code == _code:
                 orderNumber = self.standardOrderNumber(orderNumber)
                 tmpList.append(orderNumber)
 

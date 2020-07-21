@@ -54,8 +54,8 @@ df['a'] = tmpList
 df['a'] = tmpList2
 df['b'] = tmpList
 print(df)
-for i in range(len(df['a'])):
-    print(df['a'].iloc[i])
+# df = df['a']
+print(df.iloc[2])
 
 
 
