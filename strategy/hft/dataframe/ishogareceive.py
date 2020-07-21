@@ -26,6 +26,9 @@ class IsHogaReceive():
         status = self.isHogaReceiveDataFrame['호가도착'].loc[code]
         return status
 
+    def getDataFrame(self):
+        return self.isHogaReceiveDataFrame
+
     def modifyIsHogaReceiveTrue(self, code):
         self.isHogaReceiveDataFrame['호가도착'].loc[code] = True
 

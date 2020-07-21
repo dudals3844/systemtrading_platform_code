@@ -69,8 +69,8 @@ class MarketMaking(Trading):
 
             elif status == '2':
                 self.logging.logger.debug('장 종료후 동시호가')
-                self.cancleAllMedoOrder()
                 self.cancleAllMesuOrder()
+                self.cancleAllMedoOrder()
                 self.medoAllStock()
 
             elif status == '4':
@@ -131,8 +131,8 @@ class MarketMaking(Trading):
     def orderCheguel(self, code, orderStatus, orderGubun, notQuantity, okQuantity):
         if orderGubun == '매수' and orderStatus == '체결' and notQuantity == 0:
             if self.myStock.findStockQuantitiyData(self.code) >= self.TradingStockNumber:
-                self.cancleAllMesuOrder(code)
-                self.cancleAllMedoOrder(code)
+                self.cancleMesuOrder(code)
+                self.cancleMedoOrder(code)
                 medoSum = self.myStock.findStockQuantitiyData(code)
                 self.logging.logger.debug('미체결 매도 수량: %s' % (medoSum))
                 mesuIndex = self.changeMesuHogaIndex(totalNotConcludedMedo=medoSum)
@@ -144,8 +144,8 @@ class MarketMaking(Trading):
                 self.jijungMesuHogaOrder(code=code, mesuIndex=self.mesu2HogaIndex, mesuStockNum=self.TradingStockNumber)
 
         elif orderGubun == '매도' and orderStatus == '체결' and notQuantity == 0:
-            self.cancleAllMesuOrder(code)
-            self.cancleAllMedoOrder(code)
+            self.cancleMesuOrder(code)
+            self.cancleMedoOrder(code)
             medoSum = self.myStock.findStockQuantitiyData(code)
             self.logging.logger.debug('미체결 매도 수량: %s' % (medoSum))
             mesuIndex = self.changeMesuHogaIndex(totalNotConcludedMedo=medoSum)
@@ -193,18 +193,46 @@ class MarketMaking(Trading):
         else:
             return 1000
 
-    def cancleAllMesuOrder(self, code):
+    def cancleMesuOrder(self, code):
         notConcludedMesuList = self.notConMesuDF.findNotConcludedOrderNumberList(code=code)
         for orderNumber in notConcludedMesuList:
             Order.requestMesuCancelOrder(self, sCode=self.code, orderNum=orderNumber)
             self.notConMesuDF.deleteRow(orderNumber)
 
 
-    def cancleAllMedoOrder(self, code):
+    def cancleMedoOrder(self, code):
         notConcludedMedoList = self.notConMedoDF.findNotConcludedOrderNumberList(code=code)
         for orderNumber in notConcludedMedoList:
             Order.requestMedoCancelOrder(self, sCode=self.code, orderNum=orderNumber)
             self.notConMedoDF.deleteRow(orderNumber)
+
+    def cancleAllMesuOrder(self):
+        tmpdf = self.ishogaReceiveDF.getDataFrame()
+        for i in range(len(tmpdf)):
+            code = tmpdf['종목코드'].iloc[i]
+            code = self.standard.standardCode(code)
+            try:
+                notConcludedMesuList = self.notConMesuDF.findNotConcludedOrderNumberList(code=code)
+                for orderNumber in notConcludedMesuList:
+                    Order.requestMesuCancelOrder(self, sCode=self.code, orderNum=orderNumber)
+                    self.notConMesuDF.deleteRow(orderNumber)
+            except:
+                self.logging.logger.debug("매수 취소 오류")
+
+    def cancleAllMedoOrder(self):
+        tmpdf = self.ishogaReceiveDF.getDataFrame()
+        for i in range(len(tmpdf)):
+            code = tmpdf['종목코드'].iloc[i]
+            code = self.standard.standardCode(code)
+            try:
+                notConcludedMedoList = self.notConMedoDF.findNotConcludedOrderNumberList(code=code)
+                for orderNumber in notConcludedMedoList:
+                    Order.requestMedoCancelOrder(self, sCode=self.code, orderNum=orderNumber)
+                    self.notConMedoDF.deleteRow(orderNumber)
+            except:
+                self.logging.logger.debug("매도 취소 오류")
+
+
 
 
     def medoAllStock(self):
@@ -249,24 +277,6 @@ class MarketMaking(Trading):
                     self.notConMesuDF.deleteRow(orderNum=orderNumber)
                     Order.requestMesuCancelOrder(self, code, orderNumber)
                     self.jijungMesuHogaOrder(code = code, mesuIndex= self.mesu2HogaIndex, mesuStockNum=self.TradingStockNumber)
-
-
-
-        # tmpDF = self.notConMesuDF.getDataFrame()
-        # for i in range(len(tmpDF)):
-        #     code = tmpDF['종목코드'].iloc[i]
-        #     code = self.standard.standardCode(code)
-        #     price = tmpDF['주문가격'].iloc[i]
-        #     orderNumber = tmpDF['주문번호'].iloc[i]
-        #     orderNumber = self.standardOrderNumber(orderNumber)
-        #     if self.hogaPriceDF.findIndex(code=code, price= price) > self.maxMesuIndex:
-        #         if not self.myStock.hasData(code):
-        #             self.notConMesuDF.deleteRow(orderNum=orderNumber)
-        #             Order.requestMesuCancelOrder(self, code, orderNumber)
-
-
-
-
 
 
 
