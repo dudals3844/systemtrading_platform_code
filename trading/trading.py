@@ -70,8 +70,8 @@ class Trading(Tr, Real, Order ,Slot, Disconnect, Line):
             Tr.receiveNumberOfMystock(self, sRQName, sTrCode)
             index = Tr.getNumberOfMystock(self)
             for i in range(index):
-                code, code_nm, stock_quantity, total_chegual_price = Tr.receiveMystock(self, sRQName, sTrCode, sPrevNext, i)
-                self.myStock.appendData(code, code_nm, stock_quantity, total_chegual_price)
+                code, codeName, stockQuantity, totalChegualPrice = Tr.receiveMystock(self, sRQName, sTrCode, sPrevNext, i)
+                self.myStock.appendData(code, codeName, stockQuantity, totalChegualPrice)
             if sPrevNext == '2':
                 Tr.requestAccountMystock(self, sPrevNext, Tr.getAccountNum(self))
             else:

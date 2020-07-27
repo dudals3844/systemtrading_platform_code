@@ -1,0 +1,160 @@
+[2020-07-24 08:00:23,563] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-24 08:00:23,568] I tr.py | Kiwoom-receiveAccountNum-0035 I DEBUG    > 계좌번호: 8138832611
+[2020-07-24 08:00:24,700] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-24 08:00:24,701] I tr.py | Kiwoom-receiveDeposit-0045 I DEBUG    > 예수금 8059384
+[2020-07-24 08:00:24,769] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-24 08:00:24,783] I tr.py | Kiwoom-receiveDeposit-0045 I DEBUG    > 예수금 8059384
+[2020-07-24 08:00:24,851] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-07-24 08:00:24,852] I tr.py | Kiwoom-receiveTotalBuyMoney-0055 I DEBUG    > 총매입금액: 0
+[2020-07-24 08:00:24,853] I tr.py | Kiwoom-receiveTotalProfitLossMoney-0067 I DEBUG    > 총평가손익금액: 0
+[2020-07-24 08:00:24,853] I tr.py | Kiwoom-receiveTotalProfitLossRate-0077 I DEBUG    > 총수익률: 0.0
+[2020-07-24 08:00:25,854] I tr.py | Kiwoom-requestNotConcludedAccount-0227 I DEBUG    > 미체결 종목 요청
+[2020-07-24 08:00:25,887] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-07-24 08:00:26,061] I tr.py | Kiwoom-receiveConditionNameList-0157 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-07-24 08:00:26,064] I tr.py | Kiwoom-receiveConditionNameList-0159 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;003^거래량상위볼리저상향선하향돌파;004^거래량상위볼린저하한선상향;005^거래량급등주;
+[2020-07-24 08:00:26,065] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-07-24 08:00:26,075] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-07-24 08:00:26,079] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 2, 이름: 눌림목돌파
+[2020-07-24 08:00:26,081] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 3, 이름: 거래량상위볼리저상향선하향돌파
+[2020-07-24 08:00:26,083] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 4, 이름: 거래량상위볼린저하한선상향
+[2020-07-24 08:00:26,086] I condition.py | Kiwoom-conditionNameListToConditionDataFrame-0017 I DEBUG    > 조건식 분리 번호: 5, 이름: 거래량급등주
+[2020-07-24 08:00:26,117] I real.py | Kiwoom-requestRealCondition-0276 I DEBUG    > 조회 성공여부 1 
+[2020-07-24 08:00:26,139] I tr.py | Kiwoom-receiveConditionStockTr-0165 I DEBUG    > 화면번호: 0156, 종목코드 리스트: 900290;900310;900340;000020;000050;000060;000070;000080;000100;000120;000140;000150;000180;000210;000230;000240;000250;000270;000300;000320;000370;000390;000400;000430;000440;000480;000490;000500;000520;000540;000640;000660;000670;000680;000700;000720;000810;000850;000860;000880;000890;000910;000970;000990;001000;001040;001060;001080;001120;001130;001200;001230;001250;001270;001340;001360;001380;001390;001420;001430;001450;, 조건식 이름: 단타급등주, 조건식 인덱스: 0, 연속조회: 0
+[2020-07-24 08:00:26,140] I tr.py | Kiwoom-receiveConditionStockTr-0168 I DEBUG    > 코드 종목 
+ ['900290', '900310', '900340', '000020', '000050', '000060', '000070', '000080', '000100', '000120', '000140', '000150', '000180', '000210', '000230', '000240', '000250', '000270', '000300', '000320', '000370', '000390', '000400', '000430', '000440', '000480', '000490', '000500', '000520', '000540', '000640', '000660', '000670', '000680', '000700', '000720', '000810', '000850', '000860', '000880', '000890', '000910', '000970', '000990', '001000', '001040', '001060', '001080', '001120', '001130', '001200', '001230', '001250', '001270', '001340', '001360', '001380', '001390', '001420', '001430', '001450']
+[2020-07-24 08:30:02,359] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000080, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:02,365] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000080, 종목이탈: D
+[2020-07-24 08:30:03,359] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000720, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:03,360] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000720, 종목이탈: D
+[2020-07-24 08:30:03,361] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001060, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:03,362] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001060, 종목이탈: D
+[2020-07-24 08:30:05,359] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000120, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:05,359] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000120, 종목이탈: D
+[2020-07-24 08:30:05,862] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000250, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:05,862] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000250, 종목이탈: D
+[2020-07-24 08:30:06,363] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000100, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:06,364] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000100, 종목이탈: D
+[2020-07-24 08:30:06,366] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000270, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:06,367] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000270, 종목이탈: D
+[2020-07-24 08:30:10,361] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000240, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:10,362] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000240, 종목이탈: D
+[2020-07-24 08:30:12,359] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000060, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:12,359] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000060, 종목이탈: D
+[2020-07-24 08:30:12,857] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000020, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:12,858] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000020, 종목이탈: D
+[2020-07-24 08:30:14,363] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000520, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:14,363] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000520, 종목이탈: D
+[2020-07-24 08:30:14,365] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001120, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:14,365] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001120, 종목이탈: D
+[2020-07-24 08:30:15,853] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001230, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:15,854] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001230, 종목이탈: D
+[2020-07-24 08:30:17,353] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000810, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:17,353] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000810, 종목이탈: D
+[2020-07-24 08:30:17,859] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001200, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:17,859] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001200, 종목이탈: D
+[2020-07-24 08:30:19,355] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000970, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:19,355] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000970, 종목이탈: D
+[2020-07-24 08:30:31,359] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001380, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:31,359] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001380, 종목이탈: D
+[2020-07-24 08:30:37,357] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000270, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:37,357] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 000270, 종목편입: I
+[2020-07-24 08:30:37,405] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001380, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:37,406] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 001380, 종목편입: I
+[2020-07-24 08:30:37,416] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001430, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:37,417] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001430, 종목이탈: D
+[2020-07-24 08:30:38,359] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000910, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:38,359] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000910, 종목이탈: D
+[2020-07-24 08:30:42,860] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000300, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:30:42,860] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000300, 종목이탈: D
+[2020-07-24 08:31:36,859] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001040, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:31:36,860] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001040, 종목이탈: D
+[2020-07-24 08:31:41,356] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000990, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:31:41,357] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000990, 종목이탈: D
+[2020-07-24 08:31:42,858] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000150, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:31:42,858] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000150, 종목이탈: D
+[2020-07-24 08:32:02,353] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001390, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:32:02,354] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001390, 종목이탈: D
+[2020-07-24 08:32:15,360] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000270, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:32:15,360] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000270, 종목이탈: D
+[2020-07-24 08:32:51,351] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000670, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:32:51,352] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000670, 종목이탈: D
+[2020-07-24 08:33:19,856] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000680, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:33:19,857] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000680, 종목이탈: D
+[2020-07-24 08:33:47,854] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000180, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:33:47,854] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000180, 종목이탈: D
+[2020-07-24 08:33:48,358] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001000, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:33:48,358] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001000, 종목이탈: D
+[2020-07-24 08:34:15,852] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001380, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:34:15,852] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001380, 종목이탈: D
+[2020-07-24 08:34:40,850] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001420, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:34:40,850] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001420, 종목이탈: D
+[2020-07-24 08:35:30,947] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001380, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:35:30,948] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 001380, 종목편입: I
+[2020-07-24 08:35:46,945] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000400, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:35:46,946] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000400, 종목이탈: D
+[2020-07-24 08:36:11,447] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000070, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:36:11,448] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000070, 종목이탈: D
+[2020-07-24 08:36:36,443] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000890, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:36:36,444] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000890, 종목이탈: D
+[2020-07-24 08:37:26,946] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000490, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:37:26,947] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000490, 종목이탈: D
+[2020-07-24 08:38:10,451] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 001380, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:38:10,452] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001380, 종목이탈: D
+[2020-07-24 08:39:17,438] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 000140, 이벤트종류: D, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 08:39:17,439] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 000140, 종목이탈: D
+[2020-07-24 08:39:58,746] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:39:58,856] I order.py | Kiwoom-requestJijungMesuOrder-0021 I DEBUG    > 지정가 매수주문 전달 성공 종목코드: 000270 수량: 2 매수가격: -35750
+[2020-07-24 08:39:58,876] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 6000, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z212] 모의투자 상하한가 오류
+[2020-07-24 08:39:58,946] I order.py | Kiwoom-requestJijungMesuOrder-0021 I DEBUG    > 지정가 매수주문 전달 성공 종목코드: 001380 수량: 2 매수가격: -1610
+[2020-07-24 08:39:58,962] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 6000, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z212] 모의투자 상하한가 오류
+[2020-07-24 08:40:58,743] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:41:58,744] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:42:58,738] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:43:58,731] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:44:58,734] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:45:58,736] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:46:58,729] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:47:58,734] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:48:58,727] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:49:58,730] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:50:58,728] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:51:58,722] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:52:58,720] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:53:58,725] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:54:58,721] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:55:58,719] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:56:58,720] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:57:58,712] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:58:58,714] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:59:08,712] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:59:18,715] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:59:28,714] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:59:38,708] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:59:48,711] I marketmaking.py | Kiwoom-receiveRealdataSlot-0062 I DEBUG    > 장 시작 전
+[2020-07-24 08:59:58,716] I marketmaking.py | Kiwoom-receiveRealdataSlot-0065 I DEBUG    > 장 시작
+[2020-07-24 08:59:58,727] I real.py | Kiwoom-requestRealCondition-0276 I DEBUG    > 조회 성공여부 1 
+[2020-07-24 08:59:58,773] I tr.py | Kiwoom-receiveConditionStockTr-0165 I DEBUG    > 화면번호: 0156, 종목코드 리스트: 000660;001340;001360;, 조건식 이름: 단타급등주, 조건식 인덱스: 0, 연속조회: 0
+[2020-07-24 08:59:58,775] I tr.py | Kiwoom-receiveConditionStockTr-0168 I DEBUG    > 코드 종목 
+ ['000660', '001340', '001360']
+[2020-07-24 09:00:03,813] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 003000, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,814] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 003000, 종목편입: I
+[2020-07-24 09:00:03,828] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 003000, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,829] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 003000, 종목편입: I
+[2020-07-24 09:00:03,831] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 003220, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,831] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 003220, 종목편입: I
+[2020-07-24 09:00:03,840] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 003220, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,840] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 003220, 종목편입: I
+[2020-07-24 09:00:03,842] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 025980, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,844] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 025980, 종목편입: I
+[2020-07-24 09:00:03,845] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 025980, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,845] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 025980, 종목편입: I
+[2020-07-24 09:00:03,846] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 074430, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,847] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 074430, 종목편입: I
+[2020-07-24 09:00:03,848] I real.py | Kiwoom-receiveConditionRealStock-0242 I DEBUG    > 종목코드: 074430, 이벤트종류: I, 조건식이름: 단타급등주, 조건명인덱스: 0
+[2020-07-24 09:00:03,849] I real.py | Kiwoom-receiveConditionRealStock-0245 I DEBUG    > 종목코드: 074430, 종목편입: I
+[2020-07-24 09:00:04,322] I order.py | Kiwoom-requestJijungMesuOrder-0021 I DEBUG    > 지정가 매수주문 전달 성공 종목코드: 003220 수량: 2 매수가격: 25250
+[2020-07-24 09:00:04,341] I order.py | Kiwoom-requestJijungMesuOrder-0021 I DEBUG    > 지정가 매수주문 전달 성공 종목코드: 003000 수량: 2 매수가격: 42150
+[2020-07-24 09:00:04,412] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 6000, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-07-24 09:00:04,465] I slot.py | Kiwoom-receiveMsgSlot-0065 I DEBUG    > 스크린: 6000, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-07-24 09:00:04,475] I notconcludedmesustock.py | Kiwoom-appnedData-0026 I DEBUG    > 미체결 매수 종목코드: 003220 종목명: 대원제약 주문번호: 0007140 주문상태: 접수 원주문번호: 0000000 주문가격: 25250 주문구분: 매수 미체결수량: 2 체결량: 0
+[2020-07-24 09:00:04,520] I notconcludedmesustock.py | Kiwoom-appnedData-0026 I DEBUG    > 미체결 매수 종목코드: 003000 종목명: 부광약품 주문번호: 0007144 주문상태: 접수 원주문번호: 0000000 주문가격: 42150 주문구분: 매수 미체결수량: 2 체결량: 0

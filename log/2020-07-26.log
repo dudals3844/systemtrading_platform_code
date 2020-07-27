@@ -1,0 +1,4 @@
+[2020-07-27 13:13:14,394] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_LOGIN', '사용자정보교환실패')
+[2020-07-27 13:13:14,445] I tr.py | Kiwoom-receiveAccountNum-0035 I DEBUG    > 계좌번호: 
+[2020-07-27 13:13:14,485] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_SOCKET_CLOSED', '통신연결종료')
+[2020-07-27 13:13:14,588] I slot.py | Kiwoom-receiveLoginSlot-0042 I DEBUG    > 로그인 처리결과 ('OP_ERR_SOCKET_CLOSED', '통신연결종료')

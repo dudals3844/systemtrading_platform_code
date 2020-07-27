@@ -130,7 +130,7 @@ class MarketMaking(Trading):
 
     def orderCheguel(self, code, orderStatus, orderGubun, notQuantity, okQuantity):
         if orderGubun == '매수' and orderStatus == '체결' and notQuantity == 0:
-            if self.myStock.findStockQuantitiyData(self.code) >= self.TradingStockNumber:
+            if self.myStock.findStockQuantitiyData(code) >= self.TradingStockNumber:
                 self.cancleMesuOrder(code)
                 self.cancleMedoOrder(code)
                 medoSum = self.myStock.findStockQuantitiyData(code)
@@ -169,7 +169,7 @@ class MarketMaking(Trading):
         if totalNotConcludedMedo/self.TradingStockNumber >= 3:
             spread = totalNotConcludedMedo / self.TradingStockNumber - 2
             if int(self.mesu2HogaIndex + spread) <= self.maxMesuIndex:
-                self.logging.logger("매수 인덱스: %s" %(str(self.mesu2HogaIndex+spread)))
+                self.logging.logger.debug('매수 인덱스: %s'%(str(self.mesu2HogaIndex+spread)))
                 return int(self.mesu2HogaIndex + spread)
             else:
                 return self.maxMesuIndex
@@ -196,14 +196,14 @@ class MarketMaking(Trading):
     def cancleMesuOrder(self, code):
         notConcludedMesuList = self.notConMesuDF.findNotConcludedOrderNumberList(code=code)
         for orderNumber in notConcludedMesuList:
-            Order.requestMesuCancelOrder(self, sCode=self.code, orderNum=orderNumber)
+            Order.requestMesuCancelOrder(self, sCode=code, orderNum=orderNumber)
             self.notConMesuDF.deleteRow(orderNumber)
 
 
     def cancleMedoOrder(self, code):
         notConcludedMedoList = self.notConMedoDF.findNotConcludedOrderNumberList(code=code)
         for orderNumber in notConcludedMedoList:
-            Order.requestMedoCancelOrder(self, sCode=self.code, orderNum=orderNumber)
+            Order.requestMedoCancelOrder(self, sCode=code, orderNum=orderNumber)
             self.notConMedoDF.deleteRow(orderNumber)
 
     def cancleAllMesuOrder(self):
@@ -214,7 +214,7 @@ class MarketMaking(Trading):
             try:
                 notConcludedMesuList = self.notConMesuDF.findNotConcludedOrderNumberList(code=code)
                 for orderNumber in notConcludedMesuList:
-                    Order.requestMesuCancelOrder(self, sCode=self.code, orderNum=orderNumber)
+                    Order.requestMesuCancelOrder(self, sCode=code, orderNum=orderNumber)
                     self.notConMesuDF.deleteRow(orderNumber)
             except:
                 self.logging.logger.debug("매수 취소 오류")
@@ -227,7 +227,7 @@ class MarketMaking(Trading):
             try:
                 notConcludedMedoList = self.notConMedoDF.findNotConcludedOrderNumberList(code=code)
                 for orderNumber in notConcludedMedoList:
-                    Order.requestMedoCancelOrder(self, sCode=self.code, orderNum=orderNumber)
+                    Order.requestMedoCancelOrder(self, sCode=code, orderNum=orderNumber)
                     self.notConMedoDF.deleteRow(orderNumber)
             except:
                 self.logging.logger.debug("매도 취소 오류")

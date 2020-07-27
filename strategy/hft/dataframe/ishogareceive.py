@@ -31,6 +31,7 @@ class IsHogaReceive():
 
     def modifyIsHogaReceiveTrue(self, code):
         self.isHogaReceiveDataFrame['호가도착'].loc[code] = True
+        self.saveData()
 
     def saveData(self):
         self.isHogaReceiveDataFrame.to_csv("C:/Users/PC/PycharmProjects/systemtrading_platform/strategy/hft/호가도착.csv",mode='w')
