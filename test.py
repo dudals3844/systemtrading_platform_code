@@ -53,17 +53,12 @@ import asyncio
 #     if second % 10 == 0:
 #         print('10초마다 실행')
 
-
 class A:
-    def a(self):
-        print('a')
-
-class B (A):
-    def b(self):
+    def request(self):
         pass
 
-class C(B):
-    def __init__(self):
-        A.a(self)
+class A:
+    def receive(self):
+        pass
 
-c = C()
+
