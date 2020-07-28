@@ -47,7 +47,7 @@ class MarketMaking(Trading):
         # self.tradingStatus.appendData(code=code, mesu=True, medo=False)
 
 
-        self.requestShotUpStrategy()
+        # self.requestShotUpStrategy()
 
         Real.requestRealJangCheck(self)
 
