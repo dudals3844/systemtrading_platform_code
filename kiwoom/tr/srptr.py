@@ -21,7 +21,7 @@ class TrRequestBase(QAxWidget, Line, metaclass=ABCMeta):
         self.logging = Logging()
 
     @abstractmethod
-    def request(self, sPreNext ="0"):
+    def request(self, sPrevNext ="0"):
         pass
 
     @abstractmethod
@@ -202,14 +202,16 @@ class TickPriceData(TrReceiveBase):
         data = self.dynamicCall("GetCommDataEx(QString,QString)", sTrCode, sRQName)
         return sPrevNext, code, data
 
-class OcxInstance(QAxWidget):
-    def getOcxInstance(self):
-        self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
+
 
 
 class Login(TrRequestBase):
     def __init__(self):
+        self.getOcxInstance()
         self.loginEventLoop = QEventLoop()
+
+    def getOcxInstance(self):
+        self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
 
     def request(self):
         self.dynamicCall("CommConnect()")
@@ -222,12 +224,12 @@ class AccountInfo(TrRequestBase):
     def __init__(self):
         self.accountInfoLoop = QEventLoop()
 
-    def request(self, sPreNext ="0", accountNum = None):
+    def request(self, sPrevNext ="0", accountNum = None):
         self.dynamicCall("SetInputValue(QString,QString)", "계좌번호", accountNum)
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호", "0000")
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호입력매체구분", "00")
         self.dynamicCall("SetInputValue(QString,QString)", "조회구분", "1")
-        self.dynamicCall("CommRqData(QString,QString,int,QString)", "예수금상세현황요청", "opw00001", sPreNext,
+        self.dynamicCall("CommRqData(QString,QString,int,QString)", "예수금상세현황요청", "opw00001", sPrevNext,
                          self.screenNumber)
         self.accountInfoLoop.exec_()
 
@@ -237,15 +239,67 @@ class AccountInfo(TrRequestBase):
 class NotConcludedAccount(TrRequestBase):
     def __init__(self):
         self.notConcludedAccountLoop = QEventLoop()
+        self.screenNumber = '1000'
 
-    def request(self, sPreNext ="0", accountNum = None):
+    def request(self, sPrevNext ="0", accountNum = None):
         self.logging.logger.debug("미체결 종목 요청")
-        self.dynamicCall("SetInputValue(QString,QString)", '계좌번호', account_num)
+        self.dynamicCall("SetInputValue(QString,QString)", '계좌번호', accountNum)
         self.dynamicCall("SetInputValue(QString,QString)", '체결구분', "1")
         self.dynamicCall("SetInputValue(QString,QString)", '매매구분', "0")
-        self.dynamicCall("CommRqData(QString,QString,int,QString)", "실시간미체결요청", "opt10075", sPrevNext,
-                         self.screenNumber)
+        self.dynamicCall("CommRqData(QString,QString,int,QString)", "실시간미체결요청", "opt10075", sPrevNext,self.screenNumber)
         self.notConcludedAccountLoop.exec_()
 
     def exitEventLoop(self):
         self.notConcludedAccountLoop.exit()
+
+
+class Condition(TrRequestBase):
+    def __init__(self):
+        self.conditionLoop = QEventLoop()
+
+    def request(self):
+        self.dynamicCall('GetConditionLoad()')
+        self.conditionLoop.exec_()
+
+    def exitEventLoop(self):
+        self.conditionLoop.exit()
+
+
+class MinutePrice(TrRequestBase):
+    def __init__(self):
+        self.minutePriceLoop = QEventLoop()
+        self.screenMinutePrice = '4000'
+
+    def request(self, code,sPrevNext ="0"):
+        self.dynamicCall("SetInputValue(QString, QString)", "종목코드", code)
+        self.dynamicCall("SetInputValue(QString, QString)", "틱범위", "1")
+        self.dynamicCall("SetInputValue(QString, QString)", "수정주가구분", "1")
+        self.dynamicCall("CommRqData(QString,QString,int,QString)", "주식분봉차트조회", "opt10080", sPrevNext, self.screenMinutePrice)
+        self.minutePriceLoop.exec_()
+
+    def exitEventLoop(self):
+        self.minutePriceLoop.exit()
+
+
+class TickPrice(TrRequestBase):
+    def __init__(self):
+        self.tickPriceLoop = QEventLoop()
+        self.screenTickData = '8000'
+
+    def request(self, code, sPrevNext ="0"):
+        self.dynamicCall("SetInputValue(QString, QString)", "종목코드", code)
+        self.dynamicCall("SetInputValue(QString, QString)", "틱범위", "1")
+        self.dynamicCall("SetInputValue(QString, QString)", "수정주가구분", "1")
+        self.dynamicCall("CommRqData(QString,QString,int,QString)", "주식틱차트조회", "opt10079", sPrevNext,
+                         self.screenTickData)
+        self.tickPriceLoop.exec_()
+
+    def exitEventLoop(self):
+        self.tickPriceLoop.exit()
+
+
+class Tr(AccountNum, Deposit, TotalBuyMoney, TotalProfitLossMoney, TotalProfitLossRate, NumberOfMyStock, MyStock, NumberOfNotConcludedStock,NotConcludedStock
+         ,ConditionName, ConditionStock, MinutePriceData, TickPriceData, Login, AccountInfo, NotConcludedAccount,
+         Condition, MinutePrice, TickPrice):
+    def __init__(self):
+        super().__init__()

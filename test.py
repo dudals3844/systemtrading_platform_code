@@ -46,9 +46,24 @@ import asyncio
 #     t2 = Process(target=playOtherSound())
 #     time.sleep(2)
 #     t2.start()
-print(2%10)
-while True:
-    second = time.strftime('%S', time.localtime((time.time())))
-    second = int(second)
-    if second % 10 == 0:
-        print('10초마다 실행')
+# print(2%10)
+# while True:
+#     second = time.strftime('%S', time.localtime((time.time())))
+#     second = int(second)
+#     if second % 10 == 0:
+#         print('10초마다 실행')
+
+
+class A:
+    def a(self):
+        print('a')
+
+class B (A):
+    def b(self):
+        pass
+
+class C(B):
+    def __init__(self):
+        A.a(self)
+
+c = C()
