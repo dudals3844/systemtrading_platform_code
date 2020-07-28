@@ -58,7 +58,8 @@ class A:
         pass
 
 class A:
-    def receive(self):
-        pass
+    def receive(self) -> bool:
+        return True
 
-
+a = A()
+print(a.receive())

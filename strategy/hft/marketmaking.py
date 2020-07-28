@@ -1,5 +1,5 @@
 from trading.trading import *
-from kiwoom.other.basictradinginformation import *
+from kiwoom.other.transaction import *
 import pandas
 from strategy.hft.dataframe.notconcludedmedostock import *
 from strategy.hft.dataframe.notconcludedmesustock import *

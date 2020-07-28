@@ -1,5 +1,5 @@
 from trading.trading import *
-from kiwoom.other.basictradinginformation import *
+from kiwoom.other.transaction import *
 from kiwoom.handledata.instanceout import *
 import threading
 import time
