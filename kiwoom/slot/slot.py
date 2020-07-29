@@ -51,6 +51,13 @@ class LoginSlot(Line, Login):
         Line.sendMessage(self, "로그인 처리결과 %s" % (errCode))
         Login.exitEventLoop(self)
 
+class MsgSlot():
+    def __init__(self):
+        self.logging = Logging()
+    def receive(self, sScrNo, sRQName, sTrCode, msg):
+        self.logging.logger.debug("스크린: %s, 요청이름: %s, tr코드: %s --- %s" % (sScrNo, sRQName, sTrCode, msg))
+
+
 class TrDataSlotBase(metaclass=ABCMeta):
     @abstractmethod
     def receive(self, sScrNo, sRQName, sTrCode, sRecordName, sPrevNext):
@@ -73,11 +80,6 @@ class RealDataSlotBase(metaclass=ABCMeta):
         elif sRealType == '주식호가잔량':
             pass
 
-class MsgSlot():
-    def __init__(self):
-        self.logging = Logging()
-    def receive(self, sScrNo, sRQName, sTrCode, msg):
-        self.logging.logger.debug("스크린: %s, 요청이름: %s, tr코드: %s --- %s" % (sScrNo, sRQName, sTrCode, msg))
 
 class ChejanSlotBase(metaclass=ABCMeta):
     @abstractmethod
@@ -101,3 +103,8 @@ class ConditionRealSlot(metaclass=ABCMeta):
     @abstractmethod
     def receive(self, strCode, strType, strConditionName, strConditionIndex):
         pass
+
+class Slot(OnEvent, OnReceiveTr, OnReceiveMsg, OnReceiveRealData,
+           OnReceiveChejanData, OnReceiveConditionVer, OnReceiveTrCondition,
+           OnReceiveRealCondition, LoginSlot, MsgSlot):
+    pass

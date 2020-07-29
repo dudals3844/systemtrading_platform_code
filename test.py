@@ -54,11 +54,18 @@ import asyncio
 #         print('10초마다 실행')
 
 class A:
-    pass
+    def __init__(self):
+        self.a = 'a'
+    def pr(self):
+        print(self.a)
 
 # class A:
 #     def receive(self) -> bool:
 #         return True
 
-a = A()
+class B():
+    def pr(self):
+        A.pr(self)
+
+A().pr()
 
