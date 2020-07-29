@@ -1,6 +1,7 @@
 import pandas as pd
 from config.log_class import *
 from line.line import *
+from kiwoom.data.data import *
 
 class Condition(Line):
     def __init__(self):
@@ -18,7 +19,7 @@ class Condition(Line):
             tmpList = [[index, conditionName]]
             tmpDataFrame = pd.DataFrame(tmpList, columns=['조건식번호', '조건식이름'])
             self.conditionDataFrame = self.conditionDataFrame.append(tmpDataFrame)
-        self.saveData()
+        DataFrameToCSV.saveData(self, dataFrame=self.conditionDataFrame, savePath='C:/Users/PC/PycharmProjects/systemtrading_platform/db/mystock/조건식명단.csv')
 
     def getConditionDataFrame(self):
         conditionDataFrame = self.conditionDataFrame
@@ -29,5 +30,3 @@ class Condition(Line):
         conditionName = self.conditionDataFrame['조건식이름'].iloc[index]
         return idx, conditionName
 
-    def saveData(self):
-        self.conditionDataFrame.to_csv('C:/Users/PC/PycharmProjects/systemtrading_platform/db/mystock/조건식명단.csv')

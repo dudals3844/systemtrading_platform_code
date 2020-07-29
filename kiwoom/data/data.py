@@ -24,7 +24,7 @@ class findDataBase(metaclass=ABCMeta):
 
 class returnDataBase(metaclass=ABCMeta):
     @abstractmethod
-    def returnData(self, dataFrame):
+    def returnData(self):
         pass
 
 

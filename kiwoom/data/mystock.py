@@ -9,15 +9,15 @@ class MyStock(Line, Data):
         self.logging = Logging()
         self.mystockDataFrame = pd.DataFrame(columns=['종목명', '종목코드', '보유수량', '총매입가'])
 
-    def appendData(self, myStockList):
-        [code, codeName, stockQuantity, totalChegualPrice] = myStockList
+    def appendData(self, myStockInformationList):
+        [code, codeName, stockQuantity, totalChegualPrice] = myStockInformationList
         self.logging.logger.debug("종목코드: %s - 종목명: %s - 보유수량: %s - 매입금액:%s"
                                   % (code, codeName, stockQuantity, totalChegualPrice))
         Line.sendMessage(self, "\n종목코드: %s\n종목명: %s\n보유수량: %s\n매입금액:%s"
                          % (code, codeName, stockQuantity, totalChegualPrice))
         code = Code.standard(self, code)
         if stockQuantity != 0:
-            tmpList = [myStockList]
+            tmpList = [myStockInformationList]
             tmpDataFrame = pd.DataFrame(tmpList, columns=['종목명', '종목코드', '보유수량', '총매입가'], index=[code])
             self.mystockDataFrame = self.mystockDataFrame.append(tmpDataFrame)
         elif stockQuantity == 0:
@@ -44,7 +44,7 @@ class MyStock(Line, Data):
 
     def findStockQuantitiyData(self, code):
         try:
-            code = self.standard.standardCode(code)
+            code = Code.standard(self, code)
             stockQuantity = self.mystockDataFrame['보유수량'].loc[code]
             stockQuantity = int(stockQuantity)
             return stockQuantity
