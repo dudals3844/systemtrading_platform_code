@@ -54,12 +54,11 @@ import asyncio
 #         print('10초마다 실행')
 
 class A:
-    def request(self):
-        pass
+    pass
 
-class A:
-    def receive(self) -> bool:
-        return True
+# class A:
+#     def receive(self) -> bool:
+#         return True
 
 a = A()
-print(a.receive())
+
