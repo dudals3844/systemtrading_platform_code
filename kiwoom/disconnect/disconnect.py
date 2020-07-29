@@ -1,11 +1,24 @@
 from PyQt5.QAxContainer import *
+from abc import *
 
-class Disconnect(QAxWidget):
-    # 스크린 번호 끊기
-    def disconnectScreen(self, sScrNo=None):
+
+class DisconnectBase(metaclass=ABCMeta, QAxWidget):
+    def __init__(self):
+        super().__init__()
+
+    @abstractmethod
+    def disconnect(self, sScrNo=None):
+        pass
+
+class Screen(DisconnectBase):
+    def disconnect(self, sScrNo=None):
         self.dynamicCall("DisconnectRealData(QString)", sScrNo)
 
-    # 실시간 데이터 끊기
-    def disconnectRealData(self, sScrNo=None, code=None):
-        # sScrNo는 스크린 번호
+class RealData(DisconnectBase):
+    def disconnect(self, sScrNo=None, code=None):
         self.dynamicCall("SetRealRemove(QString,QString)", sScrNo, code)
+
+
+class Disconnect(Screen, RealData):
+    def __init__(self):
+        super().__init__()

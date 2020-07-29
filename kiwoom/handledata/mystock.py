@@ -3,21 +3,22 @@ from config.log_class import *
 from kiwoom.other.standard import *
 from line.line import *
 
-class MyStock(Line):
+class MyStock(Line, Code):
     def __init__(self):
         self.logging = Logging()
-        self.standard = Standard()
+
         self.mystockDataFrame = pd.DataFrame(columns=['종목명', '종목코드', '보유수량', '총매입가'])
 
 
-    def appendData(self, code, codeName, stockQuantity, totalChegualPrice):
+    def appendData(self, myStockList):
+        [code, codeName, stockQuantity, totalChegualPrice] = myStockList
         self.logging.logger.debug("종목코드: %s - 종목명: %s - 보유수량: %s - 매입금액:%s"
                                   % (code, codeName, stockQuantity, totalChegualPrice))
         Line.sendMessage(self, "\n종목코드: %s\n종목명: %s\n보유수량: %s\n매입금액:%s"
                          % (code, codeName, stockQuantity, totalChegualPrice))
-        code = self.standard.standardCode(code)
+        code = Code.standard(self, code)
         if stockQuantity != 0:
-            tmpList = [[codeName, code, stockQuantity, totalChegualPrice]]
+            tmpList = [myStockList]
             tmpDataFrame = pd.DataFrame(tmpList, columns=['종목명', '종목코드', '보유수량', '총매입가'], index=[code])
             self.mystockDataFrame = self.mystockDataFrame.append(tmpDataFrame)
         elif stockQuantity == 0:
