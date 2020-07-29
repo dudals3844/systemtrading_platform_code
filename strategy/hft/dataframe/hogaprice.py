@@ -19,11 +19,13 @@ class HogaPrice():
             return False
 
     def findIndex(self, code, price):
-        for i in range(len(self.hogaPriceDataFrame[code])):
-            tmpPrice = self.hogaPriceDataFrame[code].iloc[i]
-            if tmpPrice == price:
-                return i
-
+        try:
+            for i in range(len(self.hogaPriceDataFrame[code])):
+                tmpPrice = self.hogaPriceDataFrame[code].iloc[i]
+                if tmpPrice == price:
+                    return i
+        except:
+            return -1
     def getDataFrame(self, code):
         return self.hogaPriceDataFrame[code]
 
