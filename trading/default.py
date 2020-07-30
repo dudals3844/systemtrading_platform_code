@@ -15,7 +15,6 @@ class DefaultTrading(OcxInstance,Login, AccountNum, AccountInfo, Line, QAxWidget
         super().__init__()
         self.logging = Logging()
 
-        OcxInstance.getOcxInstance(self)
         Login.request(self)
         AccountNum.receive(self)
         AccountInfo.request(self, accountNum=AccountNum.getAccountNum(self))

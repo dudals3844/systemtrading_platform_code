@@ -3,6 +3,7 @@ from config.log_class import *
 from PyQt5.QtCore import *
 from line.line import *
 from abc import *
+from PyQt5.QtCore import *
 
 class TrReceiveBase(QAxWidget, Logging):
     def __init__(self):
@@ -200,7 +201,7 @@ class TickPriceData(TrReceiveBase):
         data = self.dynamicCall("GetCommDataEx(QString,QString)", sTrCode, sRQName)
         return sPrevNext, code, data
 
-class OcxInstance(TrRequestBase):
+class OcxInstance(QAxWidget):
     def getOcxInstance(self):
         self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
 
