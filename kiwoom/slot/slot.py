@@ -4,11 +4,9 @@ from line.line import *
 from abc import *
 from kiwoom.tr.tr import *
 
-class ConnectSlotBase(metaclass=ABCMeta, Line, QAxWidget):
-    def __init__(self):
-        super().__init__()
+class ConnectSlotBase(QAxWidget):
 
-    @abstractmethod
+
     def connect(self, receiveSlot):
         pass
 

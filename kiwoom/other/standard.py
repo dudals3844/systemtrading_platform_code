@@ -1,8 +1,8 @@
 from abc import *
 
 
-class StandardBase(metaclass=ABCMeta):
-    @abstractmethod
+class StandardBase():
+
     def standard(self):
         pass
 

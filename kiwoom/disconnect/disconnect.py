@@ -2,11 +2,10 @@ from PyQt5.QAxContainer import *
 from abc import *
 
 
-class DisconnectBase(metaclass=ABCMeta, QAxWidget):
+class DisconnectBase(QAxWidget):
     def __init__(self):
         super().__init__()
 
-    @abstractmethod
     def disconnect(self, sScrNo=None):
         pass
 

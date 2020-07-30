@@ -2,14 +2,12 @@ from config.kiwoomType import *
 from kiwoom.tr.tr import *
 from abc import *
 
-class OrderReqeustBase(metaclass=ABCMeta, QAxWidget, Line):
+class OrderReqeustBase(QAxWidget):
     def __init__(self):
-        super().__init__()
-        self.logging = Logging()
         self.realType = RealType()
         self.screenMemeStock = "6000"
 
-    @abstractmethod
+
     def request(self):
         pass
 
@@ -17,6 +15,7 @@ class OrderReqeustBase(metaclass=ABCMeta, QAxWidget, Line):
 
 
 class JijungMesuOrder(OrderReqeustBase):
+
     def request(self, sCode, mesuStockNum, mesuPrice):
         orderSuccess = self.dynamicCall("SendOrder(QString,QString,QString,int,QString,int,int,QString,QString)",
                                         ['신규매수', self.screenMemeStock, self.accountNum, 1, sCode, mesuStockNum,
@@ -30,6 +29,7 @@ class JijungMesuOrder(OrderReqeustBase):
             return False
 
 class MesuCancelOrder(OrderReqeustBase):
+
     def request(self, sCode, orderNum):
         orderSuccess = self.dynamicCall("SendOrder(QString,QString,QString,int,QString,int,int,QString,QString)",
                                         ['매수취소', self.screenMemeStock, self.accountNum, 3, sCode, 0,
@@ -43,6 +43,7 @@ class MesuCancelOrder(OrderReqeustBase):
             return False
 
 class SijangMesuOrder(OrderReqeustBase):
+
     def request(self, sCode, mesuStockNum):
         orderSuccess = self.dynamicCall("SendOrder(QString,QString,QString,int,QString,int,int,QString,QString)",
                                         ['신규매수', self.screenMemeStock, self.accountNum, 1, sCode, mesuStockNum,
@@ -56,6 +57,7 @@ class SijangMesuOrder(OrderReqeustBase):
             return False
 
 class JijunhMedoOrder(OrderReqeustBase):
+
     def request(self, sCode, medoStockNum, medoPrice):
         orderSuccess = self.dynamicCall("SendOrder(QString,QString,QString,int,QString,int,int,QString,QString)",
                                         ['신규매도', self.screenMemeStock, self.accountNum, 2, sCode, medoStockNum,
@@ -69,6 +71,7 @@ class JijunhMedoOrder(OrderReqeustBase):
             return False
 
 class MedoCancelOrder(OrderReqeustBase):
+
     def request(self, sCode, orderNum):
         orderSuccess = self.dynamicCall("SendOrder(QString,QString,QString,int,QString,int,int,QString,QString)",
                                         ['매도취소', self.screenMemeStock, self.accountNum, 4, sCode, 0,
@@ -82,6 +85,7 @@ class MedoCancelOrder(OrderReqeustBase):
             return False
 
 class SijangMedoOrder(OrderReqeustBase):
+
     def request(self, sCode, medoStockNum):
         orderSuccess = self.dynamicCall("SendOrder(QString,QString,QString,int,QString,int,int,QString,QString)",
                                         ['신규매도', self.screenMemeStock, self.accountNum, 2, sCode, medoStockNum,

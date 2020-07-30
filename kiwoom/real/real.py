@@ -3,24 +3,21 @@ from PyQt5.QAxContainer import *
 from config.log_class import *
 from config.kiwoomType import *
 
-class RealReceiveBase(metaclass=ABCMeta, QAxWidget):
+class RealReceiveBase(QAxWidget):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
-        self.realType = RealType()
 
-    @abstractmethod
+
     def receive(self, sCode, sRealType):
         pass
 
 
-class RealRequestBase(metaclass=ABCMeta, QAxWidget):
+class RealRequestBase(QAxWidget):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
-        self.realType = RealType()
 
-    @abstractmethod
     def request(self):
         pass
 

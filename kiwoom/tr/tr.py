@@ -4,29 +4,27 @@ from PyQt5.QtCore import *
 from line.line import *
 from abc import *
 
-class TrReceiveBase(QAxWidget, Line, metaclass=ABCMeta):
+class TrReceiveBase(QAxWidget, Logging):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
 
-    @abstractmethod
     def receive(self, sRQName, sTrCode, sPrevNext):
         pass
 
 
 
-class TrRequestBase(QAxWidget, Line, metaclass=ABCMeta):
+class TrRequestBase(QAxWidget, Logging):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
 
-    @abstractmethod
     def request(self, sPrevNext ="0"):
         pass
 
-    @abstractmethod
     def exitEventLoop(self):
         pass
+
 
 
 class AccountNum(TrReceiveBase):

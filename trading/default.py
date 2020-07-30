@@ -7,9 +7,10 @@ from PyQt5.QtTest import *
 from kiwoom.data.mystock import *
 from kiwoom.data.notconcludedstock import *
 from kiwoom.disconnect.disconnect import Disconnect
+from PyQt5.QAxContainer import *
 
 
-class DefaultTrading(Tr, Real, Order,Slot, Disconnect, Line):
+class DefaultTrading(Login, AccountNum, AccountInfo, Line, QAxWidget):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
