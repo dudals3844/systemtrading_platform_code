@@ -52,20 +52,11 @@ import asyncio
 #     second = int(second)
 #     if second % 10 == 0:
 #         print('10초마다 실행')
-
-class A:
-    def __init__(self):
-        self.a = 'a'
+from config.screen_number import *
+class A():
     def pr(self):
-        print(self.a)
+        print(Screen.setNumber(self)['Tr'])
 
-# class A:
-#     def receive(self) -> bool:
-#         return True
-
-class B():
-    def pr(self):
-        A.pr(self)
-
-A().pr()
+a = A()
+a.pr()
 

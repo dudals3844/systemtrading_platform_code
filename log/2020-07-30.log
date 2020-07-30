@@ -170,3 +170,37 @@
 [2020-07-30 09:00:16,272] I real.py | Kiwoom-receiveConditionRealStock-0249 I DEBUG    > 종목코드: 001340, 종목이탈: D
 [2020-07-30 09:00:16,284] I order.py | Kiwoom-requestMesuCancelOrder-0033 I DEBUG    > 지정가 매수취소 전달 성공 종목코드: 003520 주문번호: 0008981
 [2020-07-30 09:00:16,287] I order.py | Kiwoom-requestJijungMesuOrder-0021 I DEBUG    > 지정가 매수주문 전달 성공 종목코드: 003520 수량: 2 매수가격: 6640
+[2020-07-30 23:10:18,337] I slot.py | Kiwoom-receive-0048 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:21:47,509] I slot.py | Kiwoom-receive-0019 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:22:09,169] I slot.py | Kiwoom-receive-0019 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:22:41,041] I slot.py | Kiwoom-receive-0019 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:23:38,818] I slot.py | Kiwoom-receive-0019 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:23:54,530] I slot.py | Kiwoom-receive-0019 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:24:30,371] I slot.py | Kiwoom-receive-0022 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:36:56,696] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:37:51,728] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:38:09,910] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:38:09,915] I tr.py | Kiwoom-receive-0037 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:39:12,497] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:39:12,498] I tr.py | Kiwoom-receive-0037 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:39:29,160] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:39:29,162] I tr.py | Kiwoom-receive-0037 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:41:45,574] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:41:45,576] I tr.py | Kiwoom-receive-0037 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:42:33,530] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:42:33,531] I tr.py | Kiwoom-receive-0037 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:42:33,580] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 알수없는 코드
+[2020-07-30 23:48:44,615] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:48:44,621] I tr.py | Kiwoom-receive-0038 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:49:14,652] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:49:14,656] I tr.py | Kiwoom-receive-0038 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:51:28,797] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:51:28,798] I tr.py | Kiwoom-receive-0038 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:51:46,398] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:51:46,399] I tr.py | Kiwoom-receive-0038 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:57:28,299] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:57:28,300] I tr.py | Kiwoom-receive-0041 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:58:56,112] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:58:56,114] I tr.py | Kiwoom-receive-0041 I DEBUG    > 계좌번호: 8141454311
+[2020-07-30 23:59:17,036] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-07-30 23:59:17,037] I tr.py | Kiwoom-receive-0041 I DEBUG    > 계좌번호: 8141454311

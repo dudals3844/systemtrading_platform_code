@@ -8,7 +8,7 @@ class Main():
 
 
         self.app = QApplication(sys.argv)
-        DefaultTrading()
+        self.defaultTrading = DefaultTrading()
         self.app.exec_()
 
 

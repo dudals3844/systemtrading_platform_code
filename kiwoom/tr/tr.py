@@ -4,11 +4,14 @@ from PyQt5.QtCore import *
 from line.line import *
 from abc import *
 from PyQt5.QtCore import *
+from config.screen_number import *
+from config.screen_number import *
 
 class TrReceiveBase(QAxWidget, Logging):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
+
 
     def receive(self, sRQName, sTrCode, sPrevNext):
         pass
@@ -20,6 +23,7 @@ class TrRequestBase(QAxWidget, Logging):
         super().__init__()
         self.logging = Logging()
 
+
     def request(self, sPrevNext ="0"):
         pass
 
@@ -29,8 +33,6 @@ class TrRequestBase(QAxWidget, Logging):
 
 
 class AccountNum(TrReceiveBase):
-    def __init__(self):
-        self.accountNum = 0
 
     def receive(self):
         accountList = self.dynamicCall("GetLoginInfo(QString)", "ACCNO")
@@ -44,8 +46,6 @@ class AccountNum(TrReceiveBase):
 
 
 class Deposit(TrReceiveBase):
-    def __init__(self):
-        self.deposit = None
 
     def receive(self, sRQName, sTrCode):
         deposit = self.dynamicCall("GetCommData(QString,QString,int,QString)", sTrCode, sRQName, 0, "예수금")
@@ -58,8 +58,6 @@ class Deposit(TrReceiveBase):
 
 
 class TotalBuyMoney(TrReceiveBase):
-    def __init__(self):
-        self.totalBuyMoney = None
 
     def receive(self, sRQName, sTrCode):
         totalBuyMoney = self.dynamicCall("GetCommData(QString,QString,int,QString)", sTrCode, sRQName, 0, "총매입금액")
@@ -71,8 +69,6 @@ class TotalBuyMoney(TrReceiveBase):
 
 
 class TotalProfitLossMoney(TrReceiveBase):
-    def __init__(self):
-        self.totalProfitLossMoney = None
 
     def receive(self, sRQName, sTrCode):
         totalProfitLossMoney = self.dynamicCall("GetCommData(QString,QString,int,QString)", sTrCode, sRQName, 0,
@@ -85,8 +81,6 @@ class TotalProfitLossMoney(TrReceiveBase):
 
 
 class TotalProfitLossRate(TrReceiveBase):
-    def __init__(self):
-        self.totalProfitLossRate = None
 
     def receive(self, sRQName, sTrCode):
         totalProfitLossRate = self.dynamicCall("GetCommData(QString,QString,int,QString)", sTrCode, sRQName, 0,
@@ -99,8 +93,6 @@ class TotalProfitLossRate(TrReceiveBase):
 
 
 class NumberOfMyStock(TrReceiveBase):
-    def __init__(self):
-        self.numberOfMystock = 0
 
     def receive(self, sRQName, sTrCode):
         self.numberOfMystock = self.dynamicCall("GetRepeatCnt(QString,QString)", sTrCode, sRQName)  # 종목개수
@@ -130,8 +122,6 @@ class MyStock(TrReceiveBase):
         return [code, codeName, stockQuantity, totalChegualPrice]
 
 class NumberOfNotConcludedStock(TrReceiveBase):
-    def __init__(self):
-        self.numberOfNotConcludedStock = 0
 
     def receive(self, sRQName, sTrCode, sPrevNext):
         self.numberOfNotConcludedStock = self.dynamicCall("GetRepeatCnt(QString,QString)", sTrCode, sRQName)
@@ -202,17 +192,18 @@ class TickPriceData(TrReceiveBase):
         return sPrevNext, code, data
 
 class OcxInstance(QAxWidget):
+    def __init__(self):
+        super().__init__()
+
     def getOcxInstance(self):
         self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
 
 
 class Login(TrRequestBase):
-    def __init__(self):
-
-        self.loginEventLoop = QEventLoop()
 
 
     def request(self):
+        self.loginEventLoop = QEventLoop()
         self.dynamicCall("CommConnect()")
         self.loginEventLoop.exec_()
 
@@ -220,10 +211,10 @@ class Login(TrRequestBase):
         self.loginEventLoop.exit()
 
 class AccountInfo(TrRequestBase):
-    def __init__(self):
-        self.accountInfoLoop = QEventLoop()
 
     def request(self, sPrevNext ="0", accountNum = None):
+        self.accountInfoLoop = QEventLoop()
+        self.screenNumber = '1000'
         self.dynamicCall("SetInputValue(QString,QString)", "계좌번호", accountNum)
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호", "0000")
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호입력매체구분", "00")
@@ -236,11 +227,10 @@ class AccountInfo(TrRequestBase):
         self.accountInfoLoop.exit()
 
 class NotConcludedAccount(TrRequestBase):
-    def __init__(self):
-        self.notConcludedAccountLoop = QEventLoop()
-        self.screenNumber = '1000'
 
     def request(self, sPrevNext ="0", accountNum = None):
+        self.notConcludedAccountLoop = QEventLoop()
+        self.screenNumber = '1000'
         self.logging.logger.debug("미체결 종목 요청")
         self.dynamicCall("SetInputValue(QString,QString)", '계좌번호', accountNum)
         self.dynamicCall("SetInputValue(QString,QString)", '체결구분', "1")
@@ -253,10 +243,9 @@ class NotConcludedAccount(TrRequestBase):
 
 
 class Condition(TrRequestBase):
-    def __init__(self):
-        self.conditionLoop = QEventLoop()
 
     def request(self):
+        self.conditionLoop = QEventLoop()
         self.dynamicCall('GetConditionLoad()')
         self.conditionLoop.exec_()
 
@@ -265,11 +254,10 @@ class Condition(TrRequestBase):
 
 
 class MinutePrice(TrRequestBase):
-    def __init__(self):
-        self.minutePriceLoop = QEventLoop()
-        self.screenMinutePrice = '4000'
 
     def request(self, code,sPrevNext ="0"):
+        self.minutePriceLoop = QEventLoop()
+        self.screenMinutePrice = '4000'
         self.dynamicCall("SetInputValue(QString, QString)", "종목코드", code)
         self.dynamicCall("SetInputValue(QString, QString)", "틱범위", "1")
         self.dynamicCall("SetInputValue(QString, QString)", "수정주가구분", "1")
@@ -281,11 +269,10 @@ class MinutePrice(TrRequestBase):
 
 
 class TickPrice(TrRequestBase):
-    def __init__(self):
-        self.tickPriceLoop = QEventLoop()
-        self.screenTickData = '8000'
 
     def request(self, code, sPrevNext ="0"):
+        self.tickPriceLoop = QEventLoop()
+        self.screenTickData = '8000'
         self.dynamicCall("SetInputValue(QString, QString)", "종목코드", code)
         self.dynamicCall("SetInputValue(QString, QString)", "틱범위", "1")
         self.dynamicCall("SetInputValue(QString, QString)", "수정주가구분", "1")
