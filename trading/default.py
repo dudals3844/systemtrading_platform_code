@@ -10,11 +10,11 @@ from kiwoom.disconnect.disconnect import Disconnect
 from PyQt5.QAxContainer import *
 
 
-class DefaultTrading(OcxInstance, OnEvent):
+class DefaultTrading(Ocx, OnEvent):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
-        OcxInstance.getOcxInstance(self)
+        Ocx.getInstance(self)
         OnReceiveMsg.connect(self)
         OnEvent.connect(self)
         Login.request(self)
