@@ -200,16 +200,16 @@ class TickPriceData(TrReceiveBase):
         data = self.dynamicCall("GetCommDataEx(QString,QString)", sTrCode, sRQName)
         return sPrevNext, code, data
 
-
+class OcxInstance(TrRequestBase):
+    def getOcxInstance(self):
+        self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
 
 
 class Login(TrRequestBase):
     def __init__(self):
-        self.getOcxInstance()
+
         self.loginEventLoop = QEventLoop()
 
-    def getOcxInstance(self):
-        self.setControl("KHOPENAPI.KHOpenAPICtrl.1")
 
     def request(self):
         self.dynamicCall("CommConnect()")
