@@ -4,9 +4,8 @@ from PyQt5.QtCore import *
 from line.line import *
 from abc import *
 from PyQt5.QtCore import *
-from config.screen_number import *
 
-class TrReceiveBase(QAxWidget, Logging):
+class TrReceiveBase(Logging):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
@@ -17,7 +16,7 @@ class TrReceiveBase(QAxWidget, Logging):
 
 
 
-class TrRequestBase(QAxWidget, Logging):
+class TrRequestBase(Logging):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
@@ -208,19 +207,32 @@ class Login(TrRequestBase):
     def exitEventLoop(self):
         self.loginEventLoop.exit()
 
-class AccountInfo(TrRequestBase):
-    def __init__(self):
-        self.accountInfoLoop = QEventLoop()
-        self.screen = Screen()
+class AccountMyStock(TrRequestBase):
+    def request(self, sPrevNext ="0", accountNum = None):
+        self.accountMystockLoop = QEventLoop()
+        self.screenNumber = '1000'
 
+        self.dynamicCall("SetInputValue(QString,QString)", "계좌번호", accountNum)
+        self.dynamicCall("SetInputValue(QString,QString)", "비밀번호", "0000")
+        self.dynamicCall("SetInputValue(QString,QString)", "비밀번호입력매체구분", "00")
+        self.dynamicCall("SetInputValue(QString,QString)", "조회구분", "1")
+        self.dynamicCall("CommRqData(QString,QString,int,QString)", "계좌평가잔고내역요청", "opw00018", sPreNext,
+                         self.screenNumber)
+
+        self.accountMystockLoop.exec_()
+
+class AccountInfo(TrRequestBase):
 
     def request(self, sPrevNext ="0", accountNum = None):
+        self.accountInfoLoop = QEventLoop()
+        self.screenNumber = '1000'
+
         self.dynamicCall("SetInputValue(QString,QString)", "계좌번호", accountNum)
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호", "0000")
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호입력매체구분", "00")
         self.dynamicCall("SetInputValue(QString,QString)", "조회구분", "1")
         self.dynamicCall("CommRqData(QString,QString,int,QString)", "예수금상세현황요청", "opw00001", sPrevNext,
-                         self.screen.getName('Tr'))
+                         self.screenNumber)
         self.accountInfoLoop.exec_()
 
     def exitEventLoop(self):

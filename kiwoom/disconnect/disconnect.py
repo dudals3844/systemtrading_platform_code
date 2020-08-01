@@ -2,7 +2,7 @@ from PyQt5.QAxContainer import *
 from abc import *
 
 
-class DisconnectBase(QAxWidget):
+class DisconnectBase():
     def __init__(self):
         super().__init__()
 

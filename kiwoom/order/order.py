@@ -2,7 +2,7 @@ from config.kiwoomType import *
 from kiwoom.tr.tr import *
 from abc import *
 
-class OrderReqeustBase(QAxWidget):
+class OrderReqeustBase():
     def __init__(self):
         self.realType = RealType()
         self.screenMemeStock = "6000"

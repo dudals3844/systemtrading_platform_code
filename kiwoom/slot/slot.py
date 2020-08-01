@@ -4,7 +4,7 @@ from line.line import *
 from abc import *
 from kiwoom.tr.tr import *
 
-class ConnectSlotBase(QAxWidget, Line):
+class ConnectSlotBase(Line):
 
     def connect(self):
         pass
@@ -40,6 +40,7 @@ class OnReceiveTrBase(ConnectSlotBase):
             pass
 
 class OnReceiveMsg(ConnectSlotBase):
+
     def connect(self):
         self.OnReceiveMsg.connect(self.receive)
 

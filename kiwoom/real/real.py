@@ -3,7 +3,7 @@ from PyQt5.QAxContainer import *
 from config.log_class import *
 from config.kiwoomType import *
 
-class RealReceiveBase(QAxWidget):
+class RealReceiveBase():
     def __init__(self):
         super().__init__()
         self.logging = Logging()
@@ -13,7 +13,7 @@ class RealReceiveBase(QAxWidget):
         pass
 
 
-class RealRequestBase(QAxWidget):
+class RealRequestBase():
     def __init__(self):
         super().__init__()
         self.logging = Logging()
