@@ -1,9 +1,8 @@
 class Screen():
-    def setName(self):
+    def __init__(self):
         self.dict = {
             'Tr':'1000'
         }
 
     def getName(self, name):
-        self.setName()
         return self.dict[name]

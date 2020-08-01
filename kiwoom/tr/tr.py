@@ -5,7 +5,6 @@ from line.line import *
 from abc import *
 from PyQt5.QtCore import *
 from config.screen_number import *
-from config.screen_number import *
 
 class TrReceiveBase(QAxWidget, Logging):
     def __init__(self):
@@ -210,16 +209,18 @@ class Login(TrRequestBase):
         self.loginEventLoop.exit()
 
 class AccountInfo(TrRequestBase):
+    def __init__(self):
+        self.accountInfoLoop = QEventLoop()
+        self.screen = Screen()
+
 
     def request(self, sPrevNext ="0", accountNum = None):
-        self.accountInfoLoop = QEventLoop()
-        self.screenNumber = '1000'
         self.dynamicCall("SetInputValue(QString,QString)", "계좌번호", accountNum)
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호", "0000")
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호입력매체구분", "00")
         self.dynamicCall("SetInputValue(QString,QString)", "조회구분", "1")
         self.dynamicCall("CommRqData(QString,QString,int,QString)", "예수금상세현황요청", "opw00001", sPrevNext,
-                         self.screenNumber)
+                         self.screen.getName('Tr'))
         self.accountInfoLoop.exec_()
 
     def exitEventLoop(self):
