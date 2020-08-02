@@ -48,8 +48,8 @@ class Trading(Tr, Real, Order ,Slot, Disconnect, Line):
         Slot.connectOnReceiveMsg(self, receive_slot= self.receiveMsgSlot)
 
     def connectRealSlots(self):
-        Slot.connectOnReceiveRealData(self, receive_slot=self.receiveRealdataSlot)
-        Slot.connectOnReceiveChejanData(self, receive_slot=self.receiveChejanSlot)
+        Slot.connectOnReceiveReal(self, receive_slot=self.receiveRealdataSlot)
+        Slot.connectOnReceiveChejan(self, receive_slot=self.receiveChejanSlot)
 
     def connectConditionSlots(self):
         Slot.connectOnReceiveConditionVer(self, receive_slot=self.receiveConditionNameSlot)
@@ -68,7 +68,7 @@ class Trading(Tr, Real, Order ,Slot, Disconnect, Line):
             Tr.receiveTotalProfitLossMoney(self, sRQName, sTrCode)
             Tr.receiveTotalProfitLossRate(self, sRQName, sTrCode)
             Tr.receiveNumberOfMystock(self, sRQName, sTrCode)
-            index = Tr.getNumberOfMystock(self)
+            index = Tr.getNumber(self)
             for i in range(index):
                 code, codeName, stockQuantity, totalChegualPrice = Tr.receiveMystock(self, sRQName, sTrCode, sPrevNext, i)
                 self.myStock.appendData(code, codeName, stockQuantity, totalChegualPrice)
@@ -79,7 +79,7 @@ class Trading(Tr, Real, Order ,Slot, Disconnect, Line):
         elif sRQName == "실시간미체결요청":
             # pass
             Tr.receiveNumberOfNotConcludedStock(self, sRQName, sTrCode)
-            index = Tr.getNumberOfNotConcludedStock(self)
+            index = Tr.getNumber(self)
             for i in range(index):
                 code, code_nm, origin_order_number, order_no, order_status, order_price, order_gubun, not_quantity, ok_quantity = Tr.receiveNotConcludedAccount(self, sRQName, sTrCode, i)
                 self.notConcludedStock.appendData(code, code_nm, origin_order_number, order_no,order_status, order_price, order_gubun, not_quantity, ok_quantity)

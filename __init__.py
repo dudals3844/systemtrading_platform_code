@@ -1,6 +1,7 @@
 from PyQt5.QtWidgets import *
 from trading.default import *
-from strategy.scalping.scalping import *
+import sys
+
 sys.path.append("C:/Users/PC/PycharmProjects/systemtrading_platform/")
 class Main():
     def __init__(self):

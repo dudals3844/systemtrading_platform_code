@@ -4,7 +4,7 @@ from config.log_class import *
 from kiwoom.other.standard import *
 from line.line import *
 
-class NotConcludedStock(Line, Data):
+class NotConcludedStockData(Line, Data):
     def __init__(self):
         self.logging = Logging()
         self.notConcludedAccountDataFrame = pd.DataFrame(

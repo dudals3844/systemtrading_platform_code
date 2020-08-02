@@ -33,3 +33,440 @@
 [2020-08-02 01:12:58,869] I tr.py | Kiwoom-receive-0039 I DEBUG    > 계좌번호: 8141454311
 [2020-08-02 01:12:58,912] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 알수없는 코드
 [2020-08-02 01:12:58,915] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 알수없는 코드
+[2020-08-02 15:13:58,273] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:14:38,041] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:16:37,393] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:16:37,394] I tr.py | Kiwoom-receive-0039 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 15:16:56,224] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:16:56,225] I tr.py | Kiwoom-receive-0039 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 15:16:56,276] I slot.py | Kiwoom-receive-0024 I DEBUG    > 로그인 처리결과 알수없는 코드
+[2020-08-02 15:26:31,411] I slot.py | Kiwoom-receiveOnEvent-0017 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:27:15,837] I slot.py | Kiwoom-receiveOnEvent-0017 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:27:57,986] I slot.py | Kiwoom-receiveOnEvent-0017 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:28:39,598] I slot.py | Kiwoom-receiveOnEvent-0017 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:29:15,415] I slot.py | Kiwoom-receiveOnEvent-0017 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:29:15,416] I tr.py | Kiwoom-receive-0039 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 15:33:20,463] I default.py | Kiwoom-receiveOnEvent-0033 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:33:20,465] I tr.py | Kiwoom-receive-0039 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 15:33:20,513] I tr.py | Kiwoom-receive-0051 I DEBUG    > 예수금 4814688
+[2020-08-02 15:34:01,646] I default.py | Kiwoom-receiveOnEvent-0033 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 15:34:01,647] I tr.py | Kiwoom-receive-0039 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 15:34:01,694] I tr.py | Kiwoom-receive-0051 I DEBUG    > 예수금 4814688
+[2020-08-02 16:19:04,681] I default.py | Kiwoom-receiveOnEvent-0034 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:19:04,685] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:19:04,744] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:19:04,824] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:19:04,824] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:19:27,615] I default.py | Kiwoom-receiveOnEvent-0034 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:19:27,618] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:19:27,665] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:19:27,745] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:19:27,745] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:19:53,810] I default.py | Kiwoom-receiveOnEvent-0034 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:19:53,812] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:19:53,861] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:19:53,941] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:19:53,941] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:20:24,785] I default.py | Kiwoom-receiveOnEvent-0034 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:20:24,788] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:20:24,838] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:20:24,917] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:20:24,917] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:20:24,917] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:27:44,795] I default.py | Kiwoom-receiveOnEvent-0037 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:27:44,798] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:27:44,846] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:27:44,926] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:27:44,926] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:27:44,926] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:27:58,955] I default.py | Kiwoom-receiveOnEvent-0037 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:27:58,958] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:27:59,008] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:27:59,087] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:27:59,087] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:27:59,088] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:28:29,568] I default.py | Kiwoom-receiveOnEvent-0037 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:28:29,571] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:28:29,624] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:28:29,704] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:28:29,705] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:28:29,705] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:31:04,084] I default.py | Kiwoom-receiveOnEvent-0038 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:31:04,088] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:31:04,143] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:31:04,222] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:31:04,222] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:31:04,223] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:31:04,223] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:31:04,224] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:31:04,258] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:31:04,259] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:31:04,268] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:31:04,268] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:31:04,276] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:31:04,276] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:31:04,285] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:31:04,285] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:31:04,296] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:31:04,296] I mystock.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:32:57,610] I default.py | Kiwoom-receiveOnEvent-0038 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:32:57,614] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:32:57,706] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:32:57,786] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:32:57,786] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:32:57,787] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:32:57,787] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:32:57,787] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:32:57,806] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:32:57,806] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:32:57,821] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:32:57,821] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:32:57,846] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:32:57,846] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:32:57,863] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:32:57,863] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:32:57,974] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:32:57,974] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:43:54,750] I default.py | Kiwoom-receiveOnEvent-0039 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:43:54,752] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:43:54,805] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:43:54,885] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:43:54,885] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:43:54,886] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:43:54,886] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:43:54,886] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:43:54,899] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:43:54,900] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:43:54,908] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:43:54,909] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:43:54,916] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:43:54,916] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:43:54,924] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:43:54,924] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:43:54,933] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:43:54,933] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:52:06,933] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:52:06,936] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:52:06,987] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:52:07,067] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:52:07,067] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:52:07,068] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:52:07,068] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:52:07,068] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:52:07,080] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:52:07,081] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:52:07,088] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:52:07,088] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:52:07,095] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:52:07,095] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:52:07,103] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:52:07,103] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:52:07,112] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:52:07,113] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:55:25,263] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:55:25,269] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:55:25,318] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:55:25,397] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:55:25,397] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:55:25,398] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:55:25,399] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:55:25,399] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:55:25,439] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:55:25,439] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:55:25,477] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:55:25,478] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:55:25,514] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:55:25,515] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:55:25,562] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:55:25,563] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:55:25,598] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:55:25,598] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:56:07,913] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:56:07,919] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:56:07,974] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:56:08,045] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:56:08,045] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:56:08,046] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:56:08,046] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:56:08,046] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:56:08,068] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:56:08,068] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:56:08,085] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:56:08,085] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:56:08,107] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:56:08,108] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:56:08,131] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:56:08,132] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:56:08,160] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:56:08,160] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:56:44,885] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:56:44,891] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:56:44,942] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:56:45,014] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:56:45,014] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:56:45,015] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:56:45,016] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:56:45,016] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:56:45,047] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:56:45,048] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:56:45,066] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:56:45,067] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:56:45,084] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:56:45,084] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 16:56:45,115] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:56:45,115] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 16:56:45,134] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:56:45,135] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 16:57:02,993] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:57:03,000] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:57:03,058] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:57:03,129] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:57:03,129] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:57:03,129] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:57:03,130] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:57:03,130] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:57:03,163] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:57:03,163] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:57:35,054] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:57:35,055] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:57:51,971] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:57:51,977] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:57:52,030] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:57:52,111] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:57:52,111] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:57:52,111] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:57:52,112] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:57:52,112] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:57:52,132] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:57:52,132] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:58:36,666] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:58:36,683] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:58:36,737] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:58:36,809] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:58:36,809] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:58:36,810] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:58:36,810] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:58:36,811] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:58:36,837] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:58:36,837] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:59:46,318] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 16:59:46,326] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 16:59:46,667] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 16:59:46,737] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 16:59:46,737] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 16:59:46,737] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 16:59:46,738] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:59:46,738] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 16:59:46,762] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:59:46,762] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 16:59:56,310] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 16:59:56,310] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:00:00,771] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:00:00,771] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:00:06,001] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:00:06,001] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:00:11,020] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:00:11,021] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:01:56,189] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:01:56,192] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:01:56,243] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:01:56,321] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:01:56,321] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:01:56,321] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:01:56,322] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:01:56,322] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:01:56,335] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:01:56,335] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:01:56,343] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:01:56,343] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:01:56,352] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:01:56,352] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:01:56,362] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:01:56,362] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:01:56,374] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:01:56,374] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:02:30,868] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:02:30,874] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:02:30,931] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:02:31,011] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:02:31,011] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:02:31,011] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:02:31,012] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:02:31,012] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:02:31,039] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:02:31,040] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:02:31,069] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:02:31,069] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:02:31,089] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:02:31,089] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:02:31,107] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:02:31,108] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:02:31,132] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:02:31,133] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:02:49,063] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:02:49,065] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:02:49,117] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:02:49,197] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:02:49,197] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:02:49,197] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:02:49,197] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:02:49,197] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:02:49,210] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:02:49,210] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:02:49,218] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:02:49,219] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:02:49,226] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:02:49,226] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:02:49,234] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:02:49,234] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:02:49,242] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:02:49,242] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:03:12,073] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:03:12,079] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:03:12,130] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:03:12,200] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:03:12,201] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:03:12,201] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:03:12,202] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:03:12,202] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:03:12,228] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:03:12,229] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:03:12,249] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:03:12,249] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:03:12,266] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:03:12,266] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:03:12,283] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:03:12,283] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:03:12,303] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:03:12,303] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:03:37,708] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:03:37,716] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:03:37,779] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:03:37,849] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:03:37,850] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:03:37,851] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:03:37,851] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:03:37,852] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:03:37,884] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:03:37,885] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:03:37,911] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:03:37,913] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:03:37,937] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:03:37,937] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:03:37,969] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:03:37,969] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:03:38,005] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:03:38,006] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:03:59,528] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:03:59,536] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:03:59,601] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:03:59,685] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:03:59,686] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:03:59,686] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:03:59,687] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:03:59,687] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:03:59,711] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:03:59,711] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:03:59,733] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:03:59,734] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:03:59,752] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:03:59,752] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:03:59,769] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:03:59,769] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:03:59,793] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:03:59,793] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:04:45,324] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:04:45,330] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:04:45,395] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:04:45,467] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:04:45,468] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:04:45,468] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:04:45,469] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:04:45,469] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:04:45,516] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:04:45,517] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:04:45,547] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:04:45,547] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:04:45,575] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:04:45,576] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:04:45,610] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:04:45,611] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:04:45,633] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:04:45,633] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:05:10,721] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:05:10,727] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:05:10,777] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:05:29,065] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:05:35,672] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:05:40,559] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:06:06,482] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:06:11,394] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:06:27,863] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:06:29,631] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:06:31,887] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:06:31,887] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:06:33,434] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:06:33,435] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:06:35,055] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:06:35,055] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:06:37,632] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:06:37,632] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:07:23,212] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:07:23,215] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:07:23,266] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:07:23,336] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:07:23,336] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:07:23,337] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:07:23,337] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:07:23,337] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:07:23,351] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:07:23,352] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:07:23,364] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:07:23,364] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:07:23,381] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:07:23,381] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:07:23,391] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:07:23,392] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:07:23,400] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:07:23,401] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:07:23,409] I tr.py | Kiwoom-request-0251 I DEBUG    > 미체결 종목 요청
+[2020-08-02 17:07:39,118] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:07:39,121] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:07:39,173] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:07:39,253] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:07:39,253] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:07:39,254] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:07:39,255] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:07:39,255] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:07:39,271] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:07:39,271] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:07:39,279] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:07:39,279] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:07:39,288] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:07:39,288] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:07:39,298] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:07:39,298] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:07:39,313] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:07:39,314] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:07:39,326] I tr.py | Kiwoom-request-0251 I DEBUG    > 미체결 종목 요청
+[2020-08-02 17:09:28,474] I default.py | Kiwoom-receiveOnEvent-0043 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-02 17:09:28,478] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-02 17:09:28,547] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4814688
+[2020-08-02 17:09:28,627] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-02 17:09:28,628] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 3580
+[2020-08-02 17:09:28,629] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 0.42
+[2020-08-02 17:09:28,629] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:09:28,630] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-02 17:09:28,646] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:09:28,647] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-02 17:09:28,660] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:09:28,662] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-02 17:09:28,682] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:09:28,683] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-02 17:09:28,697] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:09:28,697] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-02 17:09:28,711] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:09:28,711] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-02 17:09:28,728] I tr.py | Kiwoom-request-0251 I DEBUG    > 미체결 종목 요청
+[2020-08-02 17:09:28,972] I tr.py | Kiwoom-receive-0168 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-08-02 17:09:28,977] I tr.py | Kiwoom-receive-0170 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;003^거래량상위볼리저상향선하향돌파;004^거래량상위볼린저하한선상향;005^거래량급등주;

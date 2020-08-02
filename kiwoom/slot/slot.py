@@ -4,32 +4,25 @@ from line.line import *
 from abc import *
 from kiwoom.tr.tr import *
 
-class ConnectSlotBase(Line):
-
-    def connect(self):
-        pass
-
-    def receive(self):
-        pass
 
 
 
 # 무조건 상속
-class OnEvent(ConnectSlotBase):
-    def connect(self):
-        self.OnEventConnect.connect(self.receive)
+class OnEvent(Line):
+    def connectOnEvent(self, receiveSlot):
+        self.OnEventConnect.connect(receiveSlot)
 
-    def receive(self, errCode):
+    def receiveOnEvent(self, errCode):
         errCode = str(errors(errCode))
         self.logging.logger.debug("로그인 처리결과 %s" % (errCode))
         Line.sendMessage(self, "로그인 처리결과 %s" % (errCode))
         Login.exitEventLoop(self)
 
-class OnReceiveTrBase(ConnectSlotBase):
-    def connect(self):
-        self.OnReceiveTrData.connect(self.receive)
+class OnReceiveTrBase():
+    def connectOnReceiveTr(self, receiveSlot):
+        self.OnReceiveTrData.connect(receiveSlot)
 
-    def receive(self, sScrNo, sRQName, sTrCode, sRecordName, sPrevNext):
+    def receiveOnReceiveTr(self, sScrNo, sRQName, sTrCode, sRecordName, sPrevNext):
         if sRQName == "예수금상세현황요청":
             pass
         elif sRQName == "계좌평가잔고내역요청":
@@ -39,20 +32,21 @@ class OnReceiveTrBase(ConnectSlotBase):
         elif sRQName == "주식일봉차트조회":
             pass
 
-class OnReceiveMsg(ConnectSlotBase):
+class OnReceiveMsg():
 
-    def connect(self):
-        self.OnReceiveMsg.connect(self.receive)
+    def connectOnReceiveMsg(self, receiveSlot):
+        self.OnReceiveMsg.connect(receiveSlot)
 
-    def receive(self, sScrNo, sRQName, sTrCode, msg):
-        self.logging.logger.debug("스크린: %s, 요청이름: %s, tr코드: %s --- %s" % (sScrNo, sRQName, sTrCode, msg))
+    def receiveOnReceiveMsg(self, sScrNo, sRQName, sTrCode, msg):
+        self.logging = Logging()
+        self.logging.logger.debug( "스크린: %s, 요청이름: %s, tr코드: %s --- %s" % (sScrNo, sRQName, sTrCode, msg))
 
 
-class OnReceiveRealDataBase(ConnectSlotBase):
-    def connect(self):
-        self.OnReceiveRealData.connect(self.receive)
+class OnReceiveRealBase():
+    def connectOnReceiveReal(self, receiveSlot):
+        self.OnReceiveRealData.connect(receiveSlot)
 
-    def receive(self, sCode, sRealType, sRealData):
+    def receiveOnReceiveReal(self, sCode, sRealType, sRealData):
         if sRealType == "장시작시간":
             pass
         elif sRealType == "주식체결":
@@ -60,39 +54,34 @@ class OnReceiveRealDataBase(ConnectSlotBase):
         elif sRealType == '주식호가잔량':
             pass
 
-class OnReceiveChejanDataBase(ConnectSlotBase):
-    def connect(self):
-        self.OnReceiveChejanData.connect(self.receive)
+class OnReceiveChejanBase():
+    def connectOnReceiveChejan(self, receiveSlot):
+        self.OnReceiveChejanData.connect(receiveSlot)
 
-    def receive(self, sGubun, nItemCnt, sFidList):
+    def receiveOnReceiveChejan(self, sGubun, nItemCnt, sFidList):
         if int(sGubun) == 0:  # 주문체결
             pass
         elif int(sGubun) == 1:  # 잔고
             pass
 
-class OnReceiveConditionVerBase(ConnectSlotBase):
-    def connect(self):
-        self.OnReceiveConditionVer.connect(self.receive)
+class OnReceiveConditionVerBase():
+    def connectOnReceiveConditionVer(self, receiveSlot):
+        self.OnReceiveConditionVer.connect(receiveSlot)
 
-    def receive(self, lRet, sMsg):
+    def receiveOnReceiveConditionVer(self, lRet, sMsg):
         pass
 
-class OnReceiveTrConditionBase(ConnectSlotBase):
-    def connect(self):
-        self.OnReceiveTrCondition.connect(self.receive)
+class OnReceiveTrConditionBase():
+    def connectOnReceiveTrCondition(self, receiveSlot):
+        self.OnReceiveTrCondition.connect(receiveSlot)
 
-    def receive(self, sScrNo, strCodeList, strConditionName, index, nNext):
+    def receiveOnReceiveTrCondition(self, sScrNo, strCodeList, strConditionName, index, nNext):
         pass
 
-class OnReceiveRealConditionBase(ConnectSlotBase):
-    def connect(self):
-        self.OnReceiveRealCondition.connect(self.receive)
+class OnReceiveRealConditionBase():
+    def connectOnReceiveRealCondition(self, receiveSlot):
+        self.OnReceiveRealCondition.connect(receiveSlot)
 
-    def receive(self, strCode, strType, strConditionName, strConditionIndex):
+    def receiveOnReceiveRealCondition(self, strCode, strType, strConditionName, strConditionIndex):
         pass
 
-
-class Slot(OnEvent, OnReceiveTrBase, OnReceiveMsg, OnReceiveRealDataBase,
-           OnReceiveChejanDataBase, OnReceiveConditionVerBase, OnReceiveTrConditionBase,
-           OnReceiveRealConditionBase):
-    pass

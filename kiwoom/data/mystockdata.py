@@ -4,7 +4,7 @@ from config.log_class import *
 from kiwoom.other.standard import *
 from line.line import *
 
-class MyStock(Line, Data):
+class MyStockData(Line, Data):
     def __init__(self):
         self.logging = Logging()
         self.mystockDataFrame = pd.DataFrame(columns=['종목명', '종목코드', '보유수량', '총매입가'])

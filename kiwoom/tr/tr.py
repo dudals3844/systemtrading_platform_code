@@ -5,7 +5,7 @@ from line.line import *
 from abc import *
 from PyQt5.QtCore import *
 
-class TrReceiveBase(Logging):
+class TrReceiveBase(Logging, Line):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
@@ -16,7 +16,7 @@ class TrReceiveBase(Logging):
 
 
 
-class TrRequestBase(Logging):
+class TrRequestBase(Logging, Line):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
@@ -33,6 +33,7 @@ class TrRequestBase(Logging):
 class AccountNum(TrReceiveBase):
 
     def receive(self):
+        self.logging = Logging()
         accountList = self.dynamicCall("GetLoginInfo(QString)", "ACCNO")
         accountNum = accountList.split(';')[0]
         self.accountNum = accountNum
@@ -46,6 +47,7 @@ class AccountNum(TrReceiveBase):
 class Deposit(TrReceiveBase):
 
     def receive(self, sRQName, sTrCode):
+        self.logging = Logging()
         deposit = self.dynamicCall("GetCommData(QString,QString,int,QString)", sTrCode, sRQName, 0, "예수금")
         self.deposit = int(deposit)
         self.logging.logger.debug("예수금 %s" % self.deposit)
@@ -95,7 +97,7 @@ class NumberOfMyStock(TrReceiveBase):
     def receive(self, sRQName, sTrCode):
         self.numberOfMystock = self.dynamicCall("GetRepeatCnt(QString,QString)", sTrCode, sRQName)  # 종목개수
 
-    def getNumberOfMystock(self):
+    def getNumber(self):
         return self.numberOfMystock
 
 
@@ -124,7 +126,7 @@ class NumberOfNotConcludedStock(TrReceiveBase):
     def receive(self, sRQName, sTrCode, sPrevNext):
         self.numberOfNotConcludedStock = self.dynamicCall("GetRepeatCnt(QString,QString)", sTrCode, sRQName)
 
-    def getNumberOfNotConcludedStock(self):
+    def getNumber(self):
         return self.numberOfNotConcludedStock
 
 
@@ -216,10 +218,13 @@ class AccountMyStock(TrRequestBase):
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호", "0000")
         self.dynamicCall("SetInputValue(QString,QString)", "비밀번호입력매체구분", "00")
         self.dynamicCall("SetInputValue(QString,QString)", "조회구분", "1")
-        self.dynamicCall("CommRqData(QString,QString,int,QString)", "계좌평가잔고내역요청", "opw00018", sPreNext,
+        self.dynamicCall("CommRqData(QString,QString,int,QString)", "계좌평가잔고내역요청", "opw00018", sPrevNext,
                          self.screenNumber)
 
         self.accountMystockLoop.exec_()
+
+    def exitEventLoop(self):
+        self.accountMystockLoop.exit()
 
 class AccountInfo(TrRequestBase):
 

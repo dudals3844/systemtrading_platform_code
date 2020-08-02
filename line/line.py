@@ -4,10 +4,6 @@ import threading
 class Line():
     def __init__(self):
         pass
-    def sendMessage(self, message):
-        th = threading.Thread(target=self.Messaging, args=(message,))
-        th.start()
-
 
     def Messaging(self, message):
         try:
@@ -27,3 +23,10 @@ class Line():
 
         except Exception as ex:
             print(ex)
+
+
+    def sendMessage(self, message):
+        th = threading.Thread(target=self.Messaging, args=(message,))
+        th.start()
+
+
