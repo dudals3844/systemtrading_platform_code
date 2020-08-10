@@ -9,7 +9,7 @@ from kiwoom.data.notconcludedstockdata import *
 from PyQt5.QAxContainer import *
 from kiwoom.disconnect.disconnect import *
 from kiwoom.data.mystockdata import *
-
+from kiwoom.data.conditiondata import *
 
 
 class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceiveChejanBase, OnReceiveConditionVerBase,
@@ -19,21 +19,22 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
         self.logging = Logging()
         self.myStockData = MyStockData()
         self.notConcludedStockData = NotConcludedStockData()
+        self.condition = ConditionData()
 
 
         Ocx.getInstance(self)
         #슬롯들 연결
 
         self.connectTrSlots()
-        super().connectOnReceiveReal(self.receiveOnReceiveReal)
-        super().connectOnReceiveConditionVer(self.receiveOnReceiveConditionVer)
+        self.connectRealSlots()
+        self.connectConditionSlots()
 
 
         Login.request(self)
         AccountNum.receive(self)
         AccountInfo.request(self, accountNum=AccountNum.getAccountNum(self))
         MyStock.request(self, accountNum=AccountNum.getAccountNum(self))
-        NotConcludedAccount.request(self, accountNum=AccountNum.getAccountNum(self))
+        NotConcludedStock.request(self, accountNum=AccountNum.getAccountNum(self))
 
         Condition.request(self)
 
@@ -42,6 +43,14 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
         super().connectOnReceiveTr(self.receiveOnReceiveTr)
         super().connectOnReceiveMsg(super().receiveOnReceiveMsg)
 
+    def connectRealSlots(self):
+        super().connectOnReceiveChejan(self.receiveOnReceiveChejan)
+        super().connectOnReceiveReal(self.receiveOnReceiveReal)
+
+    def connectConditionSlots(self):
+        super().connectOnReceiveConditionVer(self.receiveOnReceiveConditionVer)
+        super().connectOnReceiveTrCondition(self.receiveOnReceiveTrCondition)
+        super().connectOnReceiveRealCondition(self.receiveOnReceiveRealCondition)
 
 
     def receiveOnEvent(self, errCode):
@@ -72,11 +81,11 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
 
 
         elif sRQName == "실시간미체결요청":
-            NumberOfNotConcludedStock.receive(self, sRQName=sRQName, sTrCode=sTrCode, sPrevNext=sPrevNext)
-            for i in range(NumberOfNotConcludedStock.getNumber(self)):
-                self.notConcludedStockData.appendData(NotConcludedStock.receive(self,sRQName=sRQName,sTrCode=sTrCode,sPrevNext=sPrevNext,index=i))
+            NotConcludedStockNumber.receive(self, sRQName=sRQName, sTrCode=sTrCode, sPrevNext=sPrevNext)
+            for i in range(NotConcludedStockNumber.getNumber(self)):
+                self.notConcludedStockData.appendData(NotConcludedStock.receive(self, sRQName=sRQName, sTrCode=sTrCode, sPrevNext=sPrevNext, index=i))
 
-            NotConcludedAccount.exitEventLoop(self)
+            NotConcludedStockRequest.exitEventLoop(self)
 
 
 
@@ -92,5 +101,16 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
         elif sRealType == '주식호가잔량':
             pass
 
+    def receiveOnReceiveChejan(self, sGubun, nItemCnt, sFidList):
+        if int(sGubun) == 0:  # 주문체결
+            pass
+        elif int(sGubun) == 1:  # 잔고
+            pass
+
+
     def receiveOnReceiveConditionVer(self, lRet, sMsg):
-        ConditionName.receive(self, lRet=lRet, sMsg=sMsg)
+        conditionList = ConditionName.receive(self, lRet=lRet, sMsg=sMsg)
+        self.condition.convertListToDataFrame(conditionList)
+        Condition.exitEventLoop(self)
+
+

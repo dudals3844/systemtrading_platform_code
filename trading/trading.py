@@ -22,7 +22,7 @@ class Trading(Tr, Real, Order ,Slot, Disconnect, Line):
         self.standard = Standard()
         self.logging = Logging()
         self.myStock = MyStockReceive()
-        self.notConcludedStock = NotConcludedStock()
+        self.notConcludedStock = NotConcludedStockReceive()
         self.condition = Condition()
         self.minutePrice = MinutePrice()
         self.tickprice = TickPrice()

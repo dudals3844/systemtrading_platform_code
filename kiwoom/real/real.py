@@ -262,27 +262,24 @@ class ConditionRealStock(RealReceiveBase):
             return strCode, strType
 
 class JangCheck(RealRequestBase):
-    def __init__(self):
-        self.screenStartStopReal = '1000'
 
     def request(self):
+        self.screenStartStopReal = '1000'
         self.dynamicCall("SetRealReg(QString,QString,QString,QString)", self.screenStartStopReal, '',
                          self.realType.REALTYPE['장시작시간']['장운영구분'], "0")
 
 class Chegul(RealRequestBase):
-    def __init__(self):
-        self.screenRealChegulPrice = '3000'
 
     def request(self, code):
+        self.screenRealChegulPrice = '3000'
         fids = self.realType.REALTYPE['주식체결']['체결시간']
         code = self.standard.standardCode(code)
         self.dynamicCall('SetRealReg(QString,QString,QString,QString)', self.screenRealChegulPrice, code, fids, "1")
 
 class Hoga(RealRequestBase):
-    def __init__(self):
-        self.screenHoga = '9009'
 
     def request(self, code):
+        self.screenHoga = '9009'
         fids = self.realType.REALTYPE['주식호가잔량']['매도호가1']
         code = self.standard.standardCode(code)
         self.dynamicCall('SetRealReg(QString,QString,QString,QString)', self.screenHoga, code, fids, "1")

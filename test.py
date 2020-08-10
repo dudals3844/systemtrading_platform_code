@@ -15,48 +15,16 @@ import winsound
 import playsound
 import concurrent.futures
 import asyncio
-# class TMP:
-#     def __int__(self):
-#         self.tmp_str = 'hello'
-#
-#     def println(self):
-#         print(self.tmp_str)
-#
-#
-#
-# #
-# tmp = Thread(target=println, args=('hello',))
-# # threading.Timer(1, println('hello',)).start()
-# # threading.Timer(3, println('hello', )).start()
-# tmp.start()
-# tmp.join()
-# print(2)
-#
-# if __name__ == '__main__':
-#     def playSound():
-#         playsound.playsound('sound/beforejangstart.mp3', True)
-#
-#     def playOtherSound():
-#         playsound.playsound('sound/mesuorder.mp3', True)
-#
-#
-#
-#     t = Process(target=playSound())
-#     t.start()
-#     t2 = Process(target=playOtherSound())
-#     time.sleep(2)
-#     t2.start()
-# print(2%10)
-# while True:
-#     second = time.strftime('%S', time.localtime((time.time())))
-#     second = int(second)
-#     if second % 10 == 0:
-#         print('10초마다 실행')
-from config.screen_number import *
-class A():
-    def pr(self):
-        print(Screen.setNumber(self)['Tr'])
+import sys
+from PyQt5.QtWidgets import *
 
-a = A()
-a.pr()
+data = [[1,2,3],
+        [4,5,6]]
 
+df = pd.read_csv('C:/Users/PC/PycharmProjects/systemtrading_platform/db/mystock/보유종목.csv')
+
+app = QApplication(sys.argv)
+label = QLabel(str(df))
+label.show()
+
+app.exec_()

@@ -121,7 +121,7 @@ class MyStockReceive(TrReceiveBase):
 
         return [code, codeName, stockQuantity, totalChegualPrice]
 
-class NumberOfNotConcludedStock(TrReceiveBase):
+class NotConcludedStockNumber(TrReceiveBase):
 
     def receive(self, sRQName, sTrCode, sPrevNext):
         self.numberOfNotConcludedStock = self.dynamicCall("GetRepeatCnt(QString,QString)", sTrCode, sRQName)
@@ -130,7 +130,7 @@ class NumberOfNotConcludedStock(TrReceiveBase):
         return self.numberOfNotConcludedStock
 
 
-class NotConcludedStock(TrReceiveBase):
+class NotConcludedStockReceive(TrReceiveBase):
     def receive(self, sRQName, sTrCode, sPrevNext, index):
         code = self.dynamicCall("GetCommData(QString, QString, int, QString)", sTrCode, sRQName, index, "종목코드")
         codeName = self.dynamicCall("GetCommData(QString, QString, int, QString)", sTrCode, sRQName, index, "종목명")
@@ -243,7 +243,7 @@ class AccountInfo(TrRequestBase):
     def exitEventLoop(self):
         self.accountInfoLoop.exit()
 
-class NotConcludedAccount(TrRequestBase):
+class NotConcludedStockRequest(TrRequestBase):
 
     def request(self, sPrevNext ="0", accountNum = None):
         self.notConcludedAccountLoop = QEventLoop()
@@ -302,6 +302,10 @@ class TickPrice(TrRequestBase):
 
 
 class MyStock(MyStockReceive, MyStockRequest):
+    pass
+
+
+class NotConcludedStock(NotConcludedStockRequest, NotConcludedStockReceive):
     pass
 
 
