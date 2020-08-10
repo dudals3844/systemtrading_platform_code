@@ -92,7 +92,7 @@ class TotalProfitLossRate(TrReceiveBase):
         return self.totalProfitLossRate
 
 
-class NumberOfMyStock(TrReceiveBase):
+class MyStockNumber(TrReceiveBase):
 
     def receive(self, sRQName, sTrCode):
         self.numberOfMystock = self.dynamicCall("GetRepeatCnt(QString,QString)", sTrCode, sRQName)  # 종목개수
@@ -101,7 +101,7 @@ class NumberOfMyStock(TrReceiveBase):
         return self.numberOfMystock
 
 
-class MyStock(TrReceiveBase):
+class MyStockReceive(TrReceiveBase):
     def receive(self, sRQName, sTrCode, sPrevNext, index):
         code = self.dynamicCall("GetCommData(QString, QString, int, QString)", sTrCode, sRQName, index,
                                 "종목번호")  # 출력 : A039423 // 알파벳 A는 장내주식, J는 ELW종목, Q는 ETN종목
@@ -209,7 +209,7 @@ class Login(TrRequestBase):
     def exitEventLoop(self):
         self.loginEventLoop.exit()
 
-class AccountMyStock(TrRequestBase):
+class MyStockRequest(TrRequestBase):
     def request(self, sPrevNext ="0", accountNum = None):
         self.accountMystockLoop = QEventLoop()
         self.screenNumber = '1000'
@@ -301,8 +301,7 @@ class TickPrice(TrRequestBase):
         self.tickPriceLoop.exit()
 
 
-class Tr(AccountNum, Deposit, TotalBuyMoney, TotalProfitLossMoney, TotalProfitLossRate, NumberOfMyStock, MyStock, NumberOfNotConcludedStock,NotConcludedStock
-         ,ConditionName, ConditionStock, MinutePriceData, TickPriceData, Login, AccountInfo, NotConcludedAccount,
-         Condition, MinutePrice, TickPrice):
-    def __init__(self):
-        super().__init__()
+class MyStock(MyStockReceive, MyStockRequest):
+    pass
+
+

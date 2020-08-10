@@ -21,7 +21,7 @@ class Trading(Tr, Real, Order ,Slot, Disconnect, Line):
         super().__init__()
         self.standard = Standard()
         self.logging = Logging()
-        self.myStock = MyStock()
+        self.myStock = MyStockReceive()
         self.notConcludedStock = NotConcludedStock()
         self.condition = Condition()
         self.minutePrice = MinutePrice()

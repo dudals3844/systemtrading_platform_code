@@ -13,7 +13,7 @@ from kiwoom.data.mystockdata import *
 
 
 class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceiveChejanBase, OnReceiveConditionVerBase,
-                     OnReceiveRealConditionBase, OnReceiveTrConditionBase):
+                     OnReceiveRealConditionBase, OnReceiveTrConditionBase, OnReceiveMsg):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
@@ -23,8 +23,8 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
 
         Ocx.getInstance(self)
         #슬롯들 연결
-        super().connectOnEvent(self.receiveOnEvent)
-        super().connectOnReceiveTr(self.receiveOnReceiveTr)
+
+        self.connectTrSlots()
         super().connectOnReceiveReal(self.receiveOnReceiveReal)
         super().connectOnReceiveConditionVer(self.receiveOnReceiveConditionVer)
 
@@ -32,10 +32,16 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
         Login.request(self)
         AccountNum.receive(self)
         AccountInfo.request(self, accountNum=AccountNum.getAccountNum(self))
-        AccountMyStock.request(self, accountNum=AccountNum.getAccountNum(self))
+        MyStock.request(self, accountNum=AccountNum.getAccountNum(self))
         NotConcludedAccount.request(self, accountNum=AccountNum.getAccountNum(self))
 
         Condition.request(self)
+
+    def connectTrSlots(self):
+        super().connectOnEvent(self.receiveOnEvent)
+        super().connectOnReceiveTr(self.receiveOnReceiveTr)
+        super().connectOnReceiveMsg(super().receiveOnReceiveMsg)
+
 
 
     def receiveOnEvent(self, errCode):
@@ -54,14 +60,14 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
             TotalBuyMoney.receive(self, sRQName, sTrCode)
             TotalProfitLossMoney.receive(self, sRQName, sTrCode)
             TotalProfitLossRate.receive(self, sRQName, sTrCode)
-            NumberOfMyStock.receive(self, sRQName, sTrCode)
+            MyStockNumber.receive(self, sRQName, sTrCode)
 
-            for i in range(NumberOfMyStock.getNumber(self)):
+            for i in range(MyStockNumber.getNumber(self)):
                 self.myStockData.appendData(myStockInformationList=MyStock.receive(self, sRQName=sRQName, sTrCode=sTrCode, sPrevNext=sPrevNext, index=i))
             if sPrevNext == '2':
-                AccountMyStock.request(self, sPrevNext=sPrevNext, accountNum=AccountNum.getAccountNum(self))
+                MyStock.request(self, sPrevNext=sPrevNext, accountNum=AccountNum.getAccountNum(self))
             else:
-                AccountMyStock.exitEventLoop(self)
+                MyStock.exitEventLoop(self)
 
 
 
