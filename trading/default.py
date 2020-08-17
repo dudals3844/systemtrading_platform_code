@@ -12,7 +12,7 @@ from kiwoom.data.mystockdata import *
 from kiwoom.data.conditiondata import *
 
 
-class StockDatas():
+class StockData():
     def __init__(self):
         self.myStockData = MyStockData()
         self.notConcludedStockData = NotConcludedStockData()
@@ -22,7 +22,7 @@ class StockDatas():
 
 
 class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceiveChejanBase, OnReceiveConditionVerBase,
-                     OnReceiveRealConditionBase, OnReceiveTrConditionBase, OnReceiveMsg, StockDatas):
+                     OnReceiveRealConditionBase, OnReceiveTrConditionBase, OnReceiveMsg, StockData):
     def __init__(self):
         super().__init__()
         self.logging = Logging()

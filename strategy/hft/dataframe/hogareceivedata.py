@@ -1,7 +1,7 @@
 import pandas as pd
 from kiwoom.other.standard import *
 
-class IsHogaReceiveData():
+class HogaReceiveData():
     def __init__(self):
         self.isHogaReceiveDataFrame = pd.DataFrame(columns=['종목코드', '호가도착'])
 

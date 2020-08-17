@@ -3,12 +3,12 @@ import pandas
 from strategy.hft.dataframe.notconcludedmedostockdata import *
 from strategy.hft.dataframe.notconcludedmesustockdata import *
 from strategy.hft.dataframe.hogapricedata import *
-from strategy.hft.dataframe.ishogareceivedata import *
+from strategy.hft.dataframe.hogareceivedata import *
 import threading
 
 
 
-class AllMedoStock(StockDatas):
+class AllMedoStock(StockData):
     def medoAllStock(self):
         mystock = self.myStockData.returnData()
         for i in range(mystock):
@@ -17,24 +17,55 @@ class AllMedoStock(StockDatas):
             quantity = mystock['보유수량'].iloc[i]
             SijangMedoOrder.request(self, sCode=code, medoStockNum=quantity)
 
+class TransactionNumber:
+    def __init__(self):
+        self.defaultTransactionNumber = 0
+        self.nowTransactionNumber = 0
 
-class ShotUpStrategy(StockDatas, TrRequestBase):
+    def getNowNumber(self):
+        return self.nowTransactionNumber
+
+    def getDefaultNumber(self):
+        return self.defaultTransactionNumber
+
+    def setDefaultNumber(self, trasactionNumber):
+        self.defaultTransactionNumber = trasactionNumber
+
+    def addNowNumber(self):
+        self.nowTransactionNumber += 1
+
+    def isOutofNumber(self):
+        return self.nowTransactionNumber > self.defaultTransactionNumber
+
+class ShotUpStrategy(StockData, TrRequestBase):
     def request(self):
         index, conditionName = self.conditionData.findData(0)
         RealCondition.request(self, index=index, conditionName=conditionName)
 
-
-class MarketMaking(DefaultTrading, AllMedoStock):
+class MarketMakingData():
     def __init__(self):
-        super().__init__()
-
         self.notConMesuDf = NotConcludedMesuStockData()
         self.notConMedoDf = NotConcludedMedoStockData()
         self.hogaPriceDf = HogaPriceData()
+        self.isHogaReceiveDf = HogaReceiveData()
+        self.trasaction = TransactionNumber()
+
+class InCondition(MarketMakingData):
+    def conditionIn(self, code):
+        if not self.isHogaReceiveDf.hasData(code):
+            self.isHogaReceiveDf.inputDefaultData(code)
+            Hoga.request(self, code)
+            self.trasaction.addNowNumber()
 
 
+
+class MarketMaking(DefaultTrading, AllMedoStock, MarketMakingData, InCondition):
+    def __init__(self):
+        super().__init__()
+        self.trasaction.setDefaultNumber(5)
 
         JangCheck.request(self)
+
 
     def receiveOnReceiveReal(self, sCode, sRealType, sRealData):
         if sRealType == "장시작시간":
@@ -72,6 +103,11 @@ class MarketMaking(DefaultTrading, AllMedoStock):
         code, type = self.receiveConditionRealStock(strCode, strType, strConditionName, strConditionIndex)
         if type == 'I':
             self.logging.logger.debug("조건 편입: "+ code)
+            if not self.trasaction.isOutofNumber():
+                self.conditionIn(code = code)
+
+
+
 
         elif type == 'D':
             pass
