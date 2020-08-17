@@ -2,7 +2,7 @@ import pandas as pd
 from config.log_class import *
 
 
-class NotConcludedMesuStock():
+class NotConcludedMesuStockData():
     def __init__(self):
         self.notConcludedMesuDataFrame = pd.DataFrame(columns=['종목코드', '종목명', '주문번호', '원주문번호', '주문상태', '주문가격', '주문구분', '미체결수량', '체결량'])
         self.logging = Logging()
@@ -65,5 +65,5 @@ class NotConcludedMesuStock():
 
 
 if __name__ == '__main__':
-    nt = NotConcludedMesuStock()
+    nt = NotConcludedMesuStockData()
     nt.standardOrderNumber(orderNumber=816)

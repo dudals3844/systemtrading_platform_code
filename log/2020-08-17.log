@@ -1,0 +1,8 @@
+[2020-08-17 15:29:34,663] I default.py | Kiwoom-receiveOnEvent-0064 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-17 15:29:34,667] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-17 15:29:35,761] I slot.py | Kiwoom-receiveOnReceiveMsg-0042 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-08-17 15:29:35,765] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4140164
+[2020-08-17 15:29:35,857] I slot.py | Kiwoom-receiveOnReceiveMsg-0042 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-08-17 15:29:35,859] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-17 15:29:35,859] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 61715
+[2020-08-17 15:29:35,859] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 7.24

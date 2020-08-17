@@ -1,15 +1,15 @@
 import pandas as pd
 from kiwoom.other.standard import *
 
-class IsHogaReceive():
+class IsHogaReceiveData():
     def __init__(self):
         self.isHogaReceiveDataFrame = pd.DataFrame(columns=['종목코드', '호가도착'])
-        self.standardCode = Standard()
+
         self.saveData()
 
     def inputDefaultData(self, code):
         if not self.hasData(code):
-            code = self.standardCode.standardCode(code)
+            code = Code.standard(self, code)
             tmpDataFrame = pd.DataFrame([[code,False]], columns=['종목코드', '호가도착'], index=[code])
             self.isHogaReceiveDataFrame = self.isHogaReceiveDataFrame.append(tmpDataFrame)
             self.isHogaReceiveDataFrame.drop_duplicates(['종목코드'], keep='last', inplace=True)

@@ -1,7 +1,7 @@
 import pandas as pd
 from config.log_class import *
 
-class NotConcludedMedoStock():
+class NotConcludedMedoStockData():
     def __init__(self):
         self.notConcludedMedoDataFrame = pd.DataFrame(
             columns=['종목코드', '종목명', '주문번호', '원주문번호', '주문상태', '주문가격', '주문구분', '미체결수량', '체결량'])
