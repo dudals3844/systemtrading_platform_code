@@ -1,0 +1,30 @@
+[2020-08-12 08:00:24,791] I default.py | Kiwoom-receiveOnEvent-0058 I DEBUG    > 로그인 처리결과 ('OP_ERR_NONE', '정상처리')
+[2020-08-12 08:00:24,798] I tr.py | Kiwoom-receive-0040 I DEBUG    > 계좌번호: 8141454311
+[2020-08-12 08:00:24,864] I slot.py | Kiwoom-receiveOnReceiveMsg-0042 I DEBUG    > 스크린: 1000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-08-12 08:00:24,868] I tr.py | Kiwoom-receive-0053 I DEBUG    > 예수금 4140164
+[2020-08-12 08:00:24,985] I slot.py | Kiwoom-receiveOnReceiveMsg-0042 I DEBUG    > 스크린: 1000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-08-12 08:00:24,986] I tr.py | Kiwoom-receive-0065 I DEBUG    > 총매입금액: 852730
+[2020-08-12 08:00:24,987] I tr.py | Kiwoom-receive-0077 I DEBUG    > 총평가손익금액: 26174
+[2020-08-12 08:00:24,987] I tr.py | Kiwoom-receive-0089 I DEBUG    > 총수익률: 3.07
+[2020-08-12 08:00:24,988] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-12 08:00:24,988] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 000990 - 종목명: DB하이텍 - 보유수량: 4 - 매입금액:140900
+[2020-08-12 08:00:25,028] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-12 08:00:25,028] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 009180 - 종목명: 한솔로지스틱스 - 보유수량: 2 - 매입금액:3940
+[2020-08-12 08:00:25,039] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-12 08:00:25,039] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 027050 - 종목명: 코리아나 - 보유수량: 2 - 매입금액:9930
+[2020-08-12 08:00:25,050] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-12 08:00:25,051] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 035720 - 종목명: 카카오 - 보유수량: 2 - 매입금액:671000
+[2020-08-12 08:00:25,062] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-12 08:00:25,062] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 050890 - 종목명: 쏠리드 - 보유수량: 2 - 매입금액:16340
+[2020-08-12 08:00:25,076] I tr.py | Kiwoom-receive-0120 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-12 08:00:25,077] I mystockdata.py | Kiwoom-appendData-0015 I DEBUG    > 종목코드: 094820 - 종목명: 일진파워 - 보유수량: 2 - 매입금액:10620
+[2020-08-12 08:00:25,116] I tr.py | Kiwoom-request-0251 I DEBUG    > 미체결 종목 요청
+[2020-08-12 08:00:25,151] I slot.py | Kiwoom-receiveOnReceiveMsg-0042 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-08-12 08:00:25,336] I tr.py | Kiwoom-receive-0168 I DEBUG    > 호출 성공 여부 1, 호출결과 메시지 [OK] 사용자 조건검색식 읽기
+[2020-08-12 08:00:25,340] I tr.py | Kiwoom-receive-0170 I DEBUG    > HTS의 조건검색식 이름 가져오기 000^단타급등주;001^이평선돌파급등주;002^눌림목돌파;003^거래량상위볼리저상향선하향돌파;004^거래량상위볼린저하한선상향;005^거래량급등주;
+[2020-08-12 08:00:25,341] I conditiondata.py | Kiwoom-convertListToDataFrame-0012 I DEBUG    > 조건식 분리 번호: 0, 이름: 단타급등주
+[2020-08-12 08:00:25,347] I conditiondata.py | Kiwoom-convertListToDataFrame-0012 I DEBUG    > 조건식 분리 번호: 1, 이름: 이평선돌파급등주
+[2020-08-12 08:00:25,349] I conditiondata.py | Kiwoom-convertListToDataFrame-0012 I DEBUG    > 조건식 분리 번호: 2, 이름: 눌림목돌파
+[2020-08-12 08:00:25,351] I conditiondata.py | Kiwoom-convertListToDataFrame-0012 I DEBUG    > 조건식 분리 번호: 3, 이름: 거래량상위볼리저상향선하향돌파
+[2020-08-12 08:00:25,353] I conditiondata.py | Kiwoom-convertListToDataFrame-0012 I DEBUG    > 조건식 분리 번호: 4, 이름: 거래량상위볼린저하한선상향
+[2020-08-12 08:00:25,355] I conditiondata.py | Kiwoom-convertListToDataFrame-0012 I DEBUG    > 조건식 분리 번호: 5, 이름: 거래량급등주

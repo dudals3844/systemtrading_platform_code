@@ -113,4 +113,7 @@ class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceive
         self.condition.convertListToDataFrame(conditionList)
         Condition.exitEventLoop(self)
 
+    def receiveOnReceiveTrCondition(self, sScrNo, strCodeList, strConditionName, index, nNext):
+        stockList = ConditionStock.receive(self, sScrNo, strCodeList, strConditionName, index, nNext)
+
 
