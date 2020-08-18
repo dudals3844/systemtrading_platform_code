@@ -65,6 +65,17 @@ class InCondition(MarketMakingData):
 
 class JijungHogaMesuOrder(MarketMakingData):
     def request(self, code, mesuIndex, mesuStockNum):
+        mesuHoga = self.hogaPriceDf.getIndexHoga(code = code, index= mesuIndex)
+        mesuHoga = int(mesuHoga)
+        JijungMesuOrder.request(self, sCode=code, mesuStockNum=mesuStockNum, mesuPrice=mesuHoga)
+
+
+class JijungHogaMedoOrder(MarketMakingData):
+    def request(self, code, medoIndex, medoStockNum):
+        medoHoga = self.hogaPriceDf.getIndexHoga(code = code, index= medoIndex)
+        medoHoga = int(medoHoga)
+        JijungMedoOrder.request(self, sCode=code, medoStockNum=medoStockNum, medoPrice=medoHoga)
+
 
 
 
