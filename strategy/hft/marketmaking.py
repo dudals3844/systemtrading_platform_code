@@ -47,15 +47,25 @@ class MarketMakingData():
         self.notConMesuDf = NotConcludedMesuStockData()
         self.notConMedoDf = NotConcludedMedoStockData()
         self.hogaPriceDf = HogaPriceData()
-        self.isHogaReceiveDf = HogaReceiveData()
+        self.hogaReceiveDf = HogaReceiveData()
         self.trasaction = TransactionNumber()
+        self.defaultOrderQuantity = 2
+        self.defaultMesuHogaIndex = 10
+        self.defaultMedoHogaIndex = 9
+
+
 
 class InCondition(MarketMakingData):
     def conditionIn(self, code):
         if not self.isHogaReceiveDf.hasData(code):
             self.isHogaReceiveDf.inputDefaultData(code)
+            SijangMesuOrder.request(self, sCode=code, mesuStockNum=self.defaultOrderQuantity)
             Hoga.request(self, code)
             self.trasaction.addNowNumber()
+
+class JijungHogaMesuOrder(MarketMakingData):
+    def request(self, code, mesuIndex, mesuStockNum):
+
 
 
 
@@ -90,7 +100,10 @@ class MarketMaking(DefaultTrading, AllMedoStock, MarketMakingData, InCondition):
         elif sRealType == "주식체결":
             pass
         elif sRealType == '주식호가잔량':
-            pass
+            hogaList = HogaPrice.receive(self, sCode = sCode, sRealType=sRealType)
+            self.hogaPriceDf.appendColumnData(hogaList= hogaList)
+            if not self.hogaReceiveDf.isReceive(code=sCode):
+                self.hogaReceiveDf.modifyIsHogaReceiveTrue(code=sCode)
 
     def receiveOnReceiveChejan(self, sGubun, nItemCnt, sFidList):
         if int(sGubun) == 0:  # 주문체결
@@ -105,8 +118,6 @@ class MarketMaking(DefaultTrading, AllMedoStock, MarketMakingData, InCondition):
             self.logging.logger.debug("조건 편입: "+ code)
             if not self.trasaction.isOutofNumber():
                 self.conditionIn(code = code)
-
-
 
 
         elif type == 'D':

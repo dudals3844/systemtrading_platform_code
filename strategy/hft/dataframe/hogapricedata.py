@@ -6,7 +6,13 @@ class HogaPriceData():
         self.hogaPriceDataFrame = pd.DataFrame()
 
 
-    def appendColumnData(self, sCode, hogaTime, mesu_1, medo_1, mesu_1_Quantity, medo_1_Quantity, mesu_2, medo_2, mesu_2_Quantity,medo_2_Quantity,mesu_3,medo_3,mesu_3_Quantity,medo_3_Quantity,mesu_4,medo_4,mesu_4_Quantity,medo_4_Quantity,mesu_5,medo_5,mesu_5_Quantity,medo_5_Quantity,mesu_6,medo_6,mesu_6_Quantity,medo_6_Quantity,mesu_7,medo_7,mesu_7_Quantity,medo_7_Quantity,mesu_8,medo_8,mesu_8_Quantity,medo_8_Quantity,mesu_9, medo_9,mesu_9_Quantity,medo_9_Quantity, mesu_10,medo_10,mesu_10_Quantity,medo_10_Quantity,totalMesuHoga,totalMedoHoga):
+    def appendColumnData(self, hogaList):
+        [sCode, hogaTime, mesu_1, medo_1, mesu_1_Quantity, medo_1_Quantity, mesu_2, medo_2,
+         mesu_2_Quantity,medo_2_Quantity, mesu_3, medo_3, mesu_3_Quantity, medo_3_Quantity,
+         mesu_4, medo_4, mesu_4_Quantity,medo_4_Quantity, mesu_5, medo_5, mesu_5_Quantity,
+         medo_5_Quantity,mesu_6, medo_6, mesu_6_Quantity, medo_6_Quantity, mesu_7, medo_7,
+         mesu_7_Quantity, medo_7_Quantity, mesu_8,medo_8, mesu_8_Quantity, medo_8_Quantity,
+         mesu_9, medo_9, mesu_9_Quantity, medo_9_Quantity, mesu_10, medo_10,mesu_10_Quantity, medo_10_Quantity, totalMesuHoga, totalMedoHoga] = hogaList
         tmpList = [medo_10, medo_9, medo_8, medo_7, medo_6, medo_5, medo_4, medo_3, medo_2, medo_1, mesu_1, mesu_2, mesu_3, mesu_4, mesu_5, mesu_6, mesu_7, mesu_8, mesu_9, mesu_10]
         self.hogaPriceDataFrame[sCode] = tmpList
         self.saveData()
@@ -23,6 +29,12 @@ class HogaPriceData():
             tmpPrice = self.hogaPriceDataFrame[code].iloc[i]
             if tmpPrice == price:
                 return i
+
+    def getIndexHoga(self, code, index):
+        hoga = self.hogaPriceDataFrame[code].iloc[index]
+        return hoga
+
+
 
     def getDataFrame(self, code):
         return self.hogaPriceDataFrame[code]

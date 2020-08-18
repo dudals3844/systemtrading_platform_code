@@ -56,7 +56,7 @@ class SijangMesuOrder(OrderReqeustBase):
             self.logging.logger.debug('시장가 매수주문 전달 실패')
             return False
 
-class JijunhMedoOrder(OrderReqeustBase):
+class JijungMedoOrder(OrderReqeustBase):
 
     def request(self, sCode, medoStockNum, medoPrice):
         orderSuccess = self.dynamicCall("SendOrder(QString,QString,QString,int,QString,int,int,QString,QString)",
@@ -98,6 +98,6 @@ class SijangMedoOrder(OrderReqeustBase):
             self.logging.logger.debug('시장가 매도주문 전달 실패')
             return False
 
-class Order(JijungMesuOrder, JijunhMedoOrder, MesuCancelOrder, MedoCancelOrder, SijangMesuOrder, SijangMedoOrder):
+class Order(JijungMesuOrder, JijungMedoOrder, MesuCancelOrder, MedoCancelOrder, SijangMesuOrder, SijangMedoOrder):
     def __init__(self):
         super().__init__()

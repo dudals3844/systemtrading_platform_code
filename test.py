@@ -18,13 +18,9 @@ import asyncio
 import sys
 from PyQt5.QtWidgets import *
 
-data = [[1,2,3],
-        [4,5,6]]
+ls = [1,2,3]
 
-df = pd.read_csv('C:/Users/PC/PycharmProjects/systemtrading_platform/db/mystock/보유종목.csv')
-
-app = QApplication(sys.argv)
-label = QLabel(str(df))
-label.show()
-
-app.exec_()
+[a,b,c] = ls
+print(a)
+print(b)
+print(c)
