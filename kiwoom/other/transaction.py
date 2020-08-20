@@ -20,3 +20,24 @@ class Transaction():
 
     def getNumber(self):
         return self.tradingNumber
+
+
+class TransactionNumber:
+    def __init__(self):
+        self.defaultTransactionNumber = 0
+        self.nowTransactionNumber = 0
+
+    def getNowNumber(self):
+        return self.nowTransactionNumber
+
+    def getDefaultNumber(self):
+        return self.defaultTransactionNumber
+
+    def setDefaultNumber(self, trasactionNumber):
+        self.defaultTransactionNumber = trasactionNumber
+
+    def addNowNumber(self):
+        self.nowTransactionNumber += 1
+
+    def isOutofNumber(self):
+        return self.nowTransactionNumber > self.defaultTransactionNumber

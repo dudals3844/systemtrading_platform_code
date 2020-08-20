@@ -13,19 +13,18 @@ from kiwoom.data.conditiondata import *
 
 
 class StockData():
-    def __init__(self):
+    def settings(self):
         self.myStockData = MyStockData()
         self.notConcludedStockData = NotConcludedStockData()
         self.conditionData = ConditionData()
 
 
-
-
-class DefaultTrading(Ocx, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceiveChejanBase, OnReceiveConditionVerBase,
-                     OnReceiveRealConditionBase, OnReceiveTrConditionBase, OnReceiveMsg, StockData):
+class DefaultTrading(Ocx, StockData, OnEvent, OnReceiveTrBase, OnReceiveRealBase, OnReceiveChejanBase, OnReceiveConditionVerBase,
+                     OnReceiveRealConditionBase, OnReceiveTrConditionBase, OnReceiveMsg):
     def __init__(self):
         super().__init__()
         self.logging = Logging()
+        self.settings()
 
 
         Ocx.getInstance(self)
